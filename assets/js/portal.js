@@ -9,8 +9,9 @@
   const titleElement = document.querySelector("#section-title");
   const external = document.querySelector("#external");
   const refresh = document.querySelector("#refresh");
+  const portalTitle = document.querySelector("#portal-title");
+  const todayElement = document.querySelector("#today");
 
-  let config = {};
   let portal = {};
   let sources = [];
   let sourceMap = {};
@@ -31,19 +32,32 @@
     return value;
   }
 
-  // Small YAML reader for this portal's deliberately simple portal.yml structure.
-  // It supports the top-level "portal" mapping and the "sources" list of mappings.
+  function stripInlineComment(line) {
+    let quote = null;
+    for (let index = 0; index < line.length; index += 1) {
+      const char = line[index];
+      if ((char === '"' || char === "'") && line[index - 1] !== "\\") {
+        quote = quote === char ? null : (quote || char);
+      }
+      if (char === "#" && !quote && (index === 0 || /\s/.test(line[index - 1]))) {
+        return line.slice(0, index);
+      }
+    }
+    return line;
+  }
+
+  // Parser for the intentionally simple data/portal.yml structure.
   function parsePortalYAML(text) {
     const result = { portal: {}, sources: [] };
     let section = null;
     let currentSourceItem = null;
 
     for (const originalLine of text.split(/\r?\n/)) {
-      const withoutComment = originalLine.replace(/\s+#.*$/, "");
-      if (!withoutComment.trim()) continue;
+      const cleanLine = stripInlineComment(originalLine);
+      if (!cleanLine.trim()) continue;
 
-      const indent = withoutComment.match(/^\s*/)[0].length;
-      const line = withoutComment.trim();
+      const indent = cleanLine.match(/^\s*/)[0].length;
+      const line = cleanLine.trim();
 
       if (indent === 0 && line === "portal:") {
         section = "portal";
@@ -78,9 +92,17 @@
     return result;
   }
 
+  function zone() {
+    return portal.timezone;
+  }
+
+  function locale() {
+    return portal.locale;
+  }
+
   function todayISO() {
     const parts = new Intl.DateTimeFormat("en-CA", {
-      timeZone: portal.timezone || "Asia/Kolkata",
+      timeZone: zone(),
       year: "numeric",
       month: "2-digit",
       day: "2-digit"
@@ -90,12 +112,12 @@
   }
 
   function formatDate(date) {
-    return new Intl.DateTimeFormat(portal.locale || "en-GB", {
-      timeZone: portal.timezone || "Asia/Kolkata",
+    return new Intl.DateTimeFormat(locale(), {
+      timeZone: zone(),
       day: "2-digit",
       month: "long",
       year: "numeric"
-    }).format(new Date(`${date}T12:00:00+05:30`));
+    }).format(new Date(`${date}T12:00:00Z`));
   }
 
   function formatManifestTime() {
@@ -103,17 +125,26 @@
     if (!value) return "";
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return "";
-    return new Intl.DateTimeFormat(portal.locale || "en-GB", {
-      timeZone: portal.timezone || "Asia/Kolkata",
+    return new Intl.DateTimeFormat(locale(), {
+      timeZone: zone(),
       hour: "numeric",
       minute: "2-digit",
       hour12: true
-    }).format(date).replace(/\s+/g, " ");
+    }).format(date).replace(/\s+/g, " ").toUpperCase();
   }
 
   function latestBadgeText() {
     const time = formatManifestTime();
-    return time ? `${time}` : "Latest";
+    const label = portal.latest_label;
+    switch (portal.latest_badge_mode) {
+      case "label":
+        return label;
+      case "label_time":
+        return time ? `${label}: ${time}` : label;
+      case "time":
+      default:
+        return time || label;
+    }
   }
 
   function selectedSourceId() {
@@ -123,17 +154,30 @@
     return sources[0]?.id || null;
   }
 
+  function applyPortalText() {
+    document.title = portal.title;
+    portalTitle.textContent = portal.title;
+    todayElement.textContent = `${formatDate(todayISO())} · ${portal.timezone_label}`;
+
+    refresh.title = portal.refresh_label;
+    refresh.setAttribute("aria-label", portal.refresh_label);
+    external.title = portal.external_label;
+    external.setAttribute("aria-label", portal.external_label);
+    nav.setAttribute("aria-label", portal.navigation_label);
+    frame.title = portal.frame_title;
+  }
+
   function buildNavigation() {
     nav.innerHTML = "";
     for (const source of sources) {
       const button = document.createElement("button");
       button.type = "button";
       button.dataset.key = source.id;
-      button.append(document.createTextNode(source.label || source.id.toUpperCase()));
+      button.append(document.createTextNode(source.label));
       if (source.subtitle) {
-        const span = document.createElement("span");
-        span.textContent = source.subtitle;
-        button.append(span);
+        const subtitle = document.createElement("span");
+        subtitle.textContent = source.subtitle;
+        button.append(subtitle);
       }
       nav.append(button);
     }
@@ -152,8 +196,8 @@
       button.setAttribute("aria-current", active ? "page" : "false");
     });
 
-    titleElement.textContent = source.heading || `${source.label} Brief`;
-    dateElement.textContent = item.date ? formatDate(item.date) : "No post discovered";
+    titleElement.textContent = source.heading;
+    dateElement.textContent = item.date ? formatDate(item.date) : portal.not_found_text;
     external.href = item.url || source.archive;
 
     const nextURL = new URL(location.href);
@@ -164,68 +208,73 @@
       frame.src = item.url;
       message.classList.add("hidden");
       const isToday = item.date === todayISO();
-      badge.textContent = isToday && !item.stale ? "TODAY" : latestBadgeText();
+      badge.textContent = isToday && !item.stale ? portal.today_text : latestBadgeText();
       badge.dataset.status = isToday && !item.stale ? "today" : "latest";
     } else {
       frame.removeAttribute("src");
       message.classList.remove("hidden");
-      message.innerHTML = `No individual post was discovered for <strong>${source.label}</strong>. ` +
-        `<a href="${source.archive}" target="_blank" rel="noopener">Open its archive</a>.` +
-        (item.error ? `<br><small>${item.error}</small>` : "");
-      badge.textContent = "NOT FOUND";
+      message.replaceChildren();
+
+      const wrapper = document.createElement("div");
+      const sentence = document.createElement("p");
+      sentence.append(`${portal.no_post_before} `);
+      const strong = document.createElement("strong");
+      strong.textContent = source.label;
+      sentence.append(strong, ".");
+
+      const link = document.createElement("a");
+      link.href = source.archive;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = portal.open_archive_text;
+
+      wrapper.append(sentence, link);
+      if (item.error) {
+        const details = document.createElement("small");
+        details.textContent = item.error;
+        wrapper.append(document.createElement("br"), details);
+      }
+      message.append(wrapper);
+
+      badge.textContent = portal.not_found_text;
       badge.dataset.status = "unavailable";
     }
   }
 
   async function loadConfiguration(stamp) {
-    // portal.yml is now the live source of menu labels, order, enabled state,
-    // headings and portal identity. config.json is only a compatibility fallback.
-    try {
-      const response = await fetch(`_data/portal.yml?v=${stamp}`, { cache: "no-store" });
-      if (!response.ok) throw new Error(`YAML returned ${response.status}`);
-      const parsed = parsePortalYAML(await response.text());
-      if (!parsed.sources.length) throw new Error("No sources found in portal.yml");
-      return parsed;
-    } catch (yamlError) {
-      console.warn("Could not read portal.yml; using config.json", yamlError);
-      const response = await fetch(`data/config.json?v=${stamp}`, { cache: "no-store" });
-      if (!response.ok) throw new Error(`Config returned ${response.status}`);
-      return response.json();
-    }
+    const yamlResponse = await fetch(`data/portal.yml?v=${stamp}`, { cache: "no-store" });
+    if (!yamlResponse.ok) throw new Error(`portal.yml: ${yamlResponse.status}`);
+    const parsed = parsePortalYAML(await yamlResponse.text());
+    if (!parsed.portal.title || !parsed.sources.length) throw new Error("Invalid portal.yml");
+    return parsed;
   }
 
   async function load() {
-    message.classList.remove("hidden");
-    message.textContent = portal.loading_text || "Loading latest available brief…";
-    badge.textContent = "CHECKING";
-    badge.dataset.status = "checking";
-
     try {
       const stamp = Date.now();
-      const [loadedConfig, manifestResponse] = await Promise.all([
+      const [config, manifestResponse] = await Promise.all([
         loadConfiguration(stamp),
         fetch(`data/posts.json?v=${stamp}`, { cache: "no-store" })
       ]);
-      if (!manifestResponse.ok) throw new Error(`Manifest returned ${manifestResponse.status}`);
+      if (!manifestResponse.ok) throw new Error(`posts.json: ${manifestResponse.status}`);
 
-      config = loadedConfig;
-      manifest = await manifestResponse.json();
-      portal = config.portal || {};
-      sources = (config.sources || []).filter(source => source.enabled !== false);
+      portal = config.portal;
+      sources = config.sources.filter(source => source.enabled !== false);
       sourceMap = Object.fromEntries(sources.map(source => [source.id, source]));
+      manifest = await manifestResponse.json();
 
-      document.title = portal.title || "Daily Briefs";
-      document.querySelector("#portal-title").textContent = portal.title || "Daily Briefs";
-      document.querySelector("#portal-initials").textContent = portal.initials || "DB";
-      document.querySelector("#today").textContent =
-        `${formatDate(todayISO())} · ${portal.timezone_label || portal.timezone || "IST"}`;
-
+      applyPortalText();
+      message.textContent = portal.loading_text;
+      badge.textContent = portal.checking_text;
+      badge.dataset.status = "checking";
       buildNavigation();
       show(currentSource && sourceMap[currentSource] ? currentSource : selectedSourceId());
     } catch (error) {
       console.error(error);
-      message.innerHTML = "Portal data could not be read. Confirm that <code>_data/portal.yml</code> and <code>data/posts.json</code> exist, then run the included GitHub Action once.";
-      badge.textContent = "UNAVAILABLE";
+      const fallback = portal.data_error_text || error.message;
+      message.classList.remove("hidden");
+      message.textContent = fallback;
+      badge.textContent = portal.unavailable_text || "";
       badge.dataset.status = "unavailable";
     }
   }

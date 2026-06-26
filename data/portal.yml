@@ -1,15 +1,30 @@
 portal:
   title: "Daily Briefs"
-  initials: "DB"
   timezone: "Asia/Kolkata"
   timezone_label: "IST"
   locale: "en-GB"
   default_source: "pib"
+
+  # All visible interface text is controlled here.
   loading_text: "Loading latest available brief…"
+  checking_text: "Checking"
+  today_text: "Today"
+  not_found_text: "Not found"
+  unavailable_text: "Unavailable"
+  refresh_label: "Refresh"
+  external_label: "Open separately"
+  navigation_label: "News sections"
+  frame_title: "Daily brief"
+  no_post_before: "No individual post was discovered for"
+  open_archive_text: "Open its archive"
+  data_error_text: "Portal data could not be read. Run the included GitHub Action once."
+
+  # Badge behaviour: "time" shows only the latest fetch time, e.g. 10:00 PM.
+  # Other supported values are "label_time" and "label".
+  latest_badge_mode: "time"
+  latest_label: "Latest"
 
 # Add, remove, rename, disable or reorder menu buttons here.
-# github_repo + posts_dir let the workflow read the actual newest Markdown post,
-# so it never falls back to the source homepage.
 sources:
   - id: "pib"
     enabled: true

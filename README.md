@@ -1,67 +1,69 @@
-# Daily Briefs Portal
+# Daily Briefs Portal (`/nw`)
 
-YAML-controlled GitHub Pages portal for the newest available individual post from each news repository.
+Static GitHub Pages portal for displaying the newest available post from multiple news repositories.
 
-## Portal address
+## Main configuration
 
-This repository is configured for:
+Edit only:
+
+```text
+data/portal.yml
+```
+
+It controls:
+
+- portal title;
+- timezone and date label;
+- interface labels;
+- button names, subtitles and order;
+- source headings;
+- enabled/disabled state;
+- archive and GitHub repository settings;
+- latest badge display mode.
+
+The browser reads `data/portal.yml` directly, so menu and title changes do not depend on Liquid/Jekyll processing.
+
+## Latest badge
+
+The default is:
+
+```yaml
+latest_badge_mode: "time"
+```
+
+This shows only the workflow fetch time, such as `10:00 PM`, on one line.
+
+Other values:
+
+```yaml
+latest_badge_mode: "label_time"  # Latest: 10:00 PM
+latest_badge_mode: "label"       # Latest
+```
+
+## Add a source
+
+Add another item under `sources:` in `data/portal.yml`. Reorder the blocks to reorder the menu. Set `enabled: false` to hide a source.
+
+## GitHub Pages
+
+Use:
+
+```text
+Settings → Pages → Deploy from a branch → main → /(root)
+```
+
+The expected URL is:
 
 ```text
 https://rajeshphy.github.io/nw/
 ```
 
-The Jekyll `baseurl` is `/nw`.
+## Automatic updates
 
-## Deployment
+`.github/workflows/update-portal.yml` runs on schedule and manually. It updates `data/posts.json` and commits it to `main`.
 
-1. Upload all files to the root of a public repository named `nw`.
-2. Open **Actions → Update portal links → Run workflow** once.
-3. Confirm that `data/posts.json` contains a non-empty `url` for every enabled source.
-4. Enable GitHub Pages from the `main` branch and root folder.
+Repository setting:
 
-The updater now clones each public source repository with Git instead of querying the GitHub Contents API. This avoids cross-repository `GITHUB_TOKEN` restrictions and API-rate problems.
-
-## Add, remove or reorder menu buttons
-
-Edit `_data/portal.yml` only.
-
-```yaml
-- id: "edu"
-  enabled: true
-  label: "EDU"
-  subtitle: "Education"
-  heading: "Education Brief"
-  archive: "https://rajeshphy.github.io/education-news/"
-  github_repo: "rajeshphy/education-news"
-  posts_dir: "docs/_posts"
-  branch: "main"
+```text
+Settings → Actions → General → Workflow permissions → Read and write permissions
 ```
-
-Set `enabled: false` to hide a source, move its YAML block to reorder it, or remove the block to delete it.
-
-## Fallback behaviour
-
-The workflow checks up to the newest 30 Markdown posts. If today's page is unavailable, it displays the newest older live page. If a temporary refresh fails, it retains the last known working URL instead of making the portal blank.
-
-## Local test
-
-```bash
-pip install -r requirements.txt
-python3 scripts/update_manifest.py
-bundle exec jekyll serve --baseurl /nw
-```
-
-## Important deployment note
-
-This release is deliberately static and includes `.nojekyll`. The browser reads `data/config.json`, which is generated from `_data/portal.yml` by the workflow. Therefore Liquid tags are not used and cannot appear as raw text on GitHub Pages.
-
-## Live YAML customization
-
-`_data/portal.yml` is now read directly by the browser. Changes to the portal title,
-initials, default section, labels, subtitles, headings, enabled state, and source order
-therefore affect the published page as soon as the commit is served by GitHub Pages.
-The workflow still reads the same YAML to discover and update post links.
-
-For an older or retained post, the status appears as `Latest:10:00 PM`, using the
-manifest update time in the configured portal timezone. A current-day post displays
-`TODAY`.

@@ -1,12 +1,24 @@
 {
   "portal": {
     "title": "Daily Briefs",
-    "initials": "DB",
     "timezone": "Asia/Kolkata",
     "timezone_label": "IST",
     "locale": "en-GB",
     "default_source": "pib",
-    "loading_text": "Loading latest available brief…"
+    "loading_text": "Loading latest available brief…",
+    "checking_text": "Checking",
+    "today_text": "Today",
+    "not_found_text": "Not found",
+    "unavailable_text": "Unavailable",
+    "refresh_label": "Refresh",
+    "external_label": "Open separately",
+    "navigation_label": "News sections",
+    "frame_title": "Daily brief",
+    "no_post_before": "No individual post was discovered for",
+    "open_archive_text": "Open its archive",
+    "data_error_text": "Portal data could not be read. Run the included GitHub Action once.",
+    "latest_badge_mode": "time",
+    "latest_label": "Latest"
   },
   "sources": [
     {

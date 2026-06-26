@@ -4,44 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#14212d">
-  <title>Daily Briefs</title>
-  <link rel="stylesheet" href="assets/css/portal.css?v=5">
+  <title></title>
+  <link rel="stylesheet" href="assets/css/portal.css?v=7">
 </head>
 <body>
   <header class="top">
-    <div class="brand">
-      <span class="mark" id="portal-initials">DB</span>
-      <div>
-        <h1 id="portal-title">Daily Briefs</h1>
+    <div class="header-row">
+      <div class="brand-copy">
+        <h1 id="portal-title"></h1>
         <p id="today"></p>
+      </div>
+
+      <div class="actions">
+        <button id="refresh" type="button" aria-label="">↻</button>
+        <a id="external" target="_blank" rel="noopener" aria-label="">↗</a>
       </div>
     </div>
 
-    <div class="actions">
-      <button id="refresh" type="button" title="Refresh" aria-label="Refresh">↻</button>
-      <a id="external" target="_blank" rel="noopener" title="Open separately" aria-label="Open separately">↗</a>
-    </div>
-
-    <nav id="nav" aria-label="News sections"></nav>
+    <nav id="nav" aria-label=""></nav>
   </header>
 
   <main>
     <section class="meta">
-      <div>
-        <span class="dot"></span>
-        <strong id="section-title">Loading</strong>
-        <span class="sep">·</span>
+      <div class="meta-copy">
+        <span class="dot" aria-hidden="true"></span>
+        <strong id="section-title"></strong>
+        <span class="sep" aria-hidden="true">·</span>
         <span id="post-date"></span>
       </div>
-      <span id="badge" class="badge">CHECKING</span>
+      <span id="badge" class="badge"></span>
     </section>
 
     <section class="viewer">
-      <div id="message" class="message">Loading latest available brief…</div>
-      <iframe id="frame" title="Daily brief"></iframe>
+      <div id="message" class="message"></div>
+      <iframe id="frame" title=""></iframe>
     </section>
   </main>
 
-  <script src="assets/js/portal.js?v=5"></script>
+  <script src="assets/js/portal.js?v=7"></script>
 </body>
 </html>

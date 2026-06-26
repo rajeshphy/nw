@@ -16,7 +16,7 @@ from zoneinfo import ZoneInfo
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-CONFIG_PATH = ROOT / "_data" / "portal.yml"
+CONFIG_PATH = ROOT / "data" / "portal.yml"
 OUTPUT_PATH = ROOT / "data" / "posts.json"
 CONFIG_JSON_PATH = ROOT / "data" / "config.json"
 POST_FILE = re.compile(r"^(20\d{2})-(\d{2})-(\d{2})-(.+)\.(?:md|markdown)$", re.I)
