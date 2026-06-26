@@ -1,164 +1,122 @@
 (() => {
   "use strict";
 
-  const SOURCES = {
-    pib: {
-      short: "PIB",
-      title: "PIB Brief",
-      site: "pib",
-      filename: "pib-digest.html",
-      home: "https://rajeshphy.github.io/pib/"
-    },
-    dmk: {
-      short: "DMK",
-      title: "Dumka–Jharkhand Brief",
-      site: "dumka-jhar-news",
-      filename: "dumka-brief.html",
-      home: "https://rajeshphy.github.io/dumka-jhar-news/"
-    },
-    pol: {
-      short: "POL",
-      title: "Political Brief",
-      site: "political-news",
-      filename: "political-brief.html",
-      home: "https://rajeshphy.github.io/political-news/"
-    },
-    eco: {
-      short: "ECO",
-      title: "Economy Brief",
-      site: "economic-news",
-      filename: "economy-brief.html",
-      home: "https://rajeshphy.github.io/economic-news/"
-    },
-    phy: {
-      short: "PHY",
-      title: "Physics Brief",
-      site: "physics-news",
-      filename: "physics-brief.html",
-      home: "https://rajeshphy.github.io/physics-news/"
-    }
-  };
+  const config = window.PORTAL_CONFIG || {};
+  const portal = config.portal || {};
+  const sources = (config.sources || []).filter(source => source.enabled !== false);
+  const sourceMap = Object.fromEntries(sources.map(source => [source.id, source]));
 
-  const els = {
-    frame: document.getElementById("brief-frame"),
-    loading: document.getElementById("loading-panel"),
-    loadingTitle: document.getElementById("loading-title"),
-    loadingMessage: document.getElementById("loading-message"),
-    sectionTitle: document.getElementById("section-title"),
-    postDate: document.getElementById("post-date"),
-    status: document.getElementById("status-pill"),
-    today: document.getElementById("today-label"),
-    external: document.getElementById("external-link"),
-    refresh: document.getElementById("refresh-button"),
-    buttons: [...document.querySelectorAll("[data-source]")]
-  };
+  const nav = document.querySelector("#nav");
+  const frame = document.querySelector("#frame");
+  const message = document.querySelector("#message");
+  const badge = document.querySelector("#badge");
+  const dateElement = document.querySelector("#post-date");
+  const titleElement = document.querySelector("#section-title");
+  const external = document.querySelector("#external");
+  const refresh = document.querySelector("#refresh");
 
-  let currentSource = "pib";
-  let loadTimer = null;
+  let manifest = null;
+  let currentSource = null;
 
-  function istParts(date = new Date()) {
-    const parts = new Intl.DateTimeFormat("en-CA", {
-      timeZone: "Asia/Kolkata",
+  const timezone = portal.timezone || "Asia/Kolkata";
+  const locale = portal.locale || "en-GB";
+
+  function todayISO() {
+    return new Intl.DateTimeFormat("en-CA", {
+      timeZone: timezone,
       year: "numeric",
       month: "2-digit",
       day: "2-digit"
-    }).formatToParts(date);
-
-    return Object.fromEntries(
-      parts.filter(part => part.type !== "literal").map(part => [part.type, part.value])
-    );
+    }).format(new Date());
   }
 
-  function todayISO() {
-    const p = istParts();
-    return `${p.year}-${p.month}-${p.day}`;
-  }
-
-  function prettyDate(iso) {
-    const [year, month, day] = iso.split("-").map(Number);
-    return new Intl.DateTimeFormat("en-IN", {
-      timeZone: "Asia/Kolkata",
-      day: "numeric",
+  function formatDate(date) {
+    return new Intl.DateTimeFormat(locale, {
+      timeZone: timezone,
+      day: "2-digit",
       month: "long",
       year: "numeric"
-    }).format(new Date(Date.UTC(year, month - 1, day, 12)));
+    }).format(new Date(`${date}T12:00:00+05:30`));
   }
 
-  function postURL(source, iso = todayISO()) {
-    const [year, month, day] = iso.split("-");
-    return `https://rajeshphy.github.io/${source.site}/${year}/${month}/${day}/${source.filename}`;
+  document.querySelector("#today").textContent =
+    `${formatDate(todayISO())} · ${portal.timezone_label || timezone}`;
+
+  function selectedSourceId() {
+    const requested = new URLSearchParams(location.search).get("section");
+    if (requested && sourceMap[requested]) return requested;
+    if (portal.default_source && sourceMap[portal.default_source]) return portal.default_source;
+    return sources[0]?.id || null;
   }
 
-  function setActive(key) {
-    els.buttons.forEach(button => {
-      const active = button.dataset.source === key;
+  function show(sourceId) {
+    const source = sourceMap[sourceId];
+    if (!source || !manifest) return;
+
+    currentSource = sourceId;
+    const item = manifest.sources?.[sourceId] || {};
+
+    nav.querySelectorAll("button[data-key]").forEach(button => {
+      const active = button.dataset.key === sourceId;
       button.classList.toggle("active", active);
       button.setAttribute("aria-current", active ? "page" : "false");
     });
-  }
 
-  function showLoading(source) {
-    els.loading.hidden = false;
-    els.loadingTitle.textContent = `Opening today’s ${source.short} brief`;
-    els.loadingMessage.textContent = "Using the current Indian Standard Time date. No GitHub API request is required.";
-    els.status.className = "status-pill";
-    els.status.textContent = "Loading";
-  }
+    titleElement.textContent = source.heading || `${source.label} Brief`;
+    dateElement.textContent = item.date ? formatDate(item.date) : "No post discovered";
+    external.href = item.url || source.archive;
 
-  function openSource(key, { push = true } = {}) {
-    if (!SOURCES[key]) key = "pib";
-    currentSource = key;
-    const source = SOURCES[key];
-    const iso = todayISO();
-    const url = postURL(source, iso);
+    const nextURL = new URL(location.href);
+    nextURL.searchParams.set("section", sourceId);
+    history.replaceState(null, "", nextURL);
 
-    clearTimeout(loadTimer);
-    setActive(key);
-    els.sectionTitle.textContent = source.title;
-    els.postDate.textContent = prettyDate(iso);
-    els.external.href = url;
-    showLoading(source);
-
-    if (push) {
-      const browserURL = new URL(location.href);
-      browserURL.searchParams.set("section", key);
-      history.pushState({ section: key }, "", browserURL);
+    if (item.url) {
+      frame.src = item.url;
+      message.classList.add("hidden");
+      if (item.stale) {
+        badge.textContent = "LAST KNOWN";
+        badge.dataset.status = "latest";
+      } else {
+        badge.textContent = item.date === todayISO() ? "TODAY" : "LATEST";
+        badge.dataset.status = item.date === todayISO() ? "today" : "latest";
+      }
+    } else {
+      frame.removeAttribute("src");
+      message.classList.remove("hidden");
+      message.innerHTML = `No individual post was discovered for <strong>${source.label}</strong>. ` +
+        `<a href="${source.archive}" target="_blank" rel="noopener">Open its archive</a>.` +
+        (item.error ? `<br><small>${item.error}</small>` : "");
+      badge.textContent = "NOT FOUND";
+      badge.dataset.status = "unavailable";
     }
-
-    els.frame.onload = () => {
-      clearTimeout(loadTimer);
-      els.loading.hidden = true;
-      els.status.className = "status-pill ready";
-      els.status.textContent = "Today";
-    };
-
-    els.frame.onerror = () => {
-      clearTimeout(loadTimer);
-      els.loading.hidden = false;
-      els.loadingTitle.textContent = `${source.short} brief could not be displayed`;
-      els.loadingMessage.innerHTML = `The expected page is <a href="${url}" target="_blank" rel="noopener">${url}</a>. The daily workflow may not have published it yet.`;
-      els.status.className = "status-pill error";
-      els.status.textContent = "Unavailable";
-    };
-
-    // Assigning the deterministic URL avoids CORS and GitHub API limits.
-    els.frame.src = `${url}?portal=${Date.now()}`;
-
-    // A slow connection should not leave the overlay permanently visible.
-    loadTimer = window.setTimeout(() => {
-      els.loading.hidden = true;
-      els.status.className = "status-pill ready";
-      els.status.textContent = "Today";
-    }, 8000);
   }
 
-  els.today.textContent = `${prettyDate(todayISO())} · IST`;
-  els.buttons.forEach(button => button.addEventListener("click", () => openSource(button.dataset.source)));
-  els.refresh.addEventListener("click", () => openSource(currentSource, { push: false }));
-  window.addEventListener("popstate", event => {
-    const key = event.state?.section || new URLSearchParams(location.search).get("section") || "pib";
-    openSource(key, { push: false });
+  async function load() {
+    message.classList.remove("hidden");
+    message.textContent = portal.loading_text || "Loading latest available brief…";
+    badge.textContent = "CHECKING";
+    badge.dataset.status = "checking";
+
+    try {
+      const manifestURL = `${window.PORTAL_PATHS.manifest}?v=${Date.now()}`;
+      const response = await fetch(manifestURL, { cache: "no-store" });
+      if (!response.ok) throw new Error(`Manifest returned ${response.status}`);
+      manifest = await response.json();
+      show(currentSource || selectedSourceId());
+    } catch (error) {
+      console.error(error);
+      message.innerHTML =
+        "Portal data could not be read. Run the included GitHub Action once, or run <code>python3 scripts/update_manifest.py</code> before local testing.";
+      badge.textContent = "UNAVAILABLE";
+      badge.dataset.status = "unavailable";
+    }
+  }
+
+  nav.addEventListener("click", event => {
+    const button = event.target.closest("button[data-key]");
+    if (button) show(button.dataset.key);
   });
 
-  openSource(new URLSearchParams(location.search).get("section") || "pib", { push: false });
+  refresh.addEventListener("click", load);
+  load();
 })();

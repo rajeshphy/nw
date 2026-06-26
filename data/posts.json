@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-06-27T00:00:00+05:30",
+  "sources": {
+    "pib": {"date":"2026-06-26","url":"https://rajeshphy.github.io/pib/2026/06/26/pib-digest.html","title":"PIB Brief","method":"seed","source_file":null,"archive":"https://rajeshphy.github.io/pib/","error":null,"stale":true},
+    "dmk": {"date":"2026-06-26","url":"https://rajeshphy.github.io/dumka-jhar-news/2026/06/26/dumka-brief.html","title":"Dumka Brief","method":"seed","source_file":null,"archive":"https://rajeshphy.github.io/dumka-jhar-news/","error":null,"stale":true},
+    "pol": {"date":"2026-06-26","url":"https://rajeshphy.github.io/political-news/2026/06/26/political-brief.html","title":"Political Brief","method":"seed","source_file":null,"archive":"https://rajeshphy.github.io/political-news/","error":null,"stale":true},
+    "eco": {"date":"2026-06-26","url":"https://rajeshphy.github.io/economic-news/2026/06/26/economy-brief.html","title":"Economic Brief","method":"seed","source_file":null,"archive":"https://rajeshphy.github.io/economic-news/","error":null,"stale":true},
+    "phy": {"date":"2026-06-26","url":"https://rajeshphy.github.io/physics-news/2026/06/26/physics-brief.html","title":"Physics Brief","method":"seed","source_file":null,"archive":"https://rajeshphy.github.io/physics-news/","error":null,"stale":true}
+  }
+}

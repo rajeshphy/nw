@@ -1,0 +1,62 @@
+portal:
+  title: "Daily Briefs"
+  initials: "DB"
+  timezone: "Asia/Kolkata"
+  timezone_label: "IST"
+  locale: "en-GB"
+  default_source: "pib"
+  loading_text: "Loading latest available brief…"
+
+# Add, remove, rename, disable or reorder menu buttons here.
+# github_repo + posts_dir let the workflow read the actual newest Markdown post,
+# so it never falls back to the source homepage.
+sources:
+  - id: "pib"
+    enabled: true
+    label: "PIB"
+    subtitle: "Government"
+    heading: "PIB Brief"
+    archive: "https://rajeshphy.github.io/pib/"
+    github_repo: "rajeshphy/pib"
+    posts_dir: "_posts"
+    branch: "main"
+
+  - id: "dmk"
+    enabled: true
+    label: "DMK"
+    subtitle: "Local"
+    heading: "Dumka Brief"
+    archive: "https://rajeshphy.github.io/dumka-jhar-news/"
+    github_repo: "rajeshphy/dumka-jhar-news"
+    posts_dir: "docs/_posts"
+    branch: "main"
+
+  - id: "pol"
+    enabled: true
+    label: "POL"
+    subtitle: "Politics"
+    heading: "Political Brief"
+    archive: "https://rajeshphy.github.io/political-news/"
+    github_repo: "rajeshphy/political-news"
+    posts_dir: "_posts"
+    branch: "main"
+
+  - id: "eco"
+    enabled: true
+    label: "ECO"
+    subtitle: "Economy"
+    heading: "Economic Brief"
+    archive: "https://rajeshphy.github.io/economic-news/"
+    github_repo: "rajeshphy/economic-news"
+    posts_dir: "_posts"
+    branch: "main"
+
+  - id: "phy"
+    enabled: true
+    label: "PHY"
+    subtitle: "Physics"
+    heading: "Physics Brief"
+    archive: "https://rajeshphy.github.io/physics-news/"
+    github_repo: "rajeshphy/physics-news"
+    posts_dir: "docs/_posts"
+    branch: "main"

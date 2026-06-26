@@ -1,80 +1,65 @@
+---
+layout: null
+---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#17324d">
-  <meta name="description" content="One portal for today's PIB, Dumka-Jharkhand, political, economic and physics briefs.">
-  <title>Daily Briefs</title>
-  <link rel="stylesheet" href="assets/css/portal.css">
-  <script src="assets/js/portal.js" defer></script>
+  <meta name="theme-color" content="#14212d">
+  <title>{{ site.data.portal.portal.title | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/portal.css' | relative_url }}">
 </head>
 <body>
-  <a class="skip-link" href="#brief-frame">Skip to the daily brief</a>
-
-  <header class="site-header">
-    <div class="brand-block">
-      <a class="brand" href="./" aria-label="Daily Briefs home">
-        <span class="brand-mark" aria-hidden="true">DB</span>
-        <span>
-          <strong>Daily Briefs</strong>
-          <small id="today-label">India · Daily news portal</small>
-        </span>
-      </a>
-
-      <div class="header-actions">
-        <button class="icon-button" id="refresh-button" type="button" title="Refresh current brief" aria-label="Refresh current brief">↻</button>
-        <a class="icon-button" id="external-link" href="https://rajeshphy.github.io/pib/" target="_blank" rel="noopener" title="Open original post" aria-label="Open original post in a new tab">↗</a>
+  <header class="top">
+    <div class="brand">
+      <span class="mark">{{ site.data.portal.portal.initials | escape }}</span>
+      <div>
+        <h1>{{ site.data.portal.portal.title | escape }}</h1>
+        <p id="today"></p>
       </div>
     </div>
 
-    <nav class="source-nav" aria-label="News sections">
-      <button type="button" data-source="pib"><span>PIB</span><small>Government</small></button>
-      <button type="button" data-source="dmk"><span>DMK</span><small>Local</small></button>
-      <button type="button" data-source="pol"><span>POL</span><small>Politics</small></button>
-      <button type="button" data-source="eco"><span>ECO</span><small>Economy</small></button>
-      <button type="button" data-source="phy"><span>PHY</span><small>Physics</small></button>
+    <div class="actions">
+      <button id="refresh" type="button" title="Refresh" aria-label="Refresh">↻</button>
+      <a id="external" target="_blank" rel="noopener" title="Open separately" aria-label="Open separately">↗</a>
+    </div>
+
+    <nav id="nav" aria-label="News sections">
+      {% for source in site.data.portal.sources %}
+        {% if source.enabled != false %}
+          <button type="button" data-key="{{ source.id | escape }}">
+            {{ source.label | escape }}
+            {% if source.subtitle %}<span>{{ source.subtitle | escape }}</span>{% endif %}
+          </button>
+        {% endif %}
+      {% endfor %}
     </nav>
   </header>
 
-  <main class="portal-main">
-    <section class="brief-bar" aria-live="polite">
+  <main>
+    <section class="meta">
       <div>
-        <span class="source-dot" id="source-dot" aria-hidden="true"></span>
-        <strong id="section-title">PIB Brief</strong>
-        <span class="separator" aria-hidden="true">·</span>
-        <span id="post-date">Checking today’s post…</span>
+        <span class="dot"></span>
+        <strong id="section-title">Loading</strong>
+        <span class="sep">·</span>
+        <span id="post-date"></span>
       </div>
-      <span class="status-pill" id="status-pill">Loading</span>
+      <span id="badge" class="badge">CHECKING</span>
     </section>
 
-    <section class="viewer" aria-label="Selected daily brief">
-      <div class="loading-panel" id="loading-panel">
-        <div class="spinner" aria-hidden="true"></div>
-        <strong id="loading-title">Finding today’s PIB brief</strong>
-        <p id="loading-message">Reading the source archive and locating the post published today in Indian Standard Time.</p>
-      </div>
-
-      <iframe
-        id="brief-frame"
-        name="brief-frame"
-        title="Daily news brief"
-        loading="eager"
-        referrerpolicy="strict-origin-when-cross-origin"
-      ></iframe>
+    <section class="viewer">
+      <div id="message" class="message">{{ site.data.portal.portal.loading_text | escape }}</div>
+      <iframe id="frame" title="Daily brief"></iframe>
     </section>
   </main>
 
-  <noscript>
-    <div class="noscript">
-      JavaScript is needed to locate today’s post. Open the source sites directly:
-      <a href="https://rajeshphy.github.io/pib/">PIB</a>,
-      <a href="https://rajeshphy.github.io/dumka-jhar-news/">DMK</a>,
-      <a href="https://rajeshphy.github.io/political-news/">POL</a>,
-      <a href="https://rajeshphy.github.io/economic-news/">ECO</a>, and
-      <a href="https://rajeshphy.github.io/physics-news/">PHY</a>.
-    </div>
-  </noscript>
+  <script>
+    window.PORTAL_CONFIG = {{ site.data.portal | jsonify }};
+    window.PORTAL_PATHS = {
+      manifest: {{ '/data/posts.json' | relative_url | jsonify }}
+    };
+  </script>
+  <script src="{{ '/assets/js/portal.js' | relative_url }}"></script>
 </body>
 </html>

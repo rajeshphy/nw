@@ -1,44 +1,52 @@
 # Daily Briefs Portal
 
-A lightweight GitHub Pages portal that displays the current IST-day post from five existing Jekyll news sites:
+YAML-controlled GitHub Pages portal for the newest available individual post from each news repository.
 
-- PIB: `https://rajeshphy.github.io/pib/`
-- DMK: `https://rajeshphy.github.io/dumka-jhar-news/`
-- POL: `https://rajeshphy.github.io/political-news/`
-- ECO: `https://rajeshphy.github.io/economic-news/`
-- PHY: `https://rajeshphy.github.io/physics-news/`
+## Portal address
 
-## How the date is fetched
+This repository is configured for:
 
-On every page load or menu selection, `assets/js/portal.js`:
+```text
+https://rajeshphy.github.io/nw/
+```
 
-1. calculates the current date in `Asia/Kolkata`;
-2. fetches the selected source site's archive homepage;
-3. parses its dated post links;
-4. displays today's post in the portal;
-5. falls back to the newest available dated post when today's workflow has not run yet.
-
-The portal discovers URLs from the archive, so filenames do not need to match across projects.
+The Jekyll `baseurl` is `/nw`.
 
 ## Deployment
 
-1. Create a public GitHub repository, preferably named `news`.
-2. Upload the contents of this ZIP to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch `main` and folder `/ (root)`, then save.
-6. The expected URL will be `https://rajeshphy.github.io/news/`.
+1. Upload all files to the root of a public repository named `nw`.
+2. Open **Actions → Update portal links → Run workflow** once.
+3. Confirm that `data/posts.json` contains a non-empty `url` for every enabled source.
+4. Enable GitHub Pages from the `main` branch and root folder.
 
-No GitHub Action, API key, AI call, or daily cron job is needed for this portal.
+The updater now clones each public source repository with Git instead of querying the GitHub Contents API. This avoids cross-repository `GITHUB_TOKEN` restrictions and API-rate problems.
 
-## Changing the repository name
+## Add, remove or reorder menu buttons
 
-The site is plain static HTML and works under any repository path. `_config.yml` currently records `/news` for documentation, but the runtime code uses relative portal assets and absolute source paths.
+Edit `_data/portal.yml` only.
 
-## Files
+```yaml
+- id: "edu"
+  enabled: true
+  label: "EDU"
+  subtitle: "Education"
+  heading: "Education Brief"
+  archive: "https://rajeshphy.github.io/education-news/"
+  github_repo: "rajeshphy/education-news"
+  posts_dir: "docs/_posts"
+  branch: "main"
+```
 
-- `index.html` — portal structure and menu
-- `assets/css/portal.css` — responsive visual design
-- `assets/js/portal.js` — IST date selection and source archive parsing
-- `404.html` — fallback page
-- `.nojekyll` — serves the files directly without a Jekyll build
+Set `enabled: false` to hide a source, move its YAML block to reorder it, or remove the block to delete it.
+
+## Fallback behaviour
+
+The workflow checks up to the newest 30 Markdown posts. If today's page is unavailable, it displays the newest older live page. If a temporary refresh fails, it retains the last known working URL instead of making the portal blank.
+
+## Local test
+
+```bash
+pip install -r requirements.txt
+python3 scripts/update_manifest.py
+bundle exec jekyll serve --baseurl /nw
+```

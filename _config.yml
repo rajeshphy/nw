@@ -1,9 +1,8 @@
-title: Daily Briefs Portal
-description: A unified daily portal for PIB, Dumka-Jharkhand, political, economic and physics briefs.
+title: Daily Briefs
 url: "https://rajeshphy.github.io"
 baseurl: "/nw"
-timezone: Asia/Kolkata
-plugins: []
+permalink: pretty
 exclude:
+  - scripts
   - README.md
-  - LICENSE
+  - requirements.txt
