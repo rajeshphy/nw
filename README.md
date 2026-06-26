@@ -54,3 +54,14 @@ bundle exec jekyll serve --baseurl /nw
 ## Important deployment note
 
 This release is deliberately static and includes `.nojekyll`. The browser reads `data/config.json`, which is generated from `_data/portal.yml` by the workflow. Therefore Liquid tags are not used and cannot appear as raw text on GitHub Pages.
+
+## Live YAML customization
+
+`_data/portal.yml` is now read directly by the browser. Changes to the portal title,
+initials, default section, labels, subtitles, headings, enabled state, and source order
+therefore affect the published page as soon as the commit is served by GitHub Pages.
+The workflow still reads the same YAML to discover and update post links.
+
+For an older or retained post, the status appears as `Latest:10:00 PM`, using the
+manifest update time in the configured portal timezone. A current-day post displays
+`TODAY`.
