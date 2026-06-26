@@ -1,6 +1,6 @@
 portal:
-  title: "Daily Briefs"
-  initials: "DB"
+  title: "Briefings"
+  initials: "B"
   timezone: "Asia/Kolkata"
   timezone_label: "IST"
   locale: "en-GB"

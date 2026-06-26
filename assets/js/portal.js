@@ -83,7 +83,7 @@
       frame.src = item.url;
       message.classList.add("hidden");
       if (item.stale) {
-        badge.textContent = "LAST KNOWN";
+        badge.textContent = "Latest";
         badge.dataset.status = "latest";
       } else {
         const isToday = item.date === todayISO();
