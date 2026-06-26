@@ -18,6 +18,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "_data" / "portal.yml"
 OUTPUT_PATH = ROOT / "data" / "posts.json"
+CONFIG_JSON_PATH = ROOT / "data" / "config.json"
 POST_FILE = re.compile(r"^(20\d{2})-(\d{2})-(\d{2})-(.+)\.(?:md|markdown)$", re.I)
 PERMALINK = re.compile(r"^permalink:\s*[\"']?([^\"'\n]+)", re.M)
 TITLE = re.compile(r"^title:\s*[\"']?(.+?)[\"']?\s*$", re.M)
@@ -151,6 +152,9 @@ def main() -> None:
         previous = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
     except Exception:
         previous = {}
+
+    CONFIG_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CONFIG_JSON_PATH.write_text(json.dumps(config, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     output = {"generated_at": now.isoformat(), "sources": {}}
 

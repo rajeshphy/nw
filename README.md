@@ -50,3 +50,7 @@ pip install -r requirements.txt
 python3 scripts/update_manifest.py
 bundle exec jekyll serve --baseurl /nw
 ```
+
+## Important deployment note
+
+This release is deliberately static and includes `.nojekyll`. The browser reads `data/config.json`, which is generated from `_data/portal.yml` by the workflow. Therefore Liquid tags are not used and cannot appear as raw text on GitHub Pages.

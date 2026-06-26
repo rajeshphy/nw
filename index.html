@@ -1,21 +1,18 @@
----
-layout: null
----
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#14212d">
-  <title>{{ site.data.portal.portal.title | escape }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/portal.css' | relative_url }}">
+  <title>Daily Briefs</title>
+  <link rel="stylesheet" href="assets/css/portal.css">
 </head>
 <body>
   <header class="top">
     <div class="brand">
-      <span class="mark">{{ site.data.portal.portal.initials | escape }}</span>
+      <span class="mark" id="portal-initials">DB</span>
       <div>
-        <h1>{{ site.data.portal.portal.title | escape }}</h1>
+        <h1 id="portal-title">Daily Briefs</h1>
         <p id="today"></p>
       </div>
     </div>
@@ -25,16 +22,7 @@ layout: null
       <a id="external" target="_blank" rel="noopener" title="Open separately" aria-label="Open separately">↗</a>
     </div>
 
-    <nav id="nav" aria-label="News sections">
-      {% for source in site.data.portal.sources %}
-        {% if source.enabled != false %}
-          <button type="button" data-key="{{ source.id | escape }}">
-            {{ source.label | escape }}
-            {% if source.subtitle %}<span>{{ source.subtitle | escape }}</span>{% endif %}
-          </button>
-        {% endif %}
-      {% endfor %}
-    </nav>
+    <nav id="nav" aria-label="News sections"></nav>
   </header>
 
   <main>
@@ -49,17 +37,11 @@ layout: null
     </section>
 
     <section class="viewer">
-      <div id="message" class="message">{{ site.data.portal.portal.loading_text | escape }}</div>
+      <div id="message" class="message">Loading latest available brief…</div>
       <iframe id="frame" title="Daily brief"></iframe>
     </section>
   </main>
 
-  <script>
-    window.PORTAL_CONFIG = {{ site.data.portal | jsonify }};
-    window.PORTAL_PATHS = {
-      manifest: {{ '/data/posts.json' | relative_url | jsonify }}
-    };
-  </script>
-  <script src="{{ '/assets/js/portal.js' | relative_url }}"></script>
+  <script src="assets/js/portal.js"></script>
 </body>
 </html>
