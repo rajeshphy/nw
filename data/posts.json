@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-06-27T12:22:28.874087+05:30",
+  "generated_at": "2026-06-27T12:39:21.173460+05:30",
   "sources": {
     "pib": {
-      "date": "2026-06-26",
-      "url": "https://rajeshphy.github.io/pib/2026/06/26/pib-digest.html",
-      "title": "PIB Brief",
-      "method": "seed",
+      "date": "2026-06-27",
+      "url": "https://rajeshphy.github.io/pib/2026/06/27/pib-digest.html",
+      "title": "Government Initiatives in Technology, Trade, and Enforcement",
+      "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
-      "error": "Refresh failed; retained the last known working post.",
-      "stale": true
+      "error": null,
+      "stale": false
     },
     "dmk": {
       "date": "2026-06-27",
       "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/06/27/dumka-brief.html",
-      "title": "Daily News Brief: Dumka and Jharkhand (June 27, 2026)",
-      "method": "git_clone",
-      "source_file": "2026-06-27-dumka-brief.md",
+      "title": "Gold smuggling bust, Ranchi attack arrests, power sector funding, and educational reforms headline today's Jharkhand news",
+      "method": "published_archive",
+      "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false
     },
     "pol": {
-      "date": "2026-06-26",
-      "url": "https://rajeshphy.github.io/political-news/2026/06/26/political-brief.html",
-      "title": "Political Brief",
-      "method": "seed",
+      "date": "2026-06-27",
+      "url": "https://rajeshphy.github.io/political-news/2026/06/27/political-brief.html",
+      "title": "Parliament fails to pass the women's reservation bill, while reports emerge regarding a potential Union cabinet reshuffle and BJP organizational changes",
+      "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
-      "error": "Refresh failed; retained the last known working post.",
-      "stale": true
+      "error": null,
+      "stale": false
     },
     "eco": {
-      "date": "2026-06-26",
-      "url": "https://rajeshphy.github.io/economic-news/2026/06/26/economy-brief.html",
-      "title": "Economic Brief",
-      "method": "seed",
+      "date": "2026-06-27",
+      "url": "https://rajeshphy.github.io/economic-news/2026/06/27/economy-brief.html",
+      "title": "RBI holds repo rate, GDP growth projections, recent market correction, and global yield movements shape the current economic landscape",
+      "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
-      "error": "Refresh failed; retained the last known working post.",
-      "stale": true
+      "error": null,
+      "stale": false
     },
     "phy": {
       "date": "2026-06-27",
       "url": "https://rajeshphy.github.io/physics-news/2026/06/27/physics-brief.html",
-      "title": "Physics Daily: Quantum Tunneling, AI Discovery, and Space Policy",
-      "method": "git_clone",
-      "source_file": "2026-06-27-physics-brief.md",
+      "title": "Quantum tunneling history, AI-driven material discovery, and international space cooperation",
+      "method": "published_archive",
+      "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false
