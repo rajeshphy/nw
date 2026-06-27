@@ -1,0 +1,47 @@
+name: Update portal links
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "40 0 * * *"   # 06:10 IST
+    - cron: "40 8 * * *"   # 14:10 IST
+    - cron: "40 14 * * *"  # 20:10 IST
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout portal repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Update portal manifest
+        run: python scripts/update_manifest.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/posts.json
+
+          if git diff --cached --quiet; then
+            echo "No changes found."
+          else
+            git commit -m "Update latest portal posts"
+            git push
+          fi
