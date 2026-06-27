@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T01:26:39.544008+05:30",
+  "generated_at": "2026-06-27T12:22:28.874087+05:30",
   "sources": {
     "pib": {
       "date": "2026-06-26",
@@ -12,14 +12,14 @@
       "stale": true
     },
     "dmk": {
-      "date": "2026-06-26",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/06/26/dumka-brief.html",
-      "title": "Dumka Brief",
-      "method": "seed",
-      "source_file": null,
+      "date": "2026-06-27",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/06/27/dumka-brief.html",
+      "title": "Daily News Brief: Dumka and Jharkhand (June 27, 2026)",
+      "method": "git_clone",
+      "source_file": "2026-06-27-dumka-brief.md",
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-      "error": "Refresh failed; retained the last known working post.",
-      "stale": true
+      "error": null,
+      "stale": false
     },
     "pol": {
       "date": "2026-06-26",
@@ -42,14 +42,14 @@
       "stale": true
     },
     "phy": {
-      "date": "2026-06-26",
-      "url": "https://rajeshphy.github.io/physics-news/2026/06/26/physics-brief.html",
-      "title": "Physics Brief",
-      "method": "seed",
-      "source_file": null,
+      "date": "2026-06-27",
+      "url": "https://rajeshphy.github.io/physics-news/2026/06/27/physics-brief.html",
+      "title": "Physics Daily: Quantum Tunneling, AI Discovery, and Space Policy",
+      "method": "git_clone",
+      "source_file": "2026-06-27-physics-brief.md",
       "archive": "https://rajeshphy.github.io/physics-news/",
-      "error": "Refresh failed; retained the last known working post.",
-      "stale": true
+      "error": null,
+      "stale": false
     }
   }
 }
