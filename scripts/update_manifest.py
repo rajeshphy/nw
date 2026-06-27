@@ -2,9 +2,9 @@
 from __future__ import annotations
 
 from datetime import datetime
+from html.parser import HTMLParser
 import json
 import re
-import shutil
 import subprocess
 import tempfile
 from pathlib import Path
@@ -20,12 +20,59 @@ CONFIG_PATH = ROOT / "data" / "portal.yml"
 OUTPUT_PATH = ROOT / "data" / "posts.json"
 CONFIG_JSON_PATH = ROOT / "data" / "config.json"
 POST_FILE = re.compile(r"^(20\d{2})-(\d{2})-(\d{2})-(.+)\.(?:md|markdown)$", re.I)
+DATE_IN_URL = re.compile(r"/(20\d{2})/(\d{2})/(\d{2})/")
+DATE_ANYWHERE = re.compile(r"(20\d{2})[-/](\d{2})[-/](\d{2})")
 PERMALINK = re.compile(r"^permalink:\s*[\"']?([^\"'\n]+)", re.M)
 TITLE = re.compile(r"^title:\s*[\"']?(.+?)[\"']?\s*$", re.M)
 
 
+class LinkParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.links: list[dict] = []
+        self._current: dict | None = None
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() == "a":
+            data = dict(attrs)
+            href = data.get("href")
+            if href:
+                self._current = {"href": href, "text": ""}
+
+    def handle_data(self, data):
+        if self._current is not None:
+            self._current["text"] += data
+
+    def handle_endtag(self, tag):
+        if tag.lower() == "a" and self._current is not None:
+            self._current["text"] = " ".join(self._current["text"].split())
+            self.links.append(self._current)
+            self._current = None
+
+
+def fetch_text(url: str, timeout: int = 30) -> str:
+    req = Request(url, headers={"User-Agent": "daily-briefs-portal/5.0"})
+    with urlopen(req, timeout=timeout) as response:
+        raw = response.read()
+        charset = response.headers.get_content_charset() or "utf-8"
+        return raw.decode(charset, errors="replace")
+
+
 def fetch(url: str, timeout: int = 30):
-    return urlopen(Request(url, headers={"User-Agent": "daily-briefs-portal/4.0"}), timeout=timeout)
+    return urlopen(Request(url, headers={"User-Agent": "daily-briefs-portal/5.0"}), timeout=timeout)
+
+
+def normalize_archive(value: str) -> str:
+    return str(value).rstrip("/") + "/"
+
+
+def is_internal_candidate(url: str, archive: str) -> bool:
+    if not url.startswith(archive):
+        return False
+    if url.rstrip("/") == archive.rstrip("/"):
+        return False
+    blocked = ("/assets/", "/css/", "/js/", "/tags/", "/categories/", "/feed.xml", "/sitemap.xml", "#")
+    return not any(part in url for part in blocked)
 
 
 def url_is_live(url: str, archive: str) -> bool:
@@ -36,6 +83,58 @@ def url_is_live(url: str, archive: str) -> bool:
             return status < 400 and final.rstrip("/") != archive.rstrip("/")
     except (HTTPError, URLError, TimeoutError, OSError):
         return False
+
+
+def title_from_html(html: str) -> str | None:
+    match = re.search(r"<h1[^>]*>(.*?)</h1>", html, re.I | re.S)
+    if not match:
+        match = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
+    if not match:
+        return None
+    text = re.sub(r"<[^>]+>", "", match.group(1))
+    return " ".join(text.split()) or None
+
+
+def discover_from_archive(source: dict, today_ist: str) -> dict | None:
+    """Use the already-published GitHub Pages archive as the first source of truth.
+
+    This fixes the stale-post problem: if the source site already shows today's
+    post, the portal should not keep yesterday's cloned/seeded entry.
+    """
+    archive = normalize_archive(source["archive"])
+    html = fetch_text(archive, 30)
+    parser = LinkParser()
+    parser.feed(html)
+
+    candidates: list[dict] = []
+    for link in parser.links:
+        absolute = urljoin(archive, link["href"])
+        if not is_internal_candidate(absolute, archive):
+            continue
+
+        date_match = DATE_IN_URL.search(absolute) or DATE_ANYWHERE.search(f"{absolute} {link.get('text','')}")
+        if not date_match:
+            continue
+        year, month, day = date_match.groups()
+        post_date = f"{year}-{month}-{day}"
+        if post_date > today_ist:
+            continue
+        candidates.append({
+            "date": post_date,
+            "url": absolute,
+            "title": link.get("text") or source.get("heading") or source.get("label"),
+            "method": "published_archive",
+            "source_file": None,
+            "archive": archive,
+            "error": None,
+            "stale": False,
+        })
+
+    candidates.sort(key=lambda item: (item["date"], item["url"]), reverse=True)
+    for item in candidates[:20]:
+        if url_is_live(item["url"], archive):
+            return item
+    return None
 
 
 def clone_repo(source: dict, destination: Path) -> None:
@@ -94,7 +193,7 @@ def permalink_candidates(permalink: str, archive: str) -> list[str]:
 
 
 def resolve_post(source: dict, candidate: dict) -> dict | None:
-    archive = str(source["archive"]).rstrip("/") + "/"
+    archive = normalize_archive(source["archive"])
     post_date = candidate["date"]
     slug = candidate["slug"]
     content = candidate["path"].read_text(encoding="utf-8", errors="replace")
@@ -106,7 +205,6 @@ def resolve_post(source: dict, candidate: dict) -> dict | None:
     if permalink_match:
         urls.extend(permalink_candidates(permalink_match.group(1), archive))
 
-    # Jekyll's default post URL with no custom permalink in the source projects.
     urls.extend([
         f"{archive}{year}/{month}/{day}/{slug}.html",
         f"{archive}{year}/{month}/{day}/{slug}/",
@@ -131,12 +229,24 @@ def resolve_post(source: dict, candidate: dict) -> dict | None:
     return None
 
 
+def discover_from_git(source: dict, today_ist: str, temp_root: Path) -> dict | None:
+    source_id = str(source["id"])
+    repo_dir = temp_root / source_id
+    clone_repo(source, repo_dir)
+    posts = list_posts(repo_dir, source, today_ist)
+    for candidate in posts[:30]:
+        result = resolve_post(source, candidate)
+        if result:
+            return result
+    return None
+
+
 def previous_good_source(previous: dict, source_id: str) -> dict | None:
     item = (previous.get("sources") or {}).get(source_id)
     if isinstance(item, dict) and item.get("url"):
         kept = dict(item)
         kept["stale"] = True
-        kept["error"] = "Refresh failed; retained the last known working post."
+        kept["error"] = "Refresh failed; retained the previous working post."
         return kept
     return None
 
@@ -165,37 +275,45 @@ def main() -> None:
                 continue
 
             source_id = str(source["id"])
-            archive = str(source["archive"]).rstrip("/") + "/"
-            repo_dir = temp_root / source_id
+            errors = []
+            result = None
+
             try:
-                clone_repo(source, repo_dir)
-                posts = list_posts(repo_dir, source, today_ist)
-                result = None
-                for candidate in posts[:30]:
-                    result = resolve_post(source, candidate)
-                    if result:
-                        break
-                if not result:
-                    raise RuntimeError("No live individual post URL found among the 30 newest posts")
-                output["sources"][source_id] = result
-                print(f"{source_id}: {result['date']} -> {result['url']}")
+                result = discover_from_archive(source, today_ist)
+                if result:
+                    print(f"{source_id}: archive {result['date']} -> {result['url']}")
             except Exception as exc:
-                retained = previous_good_source(previous, source_id)
-                if retained:
-                    output["sources"][source_id] = retained
-                    print(f"{source_id}: retained previous URL after {type(exc).__name__}: {exc}")
-                else:
-                    output["sources"][source_id] = {
-                        "date": None,
-                        "url": None,
-                        "title": None,
-                        "method": None,
-                        "source_file": None,
-                        "archive": archive,
-                        "error": f"{type(exc).__name__}: {exc}",
-                        "stale": False,
-                    }
-                    print(f"{source_id}: ERROR: {type(exc).__name__}: {exc}")
+                errors.append(f"archive: {type(exc).__name__}: {exc}")
+
+            if not result:
+                try:
+                    result = discover_from_git(source, today_ist, temp_root)
+                    if result:
+                        print(f"{source_id}: git {result['date']} -> {result['url']}")
+                except Exception as exc:
+                    errors.append(f"git: {type(exc).__name__}: {exc}")
+
+            if result:
+                output["sources"][source_id] = result
+                continue
+
+            retained = previous_good_source(previous, source_id)
+            if retained:
+                retained["error"] = "; ".join(errors) or retained.get("error")
+                output["sources"][source_id] = retained
+                print(f"{source_id}: retained previous URL ({retained.get('date')})")
+            else:
+                output["sources"][source_id] = {
+                    "date": None,
+                    "url": None,
+                    "title": None,
+                    "method": None,
+                    "source_file": None,
+                    "archive": normalize_archive(source["archive"]),
+                    "error": "; ".join(errors) or "No live individual post URL found.",
+                    "stale": False,
+                }
+                print(f"{source_id}: not found")
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
