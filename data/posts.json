@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-27T22:04:28.082203+05:30",
+  "generated_at": "2026-06-28T10:37:00.054647+05:30",
   "sources": {
     "pib": {
-      "date": "2026-06-27",
-      "url": "https://rajeshphy.github.io/pib/2026/06/27/pib-digest.html",
-      "title": "National Developments in Employment, Infrastructure, and Maritime Security",
+      "date": "2026-06-28",
+      "url": "https://rajeshphy.github.io/pib/2026/06/28/pib-digest.html",
+      "title": "Government Initiatives in Employment, Infrastructure, and National Security",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
@@ -12,9 +12,9 @@
       "stale": false
     },
     "dmk": {
-      "date": "2026-06-27",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/06/27/dumka-brief.html",
-      "title": "Infrastructure, court updates, local administration, and weather alerts from Dumka and Jharkhand",
+      "date": "2026-06-28",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/06/28/dumka-brief.html",
+      "title": "Infrastructure, court updates, and road accidents from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
@@ -22,9 +22,9 @@
       "stale": false
     },
     "pol": {
-      "date": "2026-06-27",
-      "url": "https://rajeshphy.github.io/political-news/2026/06/27/political-brief.html",
-      "title": "Parliament passes transgender rights legislation, while political tensions rise over exam integrity, cabinet reshuffles, and national security debates",
+      "date": "2026-06-28",
+      "url": "https://rajeshphy.github.io/political-news/2026/06/28/political-brief.html",
+      "title": "Opposition challenges government claims on defense, while legislative hurdles stall key reforms and political shifts reshape state party leadership",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
@@ -32,9 +32,9 @@
       "stale": false
     },
     "eco": {
-      "date": "2026-06-27",
-      "url": "https://rajeshphy.github.io/economic-news/2026/06/27/economy-brief.html",
-      "title": "RBI holds rates steady amid growth optimism, while markets navigate global volatility and a robust upcoming IPO pipeline",
+      "date": "2026-06-28",
+      "url": "https://rajeshphy.github.io/economic-news/2026/06/28/economy-brief.html",
+      "title": "Markets eye Q1 earnings and RBI growth projections amid global volatility, US jobs data, and geopolitical tensions",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
@@ -42,9 +42,9 @@
       "stale": false
     },
     "phy": {
-      "date": "2026-06-27",
-      "url": "https://rajeshphy.github.io/physics-news/2026/06/27/physics-brief.html",
-      "title": "Space science, quantum research, and particle physics for physics students",
+      "date": "2026-06-28",
+      "url": "https://rajeshphy.github.io/physics-news/2026/06/28/physics-brief.html",
+      "title": "Space science, particle physics, and quantum research for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
