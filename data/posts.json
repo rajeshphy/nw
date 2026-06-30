@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T22:58:12.859781+05:30",
+  "generated_at": "2026-06-30T23:07:42.206647+05:30",
   "sources": {
     "pib": {
       "date": "2026-06-30",
@@ -121,24 +121,13 @@
         "stale": false
       }
     },
-    "morningstar": {
+    "arxiv": {
       "date": null,
-      "url": "https://www.morningstar.in/funds.aspx",
-      "title": "Morningstar Funds",
+      "url": "https://arxiv.org/list/quant-ph/new",
+      "title": "arXiv Quantum Physics",
       "method": "static",
       "source_file": null,
-      "archive": "https://www.morningstar.in/funds.aspx/",
-      "error": null,
-      "stale": false,
-      "static_link": true
-    },
-    "etmf": {
-      "date": null,
-      "url": "https://economictimes.indiatimes.com/mutual-funds",
-      "title": "Economic Times Mutual Funds",
-      "method": "static",
-      "source_file": null,
-      "archive": "https://economictimes.indiatimes.com/mutual-funds/",
+      "archive": "https://arxiv.org/list/quant-ph/new/",
       "error": null,
       "stale": false,
       "static_link": true
@@ -172,6 +161,28 @@
         "error": "No post URL found for 2026-06-29.",
         "stale": false
       }
+    },
+    "morningstar": {
+      "date": null,
+      "url": "https://www.morningstar.in/funds.aspx",
+      "title": "Morningstar Funds",
+      "method": "static",
+      "source_file": null,
+      "archive": "https://www.morningstar.in/funds.aspx/",
+      "error": null,
+      "stale": false,
+      "static_link": true
+    },
+    "etmf": {
+      "date": null,
+      "url": "https://economictimes.indiatimes.com/mutual-funds",
+      "title": "Economic Times Mutual Funds",
+      "method": "static",
+      "source_file": null,
+      "archive": "https://economictimes.indiatimes.com/mutual-funds/",
+      "error": null,
+      "stale": false,
+      "static_link": true
     },
     "aeon": {
       "date": null,
