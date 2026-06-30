@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T22:23:12.159418+05:30",
+  "generated_at": "2026-06-30T22:44:15.254078+05:30",
   "sources": {
     "pib": {
       "date": "2026-06-30",
@@ -9,7 +9,27 @@
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
-      "stale": false
+      "stale": false,
+      "today": {
+        "date": "2026-06-30",
+        "url": "https://rajeshphy.github.io/pib/2026/06/30/pib-digest.html",
+        "title": "National Policy Updates, Infrastructure Development, and Diplomatic Engagements",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
+        "date": null,
+        "url": null,
+        "title": null,
+        "method": null,
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": "git: RuntimeError: Post directory does not exist: _posts",
+        "stale": false
+      }
     },
     "dmk": {
       "date": "2026-06-30",
@@ -19,7 +39,27 @@
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
-      "stale": false
+      "stale": false,
+      "today": {
+        "date": "2026-06-30",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/06/30/dumka-brief.html",
+        "title": "Infrastructure, road accidents, court updates, and governance from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
+        "date": null,
+        "url": null,
+        "title": null,
+        "method": null,
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": "No post URL found for 2026-06-29.",
+        "stale": false
+      }
     },
     "pol": {
       "date": "2026-06-30",
@@ -29,7 +69,27 @@
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
-      "stale": false
+      "stale": false,
+      "today": {
+        "date": "2026-06-30",
+        "url": "https://rajeshphy.github.io/political-news/2026/06/30/political-brief.html",
+        "title": "Mallikarjun Kharge resumes his role as Leader of Opposition, while Parliament passes the Transgender Persons Amendment Bill and debates key policy issues",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/political-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
+        "date": "2026-06-29",
+        "url": "https://rajeshphy.github.io/political-news/2026/06/29/political-brief.html",
+        "title": "Eight new members join the Rajya Sabha as Parliament debates key constitutional amendments and the opposition demands the resignation of the Defence Minister",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/political-news/",
+        "error": null,
+        "stale": false
+      }
     },
     "eco": {
       "date": "2026-06-30",
@@ -39,7 +99,49 @@
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
-      "stale": false
+      "stale": false,
+      "today": {
+        "date": "2026-06-30",
+        "url": "https://rajeshphy.github.io/economic-news/2026/06/30/economy-brief.html",
+        "title": "Indian indices faced pressure from IT sector weakness and a falling rupee, while global sentiment soured on rising US Federal Reserve rate hike concerns",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/economic-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
+        "date": "2026-06-29",
+        "url": "https://rajeshphy.github.io/economic-news/2026/06/29/economy-brief.html",
+        "title": "Indian indices closed lower as US-Iran tensions and rising crude oil prices triggered profit booking, while the rupee faced pressure from dollar demand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/economic-news/",
+        "error": null,
+        "stale": false
+      }
+    },
+    "morningstar": {
+      "date": null,
+      "url": "https://www.morningstar.in/funds.aspx",
+      "title": "Morningstar Funds",
+      "method": "static",
+      "source_file": null,
+      "archive": "https://www.morningstar.in/funds.aspx/",
+      "error": null,
+      "stale": false,
+      "static_link": true
+    },
+    "etmf": {
+      "date": null,
+      "url": "https://economictimes.indiatimes.com/mutual-funds",
+      "title": "Economic Times Mutual Funds",
+      "method": "static",
+      "source_file": null,
+      "archive": "https://economictimes.indiatimes.com/mutual-funds/",
+      "error": null,
+      "stale": false,
+      "static_link": true
     },
     "phy": {
       "date": "2026-06-30",
@@ -49,7 +151,82 @@
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
-      "stale": false
+      "stale": false,
+      "today": {
+        "date": "2026-06-30",
+        "url": "https://rajeshphy.github.io/physics-news/2026/06/30/physics-brief.html",
+        "title": "Space science, nuclear and plasma physics, and quantum research for physics students",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/physics-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
+        "date": null,
+        "url": null,
+        "title": null,
+        "method": null,
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/physics-news/",
+        "error": "No post URL found for 2026-06-29.",
+        "stale": false
+      }
+    },
+    "quanta": {
+      "date": null,
+      "url": "https://www.quantamagazine.org/",
+      "title": "Quanta Magazine",
+      "method": "static",
+      "source_file": null,
+      "archive": "https://www.quantamagazine.org/",
+      "error": null,
+      "stale": false,
+      "static_link": true
+    },
+    "aeon": {
+      "date": null,
+      "url": "https://aeon.co/science/physics",
+      "title": "Aeon Physics",
+      "method": "static",
+      "source_file": null,
+      "archive": "https://aeon.co/science/physics/",
+      "error": null,
+      "stale": false,
+      "static_link": true
+    },
+    "ptoday": {
+      "date": null,
+      "url": "https://physicstoday.aip.org/",
+      "title": "Physics Today",
+      "method": "static",
+      "source_file": null,
+      "archive": "https://physicstoday.aip.org/",
+      "error": null,
+      "stale": false,
+      "static_link": true
+    },
+    "nautilus": {
+      "date": null,
+      "url": "https://nautil.us/",
+      "title": "Nautilus",
+      "method": "static",
+      "source_file": null,
+      "archive": "https://nautil.us/",
+      "error": null,
+      "stale": false,
+      "static_link": true
+    },
+    "sciam": {
+      "date": null,
+      "url": "https://www.scientificamerican.com/",
+      "title": "Scientific American",
+      "method": "static",
+      "source_file": null,
+      "archive": "https://www.scientificamerican.com/",
+      "error": null,
+      "stale": false,
+      "static_link": true
     }
   }
 }
