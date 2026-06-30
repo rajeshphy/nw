@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-30T03:35:21.159002+05:30",
+  "generated_at": "2026-06-30T10:19:06.175813+05:30",
   "sources": {
     "pib": {
       "date": "2026-06-30",
       "url": "https://rajeshphy.github.io/pib/2026/06/30/pib-digest.html",
-      "title": "Government Policy Updates, Ministerial Engagements, and Strategic Reforms",
+      "title": "Government Policy Updates: Defence Reforms, Infrastructure Investment, and Administrative Initiatives",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
@@ -24,7 +24,7 @@
     "pol": {
       "date": "2026-06-30",
       "url": "https://rajeshphy.github.io/political-news/2026/06/30/political-brief.html",
-      "title": "Parliament passes the Transgender Persons Amendment Bill, while legal challenges and political debates over quotas and institutional oversight continue",
+      "title": "The NDA strengthens its Rajya Sabha position as new members are sworn in, while Parliament passes key legislation and states navigate local political tensions",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
@@ -34,7 +34,7 @@
     "eco": {
       "date": "2026-06-30",
       "url": "https://rajeshphy.github.io/economic-news/2026/06/30/economy-brief.html",
-      "title": "RBI bond buybacks see muted participation amid liquidity tightness, while investors monitor corporate earnings and regulatory independence debates",
+      "title": "Indian markets show cautious movement amid geopolitical tensions and fluctuating crude oil prices, while bond yields ease on favorable energy outlooks",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
@@ -44,7 +44,7 @@
     "phy": {
       "date": "2026-06-30",
       "url": "https://rajeshphy.github.io/physics-news/2026/06/30/physics-brief.html",
-      "title": "Space science, particle physics, and materials physics for physics students",
+      "title": "Space science, particle physics, quantum research, and materials physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
