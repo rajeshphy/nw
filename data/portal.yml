@@ -70,6 +70,26 @@ sources:
     posts_dir: "_posts"
     branch: "main"
 
+  - id: "arxiv"
+    enabled: true
+    kind: "static"
+    embed: false
+    label: "ARXIV"
+    subtitle: "Quantum"
+    heading: "arXiv Quantum Physics"
+    url: "https://arxiv.org/list/quant-ph/new"
+    archive: "https://arxiv.org/list/quant-ph/new"
+
+  - id: "phy"
+    enabled: true
+    label: "PHY"
+    subtitle: "Physics"
+    heading: "Physics Brief"
+    archive: "https://rajeshphy.github.io/physics-news/"
+    github_repo: "rajeshphy/physics-news"
+    posts_dir: "docs/_posts"
+    branch: "main"
+
   - id: "morningstar"
     enabled: true
     kind: "static"
@@ -88,16 +108,6 @@ sources:
     heading: "Economic Times Mutual Funds"
     url: "https://economictimes.indiatimes.com/mutual-funds"
     archive: "https://economictimes.indiatimes.com/mutual-funds"
-
-  - id: "phy"
-    enabled: true
-    label: "PHY"
-    subtitle: "Physics"
-    heading: "Physics Brief"
-    archive: "https://rajeshphy.github.io/physics-news/"
-    github_repo: "rajeshphy/physics-news"
-    posts_dir: "docs/_posts"
-    branch: "main"
 
   - id: "aeon"
     enabled: true
