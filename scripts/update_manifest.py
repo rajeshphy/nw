@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta
 from html.parser import HTMLParser
 import json
 import re
@@ -95,11 +95,11 @@ def title_from_html(html: str) -> str | None:
     return " ".join(text.split()) or None
 
 
-def discover_from_archive(source: dict, today_ist: str) -> dict | None:
+def discover_from_archive(source: dict, target_date: str) -> dict | None:
     """Use the already-published GitHub Pages archive as the first source of truth.
 
-    This fixes the stale-post problem: if the source site already shows today's
-    post, the portal should not keep yesterday's cloned/seeded entry.
+    This fixes the stale-post problem: if the source site already shows the
+    requested day's post, the portal should not keep a stale cloned entry.
     """
     archive = normalize_archive(source["archive"])
     html = fetch_text(archive, 30)
@@ -117,7 +117,7 @@ def discover_from_archive(source: dict, today_ist: str) -> dict | None:
             continue
         year, month, day = date_match.groups()
         post_date = f"{year}-{month}-{day}"
-        if post_date > today_ist:
+        if post_date != target_date:
             continue
         candidates.append({
             "date": post_date,
@@ -148,7 +148,7 @@ def clone_repo(source: dict, destination: Path) -> None:
     subprocess.run(command, check=True, timeout=120)
 
 
-def list_posts(repo_dir: Path, source: dict, today_ist: str) -> list[dict]:
+def list_posts(repo_dir: Path, source: dict, target_date: str) -> list[dict]:
     posts_dir = repo_dir / str(source.get("posts_dir", "_posts"))
     if not posts_dir.is_dir():
         raise RuntimeError(f"Post directory does not exist: {posts_dir.relative_to(repo_dir)}")
@@ -162,7 +162,7 @@ def list_posts(repo_dir: Path, source: dict, today_ist: str) -> list[dict]:
             continue
         year, month, day, slug = match.groups()
         post_date = f"{year}-{month}-{day}"
-        if post_date > today_ist:
+        if post_date != target_date:
             continue
         candidates.append({"date": post_date, "slug": slug, "path": path})
 
@@ -229,11 +229,14 @@ def resolve_post(source: dict, candidate: dict) -> dict | None:
     return None
 
 
-def discover_from_git(source: dict, today_ist: str, temp_root: Path) -> dict | None:
+def discover_from_git(source: dict, target_date: str, temp_root: Path) -> dict | None:
     source_id = str(source["id"])
     repo_dir = temp_root / source_id
-    clone_repo(source, repo_dir)
-    posts = list_posts(repo_dir, source, today_ist)
+
+    if not repo_dir.exists():
+        clone_repo(source, repo_dir)
+
+    posts = list_posts(repo_dir, source, target_date)
     for candidate in posts[:30]:
         result = resolve_post(source, candidate)
         if result:
@@ -251,12 +254,54 @@ def previous_good_source(previous: dict, source_id: str) -> dict | None:
     return None
 
 
+def static_source_result(source: dict) -> dict:
+    url = str(source.get("url") or source.get("archive") or "")
+    return {
+        "date": None,
+        "url": url,
+        "title": source.get("heading") or source.get("label"),
+        "method": "static",
+        "source_file": None,
+        "archive": normalize_archive(url) if url else "",
+        "error": None if url else "Static URL is missing.",
+        "stale": False,
+        "static_link": True,
+    }
+
+
+def is_static_source(source: dict) -> bool:
+    return source.get("kind") == "static" or source.get("type") == "static" or bool(source.get("url"))
+
+
+def discover_for_date(source: dict, target_date: str, temp_root: Path) -> tuple[dict | None, list[str]]:
+    errors = []
+    result = None
+
+    try:
+        result = discover_from_archive(source, target_date)
+        if result:
+            print(f"{source['id']} {target_date}: archive -> {result['url']}")
+    except Exception as exc:
+        errors.append(f"archive: {type(exc).__name__}: {exc}")
+
+    if not result:
+        try:
+            result = discover_from_git(source, target_date, temp_root)
+            if result:
+                print(f"{source['id']} {target_date}: git -> {result['url']}")
+        except Exception as exc:
+            errors.append(f"git: {type(exc).__name__}: {exc}")
+
+    return result, errors
+
+
 def main() -> None:
     config = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8")) or {}
     portal = config.get("portal", {})
     timezone = portal.get("timezone", "Asia/Kolkata")
     now = datetime.now(ZoneInfo(timezone))
     today_ist = now.date().isoformat()
+    yesterday_ist = (now.date() - timedelta(days=1)).isoformat()
 
     try:
         previous = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
@@ -275,45 +320,46 @@ def main() -> None:
                 continue
 
             source_id = str(source["id"])
-            errors = []
-            result = None
 
-            try:
-                result = discover_from_archive(source, today_ist)
-                if result:
-                    print(f"{source_id}: archive {result['date']} -> {result['url']}")
-            except Exception as exc:
-                errors.append(f"archive: {type(exc).__name__}: {exc}")
-
-            if not result:
-                try:
-                    result = discover_from_git(source, today_ist, temp_root)
-                    if result:
-                        print(f"{source_id}: git {result['date']} -> {result['url']}")
-                except Exception as exc:
-                    errors.append(f"git: {type(exc).__name__}: {exc}")
-
-            if result:
+            if is_static_source(source):
+                result = static_source_result(source)
                 output["sources"][source_id] = result
+                print(f"{source_id}: static -> {result['url']}")
                 continue
 
-            retained = previous_good_source(previous, source_id)
-            if retained:
-                retained["error"] = "; ".join(errors) or retained.get("error")
-                output["sources"][source_id] = retained
-                print(f"{source_id}: retained previous URL ({retained.get('date')})")
-            else:
-                output["sources"][source_id] = {
+            today_result, today_errors = discover_for_date(source, today_ist, temp_root)
+            yesterday_result, yesterday_errors = discover_for_date(source, yesterday_ist, temp_root)
+
+            if not today_result:
+                today_result = {
                     "date": None,
                     "url": None,
                     "title": None,
                     "method": None,
                     "source_file": None,
                     "archive": normalize_archive(source["archive"]),
-                    "error": "; ".join(errors) or "No live individual post URL found.",
+                    "error": "; ".join(today_errors) or f"No post URL found for {today_ist}.",
                     "stale": False,
                 }
-                print(f"{source_id}: not found")
+
+            if not yesterday_result:
+                yesterday_result = {
+                    "date": None,
+                    "url": None,
+                    "title": None,
+                    "method": None,
+                    "source_file": None,
+                    "archive": normalize_archive(source["archive"]),
+                    "error": "; ".join(yesterday_errors) or f"No post URL found for {yesterday_ist}.",
+                    "stale": False,
+                }
+
+            preferred = today_result if today_result.get("url") else yesterday_result
+            output["sources"][source_id] = {
+                **preferred,
+                "today": today_result,
+                "yesterday": yesterday_result,
+            }
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

@@ -5,7 +5,6 @@
   const frame = document.querySelector("#frame");
   const message = document.querySelector("#message");
   const badge = document.querySelector("#badge");
-  const dateElement = document.querySelector("#post-date");
   const titleElement = document.querySelector("#section-title");
   const external = document.querySelector("#external");
   const refresh = document.querySelector("#refresh");
@@ -17,6 +16,7 @@
   let sourceMap = {};
   let manifest = null;
   let currentSource = null;
+  let dayMode = "today";
 
   function parseScalar(raw) {
     const value = raw.trim();
@@ -111,6 +111,12 @@
     return `${values.year}-${values.month}-${values.day}`;
   }
 
+  function yesterdayISO() {
+    const date = new Date(`${todayISO()}T12:00:00Z`);
+    date.setUTCDate(date.getUTCDate() - 1);
+    return date.toISOString().slice(0, 10);
+  }
+
   function formatDate(date) {
     return new Intl.DateTimeFormat(locale(), {
       timeZone: zone(),
@@ -147,6 +153,36 @@
     }
   }
 
+  function dayLabel() {
+    return dayMode === "yesterday" ? (portal.yesterday_text || "Yesterday") : portal.today_text;
+  }
+
+  function isStaticSource(source) {
+    return source.kind === "static" || source.type === "static" || Boolean(source.url);
+  }
+
+  function sourceItem(sourceId) {
+    const source = sourceMap[sourceId];
+    if (!source) return {};
+
+    if (isStaticSource(source)) {
+      return {
+        date: null,
+        url: source.url || source.archive,
+        title: source.heading || source.label,
+        archive: source.url || source.archive,
+        stale: false,
+        static_link: true
+      };
+    }
+
+    const entry = manifest?.sources?.[sourceId] || {};
+    if (entry.today || entry.yesterday) {
+      return entry[dayMode] || {};
+    }
+    return entry;
+  }
+
   function selectedSourceId() {
     const requested = new URLSearchParams(location.search).get("section");
     if (requested && sourceMap[requested]) return requested;
@@ -157,7 +193,7 @@
   function applyPortalText() {
     document.title = portal.title;
     portalTitle.textContent = portal.title;
-    todayElement.textContent = `${formatDate(todayISO())} · ${portal.timezone_label}`;
+    todayElement.textContent = portal.timezone_label || "";
 
     refresh.title = portal.refresh_label;
     refresh.setAttribute("aria-label", portal.refresh_label);
@@ -188,7 +224,7 @@
     if (!source || !manifest) return;
 
     currentSource = sourceId;
-    const item = manifest.sources?.[sourceId] || {};
+    const item = sourceItem(sourceId);
 
     nav.querySelectorAll("button[data-key]").forEach(button => {
       const active = button.dataset.key === sourceId;
@@ -197,8 +233,7 @@
     });
 
     titleElement.textContent = source.heading;
-    dateElement.textContent = item.date ? formatDate(item.date) : portal.not_found_text;
-    external.href = item.url || source.archive;
+    external.href = item.url || source.url || source.archive;
 
     const nextURL = new URL(location.href);
     nextURL.searchParams.set("section", sourceId);
@@ -207,9 +242,15 @@
     if (item.url) {
       frame.src = item.url;
       message.classList.add("hidden");
-      const isToday = item.date === todayISO();
-      badge.textContent = isToday && !item.stale ? portal.today_text : latestBadgeText();
-      badge.dataset.status = isToday && !item.stale ? "today" : "latest";
+      if (item.static_link) {
+        badge.textContent = portal.link_text || "Link";
+        badge.dataset.status = "link";
+      } else {
+        const expectedDate = dayMode === "yesterday" ? yesterdayISO() : todayISO();
+        const isExpectedDay = item.date === expectedDate;
+        badge.textContent = isExpectedDay && !item.stale ? dayLabel() : latestBadgeText();
+        badge.dataset.status = isExpectedDay && !item.stale ? dayMode : "latest";
+      }
     } else {
       frame.removeAttribute("src");
       message.classList.remove("hidden");
@@ -223,7 +264,7 @@
       sentence.append(strong, ".");
 
       const link = document.createElement("a");
-      link.href = source.archive;
+      link.href = source.archive || source.url || "#";
       link.target = "_blank";
       link.rel = "noopener";
       link.textContent = portal.open_archive_text;
@@ -236,7 +277,7 @@
       }
       message.append(wrapper);
 
-      badge.textContent = portal.not_found_text;
+      badge.textContent = isStaticSource(source) ? (portal.link_text || "Link") : dayLabel();
       badge.dataset.status = "unavailable";
     }
   }
@@ -285,5 +326,11 @@
   });
 
   refresh.addEventListener("click", load);
+  badge.addEventListener("click", () => {
+    const source = sourceMap[currentSource];
+    if (!source || isStaticSource(source)) return;
+    dayMode = dayMode === "today" ? "yesterday" : "today";
+    show(currentSource);
+  });
   load();
 })();

@@ -9,6 +9,8 @@ portal:
   loading_text: "Loading latest available brief…"
   checking_text: "Checking"
   today_text: "Today"
+  yesterday_text: "Yesterday"
+  link_text: "Link"
   not_found_text: "Not found"
   unavailable_text: "Unavailable"
   refresh_label: "Refresh"
@@ -66,6 +68,24 @@ sources:
     posts_dir: "_posts"
     branch: "main"
 
+  - id: "morningstar"
+    enabled: true
+    kind: "static"
+    label: "MORN"
+    subtitle: "Funds"
+    heading: "Morningstar Funds"
+    url: "https://www.morningstar.in/funds.aspx"
+    archive: "https://www.morningstar.in/funds.aspx"
+
+  - id: "etmf"
+    enabled: true
+    kind: "static"
+    label: "ET MF"
+    subtitle: "Funds"
+    heading: "Economic Times Mutual Funds"
+    url: "https://economictimes.indiatimes.com/mutual-funds"
+    archive: "https://economictimes.indiatimes.com/mutual-funds"
+
   - id: "phy"
     enabled: true
     label: "PHY"
@@ -75,3 +95,48 @@ sources:
     github_repo: "rajeshphy/physics-news"
     posts_dir: "docs/_posts"
     branch: "main"
+
+  - id: "quanta"
+    enabled: true
+    kind: "static"
+    label: "QUANTA"
+    subtitle: "Science"
+    heading: "Quanta Magazine"
+    url: "https://www.quantamagazine.org/"
+    archive: "https://www.quantamagazine.org/"
+
+  - id: "aeon"
+    enabled: true
+    kind: "static"
+    label: "AEON"
+    subtitle: "Physics"
+    heading: "Aeon Physics"
+    url: "https://aeon.co/science/physics"
+    archive: "https://aeon.co/science/physics"
+
+  - id: "ptoday"
+    enabled: true
+    kind: "static"
+    label: "PT"
+    subtitle: "Physics"
+    heading: "Physics Today"
+    url: "https://physicstoday.aip.org/"
+    archive: "https://physicstoday.aip.org/"
+
+  - id: "nautilus"
+    enabled: true
+    kind: "static"
+    label: "NAUT"
+    subtitle: "Science"
+    heading: "Nautilus"
+    url: "https://nautil.us/"
+    archive: "https://nautil.us/"
+
+  - id: "sciam"
+    enabled: true
+    kind: "static"
+    label: "SCIAM"
+    subtitle: "Science"
+    heading: "Scientific American"
+    url: "https://www.scientificamerican.com/"
+    archive: "https://www.scientificamerican.com/"
