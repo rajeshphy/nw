@@ -161,6 +161,34 @@
     return source.kind === "static" || source.type === "static" || Boolean(source.url);
   }
 
+  function canEmbedSource(source) {
+    return source.embed !== false;
+  }
+
+  function showBlockedSource(source, item) {
+    frame.removeAttribute("src");
+    message.classList.remove("hidden");
+    message.replaceChildren();
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "message-card";
+
+    const sentence = document.createElement("p");
+    sentence.textContent = portal.cannot_embed_text || "This source blocks iframe display in browsers.";
+
+    const link = document.createElement("a");
+    link.href = item.url || source.url || source.archive || "#";
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = portal.open_external_text || portal.external_label || "Open directly";
+
+    wrapper.append(sentence, link);
+    message.append(wrapper);
+
+    badge.textContent = portal.link_text || "Link";
+    badge.dataset.status = "blocked";
+  }
+
   function sourceItem(sourceId) {
     const source = sourceMap[sourceId];
     if (!source) return {};
@@ -239,7 +267,9 @@
     nextURL.searchParams.set("section", sourceId);
     history.replaceState(null, "", nextURL);
 
-    if (item.url) {
+    if (item.url && !canEmbedSource(source)) {
+      showBlockedSource(source, item);
+    } else if (item.url) {
       frame.src = item.url;
       message.classList.add("hidden");
       if (item.static_link) {

@@ -19,6 +19,8 @@ portal:
   frame_title: "Daily brief"
   no_post_before: "No individual post was discovered for"
   open_archive_text: "Open its archive"
+  open_external_text: "Open directly"
+  cannot_embed_text: "This source blocks iframe display in browsers."
   data_error_text: "Portal data could not be read. Run the included GitHub Action once."
 
   # Badge behaviour: "time" shows only the latest fetch time, e.g. 10:00 PM.
@@ -96,15 +98,6 @@ sources:
     posts_dir: "docs/_posts"
     branch: "main"
 
-  - id: "quanta"
-    enabled: true
-    kind: "static"
-    label: "QUANTA"
-    subtitle: "Science"
-    heading: "Quanta Magazine"
-    url: "https://www.quantamagazine.org/"
-    archive: "https://www.quantamagazine.org/"
-
   - id: "aeon"
     enabled: true
     kind: "static"
@@ -132,9 +125,20 @@ sources:
     url: "https://nautil.us/"
     archive: "https://nautil.us/"
 
+  - id: "quanta"
+    enabled: true
+    kind: "static"
+    embed: false
+    label: "QUANTA"
+    subtitle: "Science"
+    heading: "Quanta Magazine"
+    url: "https://www.quantamagazine.org/"
+    archive: "https://www.quantamagazine.org/"
+
   - id: "sciam"
     enabled: true
     kind: "static"
+    embed: false
     label: "SCIAM"
     subtitle: "Science"
     heading: "Scientific American"

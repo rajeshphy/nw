@@ -172,6 +172,23 @@ nav button.active {
 }
 .message.hidden { display: none; }
 .message a { color: #dba7f6; }
+.message-card {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+}
+.message-card p { margin: 0; }
+.message-card a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 9px 18px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: #092033;
+  font-weight: 800;
+  text-decoration: none;
+}
 
 @media (max-width: 760px) {
   .top { padding: 14px 14px 0; }
