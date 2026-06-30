@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T22:44:15.254078+05:30",
+  "generated_at": "2026-06-30T22:53:02.544171+05:30",
   "sources": {
     "pib": {
       "date": "2026-06-30",
@@ -173,17 +173,6 @@
         "stale": false
       }
     },
-    "quanta": {
-      "date": null,
-      "url": "https://www.quantamagazine.org/",
-      "title": "Quanta Magazine",
-      "method": "static",
-      "source_file": null,
-      "archive": "https://www.quantamagazine.org/",
-      "error": null,
-      "stale": false,
-      "static_link": true
-    },
     "aeon": {
       "date": null,
       "url": "https://aeon.co/science/physics",
@@ -213,6 +202,17 @@
       "method": "static",
       "source_file": null,
       "archive": "https://nautil.us/",
+      "error": null,
+      "stale": false,
+      "static_link": true
+    },
+    "quanta": {
+      "date": null,
+      "url": "https://www.quantamagazine.org/",
+      "title": "Quanta Magazine",
+      "method": "static",
+      "source_file": null,
+      "archive": "https://www.quantamagazine.org/",
       "error": null,
       "stale": false,
       "static_link": true
