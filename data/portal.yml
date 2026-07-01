@@ -155,3 +155,12 @@ sources:
     heading: "Scientific American"
     url: "https://www.scientificamerican.com/"
     archive: "https://www.scientificamerican.com/"
+
+  - id: "music"
+    enabled: true
+    kind: "static"
+    label: "MUSIC"
+    subtitle: "Chill"
+    heading: "Music Radar"
+    url: "https://rajeshphy.github.io/music/"
+    archive: "https://rajeshphy.github.io/music/"
