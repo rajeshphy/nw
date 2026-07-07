@@ -17,6 +17,7 @@
   let manifest = null;
   let currentSource = null;
   let dayMode = "today";
+  let externalMenuOpen = false;
 
   function parseScalar(raw) {
     const value = raw.trim();
@@ -231,19 +232,48 @@
     frame.title = portal.frame_title;
   }
 
+  function sourceButton(source, className = "") {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.dataset.key = source.id;
+    if (className) button.className = className;
+    button.append(document.createTextNode(source.label));
+    if (source.subtitle) {
+      const subtitle = document.createElement("span");
+      subtitle.textContent = source.subtitle;
+      button.append(subtitle);
+    }
+    return button;
+  }
+
   function buildNavigation() {
     nav.innerHTML = "";
-    for (const source of sources) {
+    const groupedSources = sources.filter(source => source.nav_group === "external");
+    const regularSources = sources.filter(source => source.nav_group !== "external");
+    for (const source of regularSources) {
+      nav.append(sourceButton(source));
+    }
+    if (groupedSources.length) {
+      const wrapper = document.createElement("div");
+      wrapper.className = "nav-menu";
       const button = document.createElement("button");
       button.type = "button";
-      button.dataset.key = source.id;
-      button.append(document.createTextNode(source.label));
-      if (source.subtitle) {
+      button.className = "nav-menu-trigger";
+      button.dataset.menu = "external";
+      button.append(document.createTextNode(portal.external_menu_label || "LINKS"));
+      if (portal.external_menu_subtitle !== false) {
         const subtitle = document.createElement("span");
-        subtitle.textContent = source.subtitle;
+        subtitle.textContent = portal.external_menu_subtitle || "Outside";
         button.append(subtitle);
       }
-      nav.append(button);
+      const list = document.createElement("div");
+      list.className = "nav-menu-list";
+      list.hidden = !externalMenuOpen;
+      for (const source of groupedSources) {
+        list.append(sourceButton(source, "nav-menu-item"));
+      }
+      wrapper.append(button, list);
+      nav.append(wrapper);
     }
   }
 
@@ -252,12 +282,21 @@
     if (!source || !manifest) return;
 
     currentSource = sourceId;
+    if (source.nav_group === "external" && !externalMenuOpen) {
+      externalMenuOpen = true;
+      buildNavigation();
+    }
     const item = sourceItem(sourceId);
 
     nav.querySelectorAll("button[data-key]").forEach(button => {
       const active = button.dataset.key === sourceId;
       button.classList.toggle("active", active);
       button.setAttribute("aria-current", active ? "page" : "false");
+    });
+    nav.querySelectorAll("button[data-menu='external']").forEach(button => {
+      const active = source.nav_group === "external";
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-expanded", externalMenuOpen ? "true" : "false");
     });
 
     titleElement.textContent = source.heading;
@@ -351,8 +390,20 @@
   }
 
   nav.addEventListener("click", event => {
+    const menuButton = event.target.closest("button[data-menu='external']");
+    if (menuButton) {
+      externalMenuOpen = !externalMenuOpen;
+      buildNavigation();
+      if (currentSource) show(currentSource);
+      return;
+    }
     const button = event.target.closest("button[data-key]");
-    if (button) show(button.dataset.key);
+    if (button) {
+      const source = sourceMap[button.dataset.key];
+      externalMenuOpen = source?.nav_group === "external";
+      buildNavigation();
+      show(button.dataset.key);
+    }
   });
 
   refresh.addEventListener("click", load);

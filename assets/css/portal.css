@@ -100,6 +100,33 @@ nav button.active {
   box-shadow: inset 0 0 0 2px var(--accent-soft);
 }
 
+.nav-menu {
+  flex: 1 0 128px;
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+}
+.nav-menu > button {
+  flex: 1 0 112px;
+}
+.nav-menu-list {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+}
+.nav-menu-list[hidden] { display: none; }
+nav button.nav-menu-item {
+  flex: 0 0 auto;
+  min-width: 96px;
+  padding-inline: 11px;
+  font-size: 17px;
+  color: #d6e3ee;
+  background: rgba(255,255,255,.06);
+}
+nav button.nav-menu-item.active {
+  background: var(--accent);
+}
+
 .meta {
   display: flex;
   align-items: center;
@@ -212,6 +239,14 @@ nav button.active {
     font-size: 18px;
   }
   nav button span { display: none; }
+  .nav-menu { flex: 0 0 auto; gap: 4px; }
+  .nav-menu > button { flex-basis: auto; }
+  .nav-menu-list { gap: 4px; }
+  nav button.nav-menu-item {
+    min-width: 74px;
+    padding-inline: 10px;
+    font-size: 16px;
+  }
 
   .meta {
     align-items: center;

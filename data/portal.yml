@@ -15,6 +15,8 @@ portal:
   unavailable_text: "Unavailable"
   refresh_label: "Refresh"
   external_label: "Open separately"
+  external_menu_label: "LINKS"
+  external_menu_subtitle: "Outside"
   navigation_label: "News sections"
   frame_title: "Daily brief"
   no_post_before: "No individual post was discovered for"
@@ -103,6 +105,7 @@ sources:
     enabled: true
     kind: "static"
     embed: false
+    nav_group: "external"
     label: "ET MF"
     subtitle: "Funds"
     heading: "Economic Times Mutual Funds"
@@ -140,6 +143,7 @@ sources:
     enabled: true
     kind: "static"
     embed: false
+    nav_group: "external"
     label: "QUANTA"
     subtitle: "Science"
     heading: "Quanta Magazine"
@@ -150,6 +154,7 @@ sources:
     enabled: true
     kind: "static"
     embed: false
+    nav_group: "external"
     label: "SCIAM"
     subtitle: "Science"
     heading: "Scientific American"
