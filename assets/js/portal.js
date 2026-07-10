@@ -17,7 +17,6 @@
   let manifest = null;
   let currentSource = null;
   let dayMode = "today";
-  let externalMenuOpen = false;
 
   function parseScalar(raw) {
     const value = raw.trim();
@@ -166,6 +165,14 @@
     return source.embed !== false;
   }
 
+  function externalMenuSectionId() {
+    return portal.external_menu_section || "links";
+  }
+
+  function externalSources() {
+    return sources.filter(source => source.nav_group === "external");
+  }
+
   function showBlockedSource(source, item) {
     frame.removeAttribute("src");
     message.classList.remove("hidden");
@@ -214,6 +221,7 @@
 
   function selectedSourceId() {
     const requested = new URLSearchParams(location.search).get("section");
+    if (requested === externalMenuSectionId() && externalSources().length) return requested;
     if (requested && sourceMap[requested]) return requested;
     if (portal.default_source && sourceMap[portal.default_source]) return portal.default_source;
     return sources[0]?.id || null;
@@ -248,33 +256,76 @@
 
   function buildNavigation() {
     nav.innerHTML = "";
-    const groupedSources = sources.filter(source => source.nav_group === "external");
+    const groupedSources = externalSources();
     const regularSources = sources.filter(source => source.nav_group !== "external");
     for (const source of regularSources) {
       nav.append(sourceButton(source));
     }
     if (groupedSources.length) {
-      const wrapper = document.createElement("div");
-      wrapper.className = "nav-menu";
       const button = document.createElement("button");
       button.type = "button";
-      button.className = "nav-menu-trigger";
-      button.dataset.menu = "external";
+      button.dataset.group = "external";
       button.append(document.createTextNode(portal.external_menu_label || "LINKS"));
       if (portal.external_menu_subtitle !== false) {
         const subtitle = document.createElement("span");
         subtitle.textContent = portal.external_menu_subtitle || "Outside";
         button.append(subtitle);
       }
-      const list = document.createElement("div");
-      list.className = "nav-menu-list";
-      list.hidden = !externalMenuOpen;
-      for (const source of groupedSources) {
-        list.append(sourceButton(source, "nav-menu-item"));
-      }
-      wrapper.append(button, list);
-      nav.append(wrapper);
+      nav.append(button);
     }
+  }
+
+  function showExternalMenu() {
+    const groupedSources = externalSources();
+    if (!groupedSources.length) return;
+
+    currentSource = externalMenuSectionId();
+    frame.removeAttribute("src");
+    message.classList.remove("hidden");
+    message.replaceChildren();
+
+    nav.querySelectorAll("button[data-key]").forEach(button => {
+      button.classList.remove("active");
+      button.setAttribute("aria-current", "false");
+    });
+    nav.querySelectorAll("button[data-group='external']").forEach(button => {
+      button.classList.add("active");
+      button.setAttribute("aria-current", "page");
+    });
+
+    titleElement.textContent = portal.external_menu_heading || portal.external_menu_label || "Links";
+    const firstURL = groupedSources[0].url || groupedSources[0].archive || "#";
+    external.href = firstURL;
+
+    const nextURL = new URL(location.href);
+    nextURL.searchParams.set("section", externalMenuSectionId());
+    history.replaceState(null, "", nextURL);
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "message-card external-links-card";
+    const links = document.createElement("div");
+    links.className = "external-links";
+
+    for (const source of groupedSources) {
+      const link = document.createElement("a");
+      link.className = "external-link-button";
+      link.href = source.url || source.archive || "#";
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.append(document.createTextNode(source.label));
+      if (source.subtitle) {
+        const subtitle = document.createElement("span");
+        subtitle.textContent = source.subtitle;
+        link.append(subtitle);
+      }
+      links.append(link);
+    }
+
+    wrapper.append(links);
+    message.append(wrapper);
+
+    badge.textContent = portal.link_text || "Link";
+    badge.dataset.status = "blocked";
   }
 
   function show(sourceId) {
@@ -282,10 +333,6 @@
     if (!source || !manifest) return;
 
     currentSource = sourceId;
-    if (source.nav_group === "external" && !externalMenuOpen) {
-      externalMenuOpen = true;
-      buildNavigation();
-    }
     const item = sourceItem(sourceId);
 
     nav.querySelectorAll("button[data-key]").forEach(button => {
@@ -293,10 +340,10 @@
       button.classList.toggle("active", active);
       button.setAttribute("aria-current", active ? "page" : "false");
     });
-    nav.querySelectorAll("button[data-menu='external']").forEach(button => {
+    nav.querySelectorAll("button[data-group='external']").forEach(button => {
       const active = source.nav_group === "external";
       button.classList.toggle("active", active);
-      button.setAttribute("aria-expanded", externalMenuOpen ? "true" : "false");
+      button.setAttribute("aria-current", active ? "page" : "false");
     });
 
     titleElement.textContent = source.heading;
@@ -378,7 +425,14 @@
       badge.textContent = portal.checking_text;
       badge.dataset.status = "checking";
       buildNavigation();
-      show(currentSource && sourceMap[currentSource] ? currentSource : selectedSourceId());
+      const selected = currentSource && (sourceMap[currentSource] || currentSource === externalMenuSectionId())
+        ? currentSource
+        : selectedSourceId();
+      if (selected === externalMenuSectionId()) {
+        showExternalMenu();
+      } else {
+        show(selected);
+      }
     } catch (error) {
       console.error(error);
       const fallback = portal.data_error_text || error.message;
@@ -390,18 +444,13 @@
   }
 
   nav.addEventListener("click", event => {
-    const menuButton = event.target.closest("button[data-menu='external']");
-    if (menuButton) {
-      externalMenuOpen = !externalMenuOpen;
-      buildNavigation();
-      if (currentSource) show(currentSource);
+    const groupButton = event.target.closest("button[data-group='external']");
+    if (groupButton) {
+      showExternalMenu();
       return;
     }
     const button = event.target.closest("button[data-key]");
     if (button) {
-      const source = sourceMap[button.dataset.key];
-      externalMenuOpen = source?.nav_group === "external";
-      buildNavigation();
       show(button.dataset.key);
     }
   });

@@ -17,6 +17,7 @@ portal:
   external_label: "Open separately"
   external_menu_label: "LINKS"
   external_menu_subtitle: "Outside"
+  external_menu_heading: "External Links"
   navigation_label: "News sections"
   frame_title: "Daily brief"
   no_post_before: "No individual post was discovered for"
