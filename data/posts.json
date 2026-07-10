@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-07-10T03:45:36.476877+05:30",
+  "generated_at": "2026-07-11T03:24:29.402726+05:30",
   "sources": {
     "pib": {
-      "date": "2026-07-10",
-      "url": "https://rajeshphy.github.io/pib/2026/07/10/pib-digest.html",
-      "title": "Government Policy Updates: International Relations, Environmental Conservation, and Economic Development",
+      "date": "2026-07-11",
+      "url": "https://rajeshphy.github.io/pib/2026/07/11/pib-digest.html",
+      "title": "Government Initiatives in Technology, Defense, and Economic Development",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-11",
+        "url": "https://rajeshphy.github.io/pib/2026/07/11/pib-digest.html",
+        "title": "Government Initiatives in Technology, Defense, and Economic Development",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-10",
         "url": "https://rajeshphy.github.io/pib/2026/07/10/pib-digest.html",
         "title": "Government Policy Updates: International Relations, Environmental Conservation, and Economic Development",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-09",
-        "url": "https://rajeshphy.github.io/pib/2026/07/09/pib-digest.html",
-        "title": "Government Initiatives in Agriculture, Defense, and Strategic Partnerships",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-07-10",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/10/dumka-brief.html",
-      "title": "Health services and governance from Dumka and Jharkhand",
+      "date": "2026-07-11",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/11/dumka-brief.html",
+      "title": "Weather alerts and road accidents from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-11",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/11/dumka-brief.html",
+        "title": "Weather alerts and road accidents from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-10",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/10/dumka-brief.html",
         "title": "Health services and governance from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-09",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/09/dumka-brief.html",
-        "title": "Weather alerts, road accidents, and governance from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-07-10",
-      "url": "https://rajeshphy.github.io/political-news/2026/07/10/political-brief.html",
-      "title": "BJP secures new Rajya Sabha candidates from TMC, while Parliament advances key reservation bills and passes new security legislation",
+      "date": "2026-07-11",
+      "url": "https://rajeshphy.github.io/political-news/2026/07/11/political-brief.html",
+      "title": "Women’s reservation bill fails in Lok Sabha amid activist pressure, while BJP gains ground in West Bengal following significant Rajya Sabha election results",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-10",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/10/political-brief.html",
-        "title": "BJP secures new Rajya Sabha candidates from TMC, while Parliament advances key reservation bills and passes new security legislation",
+        "date": "2026-07-11",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/11/political-brief.html",
+        "title": "Women’s reservation bill fails in Lok Sabha amid activist pressure, while BJP gains ground in West Bengal following significant Rajya Sabha election results",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-09",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/09/political-brief.html",
-        "title": "Former TMC leaders join BJP for Rajya Sabha polls, while the Women’s Reservation Bill faces a setback and activists plan a July 20 Parliament march",
+        "date": "2026-07-10",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/10/political-brief.html",
+        "title": "Parliament advances \"One Nation, One Election\" for 2029, while political shifts and legal challenges regarding temple donations and statehood dominate headlines",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-07-10",
-      "url": "https://rajeshphy.github.io/economic-news/2026/07/10/economy-brief.html",
-      "title": "NSE eyes a September IPO launch as Saudi oil price cuts signal potential relief for India’s inflation and import bill",
+      "date": "2026-07-11",
+      "url": "https://rajeshphy.github.io/economic-news/2026/07/11/economy-brief.html",
+      "title": "RBI maintains repo rate at 5.25% while revising FY27 growth lower and inflation higher; NSE crude oil options see record-breaking trading activity",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-10",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/10/economy-brief.html",
-        "title": "NSE eyes a September IPO launch as Saudi oil price cuts signal potential relief for India’s inflation and import bill",
+        "date": "2026-07-11",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/11/economy-brief.html",
+        "title": "RBI maintains repo rate at 5.25% while revising FY27 growth lower and inflation higher; NSE crude oil options see record-breaking trading activity",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-09",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/09/economy-brief.html",
-        "title": "Indian indices recovered from recent sell-offs as FII inflows returned, while the RBI maintained status quo on interest rates and projected 6.9% GDP growth",
+        "date": "2026-07-10",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/10/economy-brief.html",
+        "title": "Sensex and Nifty surged over 1% as TCS-led IT gains and stabilizing crude oil prices boosted sentiment, while SEBI introduced new mutual fund liquidity norms",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-07-10",
-      "url": "https://rajeshphy.github.io/physics-news/2026/07/10/physics-brief.html",
-      "title": "Space science, quantum research, and materials physics for physics students",
+      "date": "2026-07-11",
+      "url": "https://rajeshphy.github.io/physics-news/2026/07/11/physics-brief.html",
+      "title": "Space science, materials physics, and particle physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-10",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/10/physics-brief.html",
-        "title": "Space science, quantum research, and materials physics for physics students",
+        "date": "2026-07-11",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/11/physics-brief.html",
+        "title": "Space science, materials physics, and particle physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-09",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/09/physics-brief.html",
-        "title": "Space science, materials physics, quantum research, and particle physics for physics students",
+        "date": "2026-07-10",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/10/physics-brief.html",
+        "title": "Space science, quantum research, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
