@@ -96,6 +96,8 @@ sources:
   - id: "morningstar"
     enabled: true
     kind: "static"
+    embed: false
+    nav_group: "external"
     label: "MORN"
     subtitle: "Funds"
     heading: "Morningstar Funds"
