@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-07-16T03:21:54.846554+05:30",
+  "generated_at": "2026-07-17T03:27:59.348666+05:30",
   "sources": {
     "pib": {
-      "date": "2026-07-16",
-      "url": "https://rajeshphy.github.io/pib/2026/07/16/pib-digest.html",
-      "title": "Government Initiatives in Digital Infrastructure, Trade, and International Cooperation",
+      "date": "2026-07-17",
+      "url": "https://rajeshphy.github.io/pib/2026/07/17/pib-digest.html",
+      "title": "National Infrastructure, Policy Updates, and Human Rights Oversight",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-17",
+        "url": "https://rajeshphy.github.io/pib/2026/07/17/pib-digest.html",
+        "title": "National Infrastructure, Policy Updates, and Human Rights Oversight",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-16",
         "url": "https://rajeshphy.github.io/pib/2026/07/16/pib-digest.html",
         "title": "Government Initiatives in Digital Infrastructure, Trade, and International Cooperation",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-15",
-        "url": "https://rajeshphy.github.io/pib/2026/07/15/pib-digest.html",
-        "title": "Overview of Recent Government Initiatives and Economic Developments",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-07-16",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/16/dumka-brief.html",
-      "title": "Governance from Dumka and Jharkhand",
+      "date": "2026-07-17",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/17/dumka-brief.html",
+      "title": "Infrastructure, road accidents, and governance from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-17",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/17/dumka-brief.html",
+        "title": "Infrastructure, road accidents, and governance from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-16",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/16/dumka-brief.html",
         "title": "Governance from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-15",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/15/dumka-brief.html",
-        "title": "Governance and education from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-07-16",
-      "url": "https://rajeshphy.github.io/political-news/2026/07/16/political-brief.html",
-      "title": "BJP leadership plans legislative moves as the INDIA bloc and NCP weigh in on the upcoming delimitation bill and national election reforms",
+      "date": "2026-07-17",
+      "url": "https://rajeshphy.github.io/political-news/2026/07/17/political-brief.html",
+      "title": "The Supreme Court issues key rulings on prisoner rights and language policy, while political parties prepare for the upcoming Monsoon Session of Parliament",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-16",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/16/political-brief.html",
-        "title": "BJP leadership plans legislative moves as the INDIA bloc and NCP weigh in on the upcoming delimitation bill and national election reforms",
+        "date": "2026-07-17",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/17/political-brief.html",
+        "title": "The Supreme Court issues key rulings on prisoner rights and language policy, while political parties prepare for the upcoming Monsoon Session of Parliament",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-15",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/15/political-brief.html",
-        "title": "The Union Cabinet approved massive semiconductor and mobile manufacturing outlays, while the INDIA bloc faces internal friction over key legislative bills",
+        "date": "2026-07-16",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/16/political-brief.html",
+        "title": "Opposition parties prepare to challenge the government on key bills and issues as the Supreme Court intervenes in education, prison, and election policies",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-07-16",
-      "url": "https://rajeshphy.github.io/economic-news/2026/07/16/economy-brief.html",
-      "title": "RBI rate hike expectations cool on softer inflation data as markets navigate geopolitical volatility and upcoming Q1 earnings",
+      "date": "2026-07-17",
+      "url": "https://rajeshphy.github.io/economic-news/2026/07/17/economy-brief.html",
+      "title": "Rising oil prices and persistent retail inflation weigh on the Indian economy as global bond yields climb amid geopolitical instability",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-16",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/16/economy-brief.html",
-        "title": "RBI rate hike expectations cool on softer inflation data as markets navigate geopolitical volatility and upcoming Q1 earnings",
+        "date": "2026-07-17",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/17/economy-brief.html",
+        "title": "Rising oil prices and persistent retail inflation weigh on the Indian economy as global bond yields climb amid geopolitical instability",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-15",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/15/economy-brief.html",
-        "title": "Indian markets rallied as cooling US inflation eased rate hike fears, while concerns persist over rising crude oil prices and potential domestic rate hikes",
+        "date": "2026-07-16",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/16/economy-brief.html",
+        "title": "India's retail inflation breaches the 4% target, while the RBI maintains repo rates amid a 6.9% GDP growth projection and new NSE derivative product approvals",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-07-16",
-      "url": "https://rajeshphy.github.io/physics-news/2026/07/16/physics-brief.html",
-      "title": "Space science, quantum research, and materials physics for physics students",
+      "date": "2026-07-17",
+      "url": "https://rajeshphy.github.io/physics-news/2026/07/17/physics-brief.html",
+      "title": "Space science and astronomy for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-16",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/16/physics-brief.html",
-        "title": "Space science, quantum research, and materials physics for physics students",
+        "date": "2026-07-17",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/17/physics-brief.html",
+        "title": "Space science and astronomy for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-15",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/15/physics-brief.html",
-        "title": "Space science, physics education, quantum research, and particle physics for physics students",
+        "date": "2026-07-16",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/16/physics-brief.html",
+        "title": "Space science, quantum research, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
