@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-07-21T03:25:53.456958+05:30",
+  "generated_at": "2026-07-22T03:28:24.289534+05:30",
   "sources": {
     "pib": {
-      "date": "2026-07-21",
-      "url": "https://rajeshphy.github.io/pib/2026/07/21/pib-digest.html",
-      "title": "Overview of Recent Government Policy, Infrastructure, and Regulatory Developments",
+      "date": "2026-07-22",
+      "url": "https://rajeshphy.github.io/pib/2026/07/22/pib-digest.html",
+      "title": "National Health, Education, and Diplomatic Policy Updates",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-22",
+        "url": "https://rajeshphy.github.io/pib/2026/07/22/pib-digest.html",
+        "title": "National Health, Education, and Diplomatic Policy Updates",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-21",
         "url": "https://rajeshphy.github.io/pib/2026/07/21/pib-digest.html",
         "title": "Overview of Recent Government Policy, Infrastructure, and Regulatory Developments",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-20",
-        "url": "https://rajeshphy.github.io/pib/2026/07/20/pib-digest.html",
-        "title": "National Development, Public Welfare, and Achievement Digest",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-07-21",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/21/dumka-brief.html",
-      "title": "Governance from Dumka and Jharkhand",
+      "date": "2026-07-22",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/22/dumka-brief.html",
+      "title": "Health services and governance from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-22",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/22/dumka-brief.html",
+        "title": "Health services and governance from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-21",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/21/dumka-brief.html",
         "title": "Governance from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-20",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/20/dumka-brief.html",
-        "title": "Infrastructure, governance, and road accidents from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-07-21",
-      "url": "https://rajeshphy.github.io/political-news/2026/07/21/political-brief.html",
-      "title": "Monsoon session faces washout due to student protests, while the government pushes key legislative bills and prepares for upcoming Rajya Sabha elections",
+      "date": "2026-07-22",
+      "url": "https://rajeshphy.github.io/political-news/2026/07/22/political-brief.html",
+      "title": "The government corrects Rajya Sabha election notifications, the INDIA bloc holds strategy meetings, and the Supreme Court rules on Waqf Board supervision",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-21",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/21/political-brief.html",
-        "title": "Monsoon session faces washout due to student protests, while the government pushes key legislative bills and prepares for upcoming Rajya Sabha elections",
+        "date": "2026-07-22",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/22/political-brief.html",
+        "title": "The government corrects Rajya Sabha election notifications, the INDIA bloc holds strategy meetings, and the Supreme Court rules on Waqf Board supervision",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-20",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/20/political-brief.html",
-        "title": "Parliament faces immediate adjournments amid protests over exam scandals, while the government introduces a bill to expand the Supreme Court's bench strength",
+        "date": "2026-07-21",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/21/political-brief.html",
+        "title": "Opposition protests over NEET paper leaks and police action against students disrupt Parliament as the government prepares major electoral and judicial reforms",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-07-21",
-      "url": "https://rajeshphy.github.io/economic-news/2026/07/21/economy-brief.html",
-      "title": "SEBI issues a warning regarding a rise in 'boss scams' targeting corporate employees via digital communication platforms",
+      "date": "2026-07-22",
+      "url": "https://rajeshphy.github.io/economic-news/2026/07/22/economy-brief.html",
+      "title": "Markets await NSE IPO developments while regulatory updates impact mutual fund distribution and corporate tax litigation",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-21",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/21/economy-brief.html",
-        "title": "SEBI issues a warning regarding a rise in 'boss scams' targeting corporate employees via digital communication platforms",
+        "date": "2026-07-22",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/22/economy-brief.html",
+        "title": "Markets await NSE IPO developments while regulatory updates impact mutual fund distribution and corporate tax litigation",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-20",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/20/economy-brief.html",
-        "title": "Indian markets declined as banking stocks slumped on Q1 results, while rising crude oil prices and geopolitical tensions pressured the rupee",
+        "date": "2026-07-21",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/21/economy-brief.html",
+        "title": "Indian indices declined on West Asia tensions and weak bank earnings, while the rupee faced pressure from rising crude oil prices despite RBI intervention",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-07-21",
-      "url": "https://rajeshphy.github.io/physics-news/2026/07/21/physics-brief.html",
-      "title": "Space science for physics students and research awareness",
+      "date": "2026-07-22",
+      "url": "https://rajeshphy.github.io/physics-news/2026/07/22/physics-brief.html",
+      "title": "Space science, quantum research, and materials physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-21",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/21/physics-brief.html",
-        "title": "Space science for physics students and research awareness",
+        "date": "2026-07-22",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/22/physics-brief.html",
+        "title": "Space science, quantum research, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-20",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/20/physics-brief.html",
-        "title": "Daily physics news for classroom and research awareness",
+        "date": "2026-07-21",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/21/physics-brief.html",
+        "title": "Space science for physics students and research awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
