@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-07-23T03:29:30.036585+05:30",
+  "generated_at": "2026-07-24T03:29:03.438571+05:30",
   "sources": {
     "pib": {
-      "date": "2026-07-23",
-      "url": "https://rajeshphy.github.io/pib/2026/07/23/pib-digest.html",
-      "title": "Government Policy Updates on Governance, Defense, and International Cooperation",
+      "date": "2026-07-24",
+      "url": "https://rajeshphy.github.io/pib/2026/07/24/pib-digest.html",
+      "title": "India’s Recent Developments in Defense, Technology, and International Relations",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-24",
+        "url": "https://rajeshphy.github.io/pib/2026/07/24/pib-digest.html",
+        "title": "India’s Recent Developments in Defense, Technology, and International Relations",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-23",
         "url": "https://rajeshphy.github.io/pib/2026/07/23/pib-digest.html",
         "title": "Government Policy Updates on Governance, Defense, and International Cooperation",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-22",
-        "url": "https://rajeshphy.github.io/pib/2026/07/22/pib-digest.html",
-        "title": "National Health, Education, and Diplomatic Policy Updates",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-07-23",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/23/dumka-brief.html",
-      "title": "Governance and education from Dumka and Jharkhand",
+      "date": "2026-07-24",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/24/dumka-brief.html",
+      "title": "Governance from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-24",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/24/dumka-brief.html",
+        "title": "Governance from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-23",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/23/dumka-brief.html",
         "title": "Governance and education from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-22",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/22/dumka-brief.html",
-        "title": "Health services and governance from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-07-23",
-      "url": "https://rajeshphy.github.io/political-news/2026/07/23/political-brief.html",
-      "title": "Parliament remains stalled over NEET protests as the government seeks a resolution, while emerging political movements challenge the ruling BJP's national st...",
+      "date": "2026-07-24",
+      "url": "https://rajeshphy.github.io/political-news/2026/07/24/political-brief.html",
+      "title": "Government readies anti-paper leak legislation as election results and parliamentary tensions shape the national political landscape",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-23",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/23/political-brief.html",
-        "title": "Parliament remains stalled over NEET protests as the government seeks a resolution, while emerging political movements challenge the ruling BJP's national st...",
+        "date": "2026-07-24",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/24/political-brief.html",
+        "title": "Government readies anti-paper leak legislation as election results and parliamentary tensions shape the national political landscape",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-22",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/22/political-brief.html",
-        "title": "Parliament faces repeated adjournments as the Opposition protests the NEET issue, while the government moves to introduce the Supreme Court Judges Amendment...",
+        "date": "2026-07-23",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/23/political-brief.html",
+        "title": "Parliament faces a fourth day of adjournments due to intense clashes over the NEET paper leak, while the Supreme Court issues key rulings on judicial benefits",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-07-23",
-      "url": "https://rajeshphy.github.io/economic-news/2026/07/23/economy-brief.html",
-      "title": "Indian indices face selling pressure amid a weak rupee and rising crude prices, even as the RBI maintains a positive long-term foreign investment outlook",
+      "date": "2026-07-24",
+      "url": "https://rajeshphy.github.io/economic-news/2026/07/24/economy-brief.html",
+      "title": "SEBI governance reforms and export growth face pressure from rising US yields, surging crude oil prices, and a sharp decline in gold",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-23",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/23/economy-brief.html",
-        "title": "Indian indices face selling pressure amid a weak rupee and rising crude prices, even as the RBI maintains a positive long-term foreign investment outlook",
+        "date": "2026-07-24",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/24/economy-brief.html",
+        "title": "SEBI governance reforms and export growth face pressure from rising US yields, surging crude oil prices, and a sharp decline in gold",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-22",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/22/economy-brief.html",
-        "title": "Indian markets tumbled as Brent crude prices spiked, pressuring the rupee and triggering a broad-based sell-off in banking and equity indices",
+        "date": "2026-07-23",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/23/economy-brief.html",
+        "title": "Indian markets extended losses for a fourth day as rising crude oil prices and geopolitical tensions weigh on investor sentiment and the rupee",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-07-23",
-      "url": "https://rajeshphy.github.io/physics-news/2026/07/23/physics-brief.html",
-      "title": "Space science, quantum research, and particle physics for physics students",
+      "date": "2026-07-24",
+      "url": "https://rajeshphy.github.io/physics-news/2026/07/24/physics-brief.html",
+      "title": "Space science, materials physics, and particle physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-23",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/23/physics-brief.html",
-        "title": "Space science, quantum research, and particle physics for physics students",
+        "date": "2026-07-24",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/24/physics-brief.html",
+        "title": "Space science, materials physics, and particle physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-22",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/22/physics-brief.html",
-        "title": "Space science, quantum research, and materials physics for physics students",
+        "date": "2026-07-23",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/23/physics-brief.html",
+        "title": "Space science, quantum research, and particle physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
