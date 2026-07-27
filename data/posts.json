@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-07-27T03:22:20.565345+05:30",
+  "generated_at": "2026-07-28T03:28:30.643617+05:30",
   "sources": {
     "pib": {
-      "date": "2026-07-27",
-      "url": "https://rajeshphy.github.io/pib/2026/07/27/pib-digest.html",
-      "title": "National Governance, Sports Achievements, and Strategic Developments",
+      "date": "2026-07-28",
+      "url": "https://rajeshphy.github.io/pib/2026/07/28/pib-digest.html",
+      "title": "Government Initiatives in Technology, Education, and National Development",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-28",
+        "url": "https://rajeshphy.github.io/pib/2026/07/28/pib-digest.html",
+        "title": "Government Initiatives in Technology, Education, and National Development",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-27",
         "url": "https://rajeshphy.github.io/pib/2026/07/27/pib-digest.html",
         "title": "National Governance, Sports Achievements, and Strategic Developments",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-26",
-        "url": "https://rajeshphy.github.io/pib/2026/07/26/pib-digest.html",
-        "title": "Updates on National Heritage, Legal Reforms, and Governance Initiatives",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-07-27",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/27/dumka-brief.html",
-      "title": "Education and local administration from Dumka and Jharkhand",
+      "date": "2026-07-28",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/28/dumka-brief.html",
+      "title": "Infrastructure, governance, recruitment, and education from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-28",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/28/dumka-brief.html",
+        "title": "Infrastructure, governance, recruitment, and education from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-27",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/27/dumka-brief.html",
         "title": "Education and local administration from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-26",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/26/dumka-brief.html",
-        "title": "Road accidents, governance, infrastructure, and court updates from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-07-27",
-      "url": "https://rajeshphy.github.io/political-news/2026/07/27/political-brief.html",
-      "title": "Opposition leaders weigh ending Parliament protests as the Supreme Court pushes for police and education reforms amid ongoing national political tensions",
+      "date": "2026-07-28",
+      "url": "https://rajeshphy.github.io/political-news/2026/07/28/political-brief.html",
+      "title": "Parliament ends its deadlock to debate exam reforms, while political alliances shift in West Bengal and by-poll campaigning intensifies",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-27",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/27/political-brief.html",
-        "title": "Opposition leaders weigh ending Parliament protests as the Supreme Court pushes for police and education reforms amid ongoing national political tensions",
+        "date": "2026-07-28",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/28/political-brief.html",
+        "title": "Parliament ends its deadlock to debate exam reforms, while political alliances shift in West Bengal and by-poll campaigning intensifies",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-26",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/26/political-brief.html",
-        "title": "Parliament faces intense opposition pressure following Dharmendra Pradhan's resignation, while the government launches a major exam reform task force",
+        "date": "2026-07-27",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/27/political-brief.html",
+        "title": "Parliament faces ongoing disruptions over exam reforms and protests, even as parties agree to debate the anti-paper leak Bill and pass key legislation",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-07-27",
-      "url": "https://rajeshphy.github.io/economic-news/2026/07/27/economy-brief.html",
-      "title": "Markets brace for volatility as RBI prioritizes inflation, while global tech sell-offs and Fed policy decisions weigh on domestic sentiment",
+      "date": "2026-07-28",
+      "url": "https://rajeshphy.github.io/economic-news/2026/07/28/economy-brief.html",
+      "title": "Indian markets surge as falling crude oil prices and a stronger rupee boost investor sentiment, adding over Rs 5 lakh crore in market wealth",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-27",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/27/economy-brief.html",
-        "title": "Markets brace for volatility as RBI prioritizes inflation, while global tech sell-offs and Fed policy decisions weigh on domestic sentiment",
+        "date": "2026-07-28",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/28/economy-brief.html",
+        "title": "Indian markets surge as falling crude oil prices and a stronger rupee boost investor sentiment, adding over Rs 5 lakh crore in market wealth",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-26",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/26/economy-brief.html",
-        "title": "Indian indices face a six-day losing streak as crude oil spikes, Middle East tensions, and upcoming US Fed policy decisions weigh on investor sentiment",
+        "date": "2026-07-27",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/27/economy-brief.html",
+        "title": "Indian indices snapped a five-day losing streak as falling crude prices and easing geopolitical tensions boosted investor sentiment across major sectors",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-07-27",
-      "url": "https://rajeshphy.github.io/physics-news/2026/07/27/physics-brief.html",
-      "title": "Daily physics news for classroom and research awareness",
+      "date": "2026-07-28",
+      "url": "https://rajeshphy.github.io/physics-news/2026/07/28/physics-brief.html",
+      "title": "Nuclear and plasma physics, space science, and materials physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-27",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/27/physics-brief.html",
-        "title": "Daily physics news for classroom and research awareness",
+        "date": "2026-07-28",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/28/physics-brief.html",
+        "title": "Nuclear and plasma physics, space science, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-26",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/26/physics-brief.html",
-        "title": "Space science and quantum research for physics students",
+        "date": "2026-07-27",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/27/physics-brief.html",
+        "title": "Daily physics news for classroom and research awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
