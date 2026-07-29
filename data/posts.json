@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-07-29T03:26:22.033900+05:30",
+  "generated_at": "2026-07-30T03:22:39.309007+05:30",
   "sources": {
     "pib": {
-      "date": "2026-07-29",
-      "url": "https://rajeshphy.github.io/pib/2026/07/29/pib-digest.html",
-      "title": "Government Policy Updates, Administrative Reviews, and Presidential Initiatives",
+      "date": "2026-07-30",
+      "url": "https://rajeshphy.github.io/pib/2026/07/30/pib-digest.html",
+      "title": "Government Initiatives in Infrastructure, Technology, and Public Welfare",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-30",
+        "url": "https://rajeshphy.github.io/pib/2026/07/30/pib-digest.html",
+        "title": "Government Initiatives in Infrastructure, Technology, and Public Welfare",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-29",
         "url": "https://rajeshphy.github.io/pib/2026/07/29/pib-digest.html",
         "title": "Government Policy Updates, Administrative Reviews, and Presidential Initiatives",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-28",
-        "url": "https://rajeshphy.github.io/pib/2026/07/28/pib-digest.html",
-        "title": "Government Initiatives in Technology, Education, and National Development",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-07-29",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/29/dumka-brief.html",
-      "title": "Local administration and recruitment from Dumka and Jharkhand",
+      "date": "2026-07-30",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/30/dumka-brief.html",
+      "title": "Local administration, infrastructure, and recruitment from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-07-30",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/30/dumka-brief.html",
+        "title": "Local administration, infrastructure, and recruitment from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-07-29",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/29/dumka-brief.html",
         "title": "Local administration and recruitment from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-28",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/28/dumka-brief.html",
-        "title": "Infrastructure, governance, recruitment, and education from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-07-29",
-      "url": "https://rajeshphy.github.io/political-news/2026/07/29/political-brief.html",
-      "title": "Parliament faces intense friction over anti-paper leak legislation and women's reservation, while political campaigning intensifies for the Bankipur by-election",
+      "date": "2026-07-30",
+      "url": "https://rajeshphy.github.io/political-news/2026/07/30/political-brief.html",
+      "title": "Parliament passes anti-paper leak legislation amid opposition walkouts, while a major women's reservation bill fails to secure passage in the Lok Sabha",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-29",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/29/political-brief.html",
-        "title": "Parliament faces intense friction over anti-paper leak legislation and women's reservation, while political campaigning intensifies for the Bankipur by-election",
+        "date": "2026-07-30",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/30/political-brief.html",
+        "title": "Parliament passes anti-paper leak legislation amid opposition walkouts, while a major women's reservation bill fails to secure passage in the Lok Sabha",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-28",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/28/political-brief.html",
-        "title": "Parliament begins debate on the anti-paper leak Bill as opposition leaders protest the government's handling of education issues and recent political optics",
+        "date": "2026-07-29",
+        "url": "https://rajeshphy.github.io/political-news/2026/07/29/political-brief.html",
+        "title": "The Lok Sabha passed the Public Examinations Amendment Bill while the Rajya Sabha cleared the Vande Mataram insult bill amid intense government-opposition cl...",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-07-29",
-      "url": "https://rajeshphy.github.io/economic-news/2026/07/29/economy-brief.html",
-      "title": "Global markets brace for the US Fed policy decision as Treasury yields retreat, while domestic investors see new passive investment options",
+      "date": "2026-07-30",
+      "url": "https://rajeshphy.github.io/economic-news/2026/07/30/economy-brief.html",
+      "title": "Markets rebound on IT and financial strength as the US Fed holds rates steady, while narrowing discounts on Russian crude impact India's import costs",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-29",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/29/economy-brief.html",
-        "title": "Global markets brace for the US Fed policy decision as Treasury yields retreat, while domestic investors see new passive investment options",
+        "date": "2026-07-30",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/30/economy-brief.html",
+        "title": "Markets rebound on IT and financial strength as the US Fed holds rates steady, while narrowing discounts on Russian crude impact India's import costs",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-28",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/28/economy-brief.html",
-        "title": "Indian markets closed flat as IT gains offset a 7% slide in HUL, while the RBI maintained the repo rate and projected 6.9% GDP growth for the fiscal year",
+        "date": "2026-07-29",
+        "url": "https://rajeshphy.github.io/economic-news/2026/07/29/economy-brief.html",
+        "title": "Indian indices surged on IT-led buying and FII inflows, while the Finance Ministry warned that rising crude oil prices could strain fiscal and current accounts",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,8 +133,8 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-07-29",
-      "url": "https://rajeshphy.github.io/physics-news/2026/07/29/physics-brief.html",
+      "date": "2026-07-30",
+      "url": "https://rajeshphy.github.io/physics-news/2026/07/30/physics-brief.html",
       "title": "Space science and quantum research for physics students",
       "method": "published_archive",
       "source_file": null,
@@ -142,8 +142,8 @@
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-07-29",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/29/physics-brief.html",
+        "date": "2026-07-30",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/30/physics-brief.html",
         "title": "Space science and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-28",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/28/physics-brief.html",
-        "title": "Nuclear and plasma physics, space science, and materials physics for physics students",
+        "date": "2026-07-29",
+        "url": "https://rajeshphy.github.io/physics-news/2026/07/29/physics-brief.html",
+        "title": "Space science and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
