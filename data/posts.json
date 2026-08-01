@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-08-01T03:28:45.652185+05:30",
+  "generated_at": "2026-08-02T03:16:31.333470+05:30",
   "sources": {
     "pib": {
-      "date": "2026-08-01",
-      "url": "https://rajeshphy.github.io/pib/2026/08/01/pib-digest.html",
-      "title": "Government Policy Updates, Administrative Appointments, and National Achievements",
+      "date": "2026-08-02",
+      "url": "https://rajeshphy.github.io/pib/2026/08/02/pib-digest.html",
+      "title": "Indian Railways Expansion and National Sporting Achievements",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-08-02",
+        "url": "https://rajeshphy.github.io/pib/2026/08/02/pib-digest.html",
+        "title": "Indian Railways Expansion and National Sporting Achievements",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-08-01",
         "url": "https://rajeshphy.github.io/pib/2026/08/01/pib-digest.html",
         "title": "Government Policy Updates, Administrative Appointments, and National Achievements",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-31",
-        "url": "https://rajeshphy.github.io/pib/2026/07/31/pib-digest.html",
-        "title": "Government Policy Updates: Security, Education, Infrastructure, and Economic Initiatives",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-08-01",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/01/dumka-brief.html",
-      "title": "Health services from Dumka and Jharkhand",
+      "date": "2026-08-02",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/02/dumka-brief.html",
+      "title": "Governance and education from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-08-02",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/02/dumka-brief.html",
+        "title": "Governance and education from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-08-01",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/01/dumka-brief.html",
         "title": "Health services from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-07-31",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/07/31/dumka-brief.html",
-        "title": "Education and infrastructure from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-08-01",
-      "url": "https://rajeshphy.github.io/political-news/2026/08/01/political-brief.html",
-      "title": "Parliament clears anti-paper leak legislation while the Women’s Reservation Bill fails; Cabinet approves major infrastructure and sports funding initiatives",
+      "date": "2026-08-02",
+      "url": "https://rajeshphy.github.io/political-news/2026/08/02/political-brief.html",
+      "title": "Parliament debates the Union Budget amid leadership changes, while the Election Commission emphasizes electoral roll transparency for fair polls",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-08-01",
-        "url": "https://rajeshphy.github.io/political-news/2026/08/01/political-brief.html",
-        "title": "Parliament clears anti-paper leak legislation while the Women’s Reservation Bill fails; Cabinet approves major infrastructure and sports funding initiatives",
+        "date": "2026-08-02",
+        "url": "https://rajeshphy.github.io/political-news/2026/08/02/political-brief.html",
+        "title": "Parliament debates the Union Budget amid leadership changes, while the Election Commission emphasizes electoral roll transparency for fair polls",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-31",
-        "url": "https://rajeshphy.github.io/political-news/2026/07/31/political-brief.html",
-        "title": "Parliament faces repeated adjournments amid protests, even as the government secures passage of key anti-paper leak and birth registration legislation",
+        "date": "2026-08-01",
+        "url": "https://rajeshphy.github.io/political-news/2026/08/01/political-brief.html",
+        "title": "Parliament passes key bills on examinations and social welfare, while political tensions rise over protests and legal challenges to government policies",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-08-01",
-      "url": "https://rajeshphy.github.io/economic-news/2026/08/01/economy-brief.html",
-      "title": "Investors focus on RBI policy and oil price volatility as global debt yields rise and domestic markets prioritize shorter-duration fixed income strategies",
+      "date": "2026-08-02",
+      "url": "https://rajeshphy.github.io/economic-news/2026/08/02/economy-brief.html",
+      "title": "The RBI maintains the repo rate while projecting a 6.9% GDP growth for FY27, signaling a focus on stability amidst current economic conditions",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-08-01",
-        "url": "https://rajeshphy.github.io/economic-news/2026/08/01/economy-brief.html",
-        "title": "Investors focus on RBI policy and oil price volatility as global debt yields rise and domestic markets prioritize shorter-duration fixed income strategies",
+        "date": "2026-08-02",
+        "url": "https://rajeshphy.github.io/economic-news/2026/08/02/economy-brief.html",
+        "title": "The RBI maintains the repo rate while projecting a 6.9% GDP growth for FY27, signaling a focus on stability amidst current economic conditions",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-31",
-        "url": "https://rajeshphy.github.io/economic-news/2026/07/31/economy-brief.html",
-        "title": "Markets rally on RBI’s status quo, strong FII inflows, and the resolution of the NSE’s regulatory hurdles, even as global inflation and oil volatility persist",
+        "date": "2026-08-01",
+        "url": "https://rajeshphy.github.io/economic-news/2026/08/01/economy-brief.html",
+        "title": "NSE clears IPO hurdle with SEBI settlement; markets brace for RBI policy as inflation and global trade tensions influence investor sentiment",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-08-01",
-      "url": "https://rajeshphy.github.io/physics-news/2026/08/01/physics-brief.html",
-      "title": "Space science, materials physics, and quantum research for physics students",
+      "date": "2026-08-02",
+      "url": "https://rajeshphy.github.io/physics-news/2026/08/02/physics-brief.html",
+      "title": "Quantum research and particle physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-08-01",
-        "url": "https://rajeshphy.github.io/physics-news/2026/08/01/physics-brief.html",
-        "title": "Space science, materials physics, and quantum research for physics students",
+        "date": "2026-08-02",
+        "url": "https://rajeshphy.github.io/physics-news/2026/08/02/physics-brief.html",
+        "title": "Quantum research and particle physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-07-31",
-        "url": "https://rajeshphy.github.io/physics-news/2026/07/31/physics-brief.html",
-        "title": "Space science for physics students and research awareness",
+        "date": "2026-08-01",
+        "url": "https://rajeshphy.github.io/physics-news/2026/08/01/physics-brief.html",
+        "title": "Space science, materials physics, and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
