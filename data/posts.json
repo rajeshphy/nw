@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-08-17T02:42:22.139141+05:30",
+  "generated_at": "2026-08-18T02:47:58.765032+05:30",
   "sources": {
     "pib": {
-      "date": "2026-08-17",
-      "url": "https://rajeshphy.github.io/pib/2026/08/17/pib-digest.html",
-      "title": "Government Initiatives, Public Health, and Administrative Updates",
+      "date": "2026-08-18",
+      "url": "https://rajeshphy.github.io/pib/2026/08/18/pib-digest.html",
+      "title": "National Governance, Security, and Development Updates",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-08-18",
+        "url": "https://rajeshphy.github.io/pib/2026/08/18/pib-digest.html",
+        "title": "National Governance, Security, and Development Updates",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-08-17",
         "url": "https://rajeshphy.github.io/pib/2026/08/17/pib-digest.html",
         "title": "Government Initiatives, Public Health, and Administrative Updates",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-08-16",
-        "url": "https://rajeshphy.github.io/pib/2026/08/16/pib-digest.html",
-        "title": "Highlights of India’s 78th Independence Day Celebrations and National Initiatives",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-08-17",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/17/dumka-brief.html",
-      "title": "Governance and education from Dumka and Jharkhand",
+      "date": "2026-08-18",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/18/dumka-brief.html",
+      "title": "Governance, recruitment, and education from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-08-18",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/18/dumka-brief.html",
+        "title": "Governance, recruitment, and education from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-08-17",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/17/dumka-brief.html",
         "title": "Governance and education from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-08-16",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/16/dumka-brief.html",
-        "title": "Governance and court updates from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-08-17",
-      "url": "https://rajeshphy.github.io/political-news/2026/08/17/political-brief.html",
-      "title": "Political discourse intensifies as opposition leaders trade barbs, while concerns over education infrastructure and parliamentary conduct dominate the agenda",
+      "date": "2026-08-18",
+      "url": "https://rajeshphy.github.io/political-news/2026/08/18/political-brief.html",
+      "title": "Supreme Court reviews lawmaker criminal records as government pauses controversial FCRA amendments and NITI Aayog pushes for telecom policy support",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-08-17",
-        "url": "https://rajeshphy.github.io/political-news/2026/08/17/political-brief.html",
-        "title": "Political discourse intensifies as opposition leaders trade barbs, while concerns over education infrastructure and parliamentary conduct dominate the agenda",
+        "date": "2026-08-18",
+        "url": "https://rajeshphy.github.io/political-news/2026/08/18/political-brief.html",
+        "title": "Supreme Court reviews lawmaker criminal records as government pauses controversial FCRA amendments and NITI Aayog pushes for telecom policy support",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-08-16",
-        "url": "https://rajeshphy.github.io/political-news/2026/08/16/political-brief.html",
-        "title": "Parliament passes transgender rights legislation, while political tensions rise over national symbols and upcoming Supreme Court hearings",
+        "date": "2026-08-17",
+        "url": "https://rajeshphy.github.io/political-news/2026/08/17/political-brief.html",
+        "title": "Supreme Court rulings on Sikkim’s electoral base year, parliamentary confrontations, and NITI Aayog’s call for telecom policy reform dominate the national di...",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-08-17",
-      "url": "https://rajeshphy.github.io/economic-news/2026/08/17/economy-brief.html",
-      "title": "RBI moves to decouple from bank deposit ratings as investors brace for Fed minutes and geopolitical risks impacting crude oil prices",
+      "date": "2026-08-18",
+      "url": "https://rajeshphy.github.io/economic-news/2026/08/18/economy-brief.html",
+      "title": "RBI faces scrutiny over rupee intervention communication, while BSE Clearing expands securities lending options with new 3-day contracts",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-08-17",
-        "url": "https://rajeshphy.github.io/economic-news/2026/08/17/economy-brief.html",
-        "title": "RBI moves to decouple from bank deposit ratings as investors brace for Fed minutes and geopolitical risks impacting crude oil prices",
+        "date": "2026-08-18",
+        "url": "https://rajeshphy.github.io/economic-news/2026/08/18/economy-brief.html",
+        "title": "RBI faces scrutiny over rupee intervention communication, while BSE Clearing expands securities lending options with new 3-day contracts",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-08-16",
-        "url": "https://rajeshphy.github.io/economic-news/2026/08/16/economy-brief.html",
-        "title": "RBI holds rates amid growth projections, while global geopolitical tensions and crude oil volatility remain key focus areas for Indian markets",
+        "date": "2026-08-17",
+        "url": "https://rajeshphy.github.io/economic-news/2026/08/17/economy-brief.html",
+        "title": "Indian markets decline as rising crude oil prices and RBI’s shortened diaspora swap window weigh on investor sentiment and bond yields",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-08-17",
-      "url": "https://rajeshphy.github.io/physics-news/2026/08/17/physics-brief.html",
-      "title": "Daily physics news for classroom and research awareness",
+      "date": "2026-08-18",
+      "url": "https://rajeshphy.github.io/physics-news/2026/08/18/physics-brief.html",
+      "title": "Particle physics, space science, quantum research, and materials physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-08-17",
-        "url": "https://rajeshphy.github.io/physics-news/2026/08/17/physics-brief.html",
-        "title": "Daily physics news for classroom and research awareness",
+        "date": "2026-08-18",
+        "url": "https://rajeshphy.github.io/physics-news/2026/08/18/physics-brief.html",
+        "title": "Particle physics, space science, quantum research, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-08-16",
-        "url": "https://rajeshphy.github.io/physics-news/2026/08/16/physics-brief.html",
-        "title": "Space science and quantum research for physics students",
+        "date": "2026-08-17",
+        "url": "https://rajeshphy.github.io/physics-news/2026/08/17/physics-brief.html",
+        "title": "Daily physics news for classroom and research awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
