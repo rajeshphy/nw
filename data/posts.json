@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-08-29T08:28:23.140750+05:30",
+  "generated_at": "2026-08-30T04:26:20.991048+05:30",
   "sources": {
     "pib": {
-      "date": "2026-08-29",
-      "url": "https://rajeshphy.github.io/pib/2026/08/29/pib-digest.html",
-      "title": "Government Initiatives in Public Examination Reform, International Diplomacy, and SocioEconomic",
+      "date": "2026-08-30",
+      "url": "https://rajeshphy.github.io/pib/2026/08/30/pib-digest.html",
+      "title": "Overview of Government Initiatives, Diplomatic Engagements, and Enforcement Actions",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-08-30",
+        "url": "https://rajeshphy.github.io/pib/2026/08/30/pib-digest.html",
+        "title": "Overview of Government Initiatives, Diplomatic Engagements, and Enforcement Actions",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-08-29",
         "url": "https://rajeshphy.github.io/pib/2026/08/29/pib-digest.html",
         "title": "Government Initiatives in Public Examination Reform, International Diplomacy, and SocioEconomic",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-08-28",
-        "url": "https://rajeshphy.github.io/pib/2026/08/28/pib-digest.html",
-        "title": "National Development, Governance, and Security Updates",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-08-29",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/29/dumka-brief.html",
-      "title": "Recruitment, court updates, and weather alerts from Dumka and Jharkhand",
+      "date": "2026-08-30",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/30/dumka-brief.html",
+      "title": "Local administration and road accidents from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-08-30",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/30/dumka-brief.html",
+        "title": "Local administration and road accidents from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-08-29",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/29/dumka-brief.html",
         "title": "Recruitment, court updates, and weather alerts from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-08-28",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/08/28/dumka-brief.html",
-        "title": "Road accidents, governance, education, and recruitment from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-08-29",
-      "url": "https://rajeshphy.github.io/political-news/2026/08/29/political-brief.html",
-      "title": "The Lok Sabha rejects a key women's reservation bill while the BJP secures major electoral wins in Assam and West Bengal amid ongoing national political shifts",
+      "date": "2026-08-30",
+      "url": "https://rajeshphy.github.io/political-news/2026/08/30/political-brief.html",
+      "title": "Parliament passes transgender rights legislation as the BJP secures key state election victories; meanwhile, women's reservation bill faces a setback",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-08-29",
-        "url": "https://rajeshphy.github.io/political-news/2026/08/29/political-brief.html",
-        "title": "The Lok Sabha rejects a key women's reservation bill while the BJP secures major electoral wins in Assam and West Bengal amid ongoing national political shifts",
+        "date": "2026-08-30",
+        "url": "https://rajeshphy.github.io/political-news/2026/08/30/political-brief.html",
+        "title": "Parliament passes transgender rights legislation as the BJP secures key state election victories; meanwhile, women's reservation bill faces a setback",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-08-28",
-        "url": "https://rajeshphy.github.io/political-news/2026/08/28/political-brief.html",
-        "title": "INDIA bloc names Rahul Gandhi as 2029 PM candidate, while political shifts and cabinet resignations mark a busy day in national and state-level politics",
+        "date": "2026-08-29",
+        "url": "https://rajeshphy.github.io/political-news/2026/08/29/political-brief.html",
+        "title": "Parliament passes the Transgender Persons Amendment Bill, while political tensions rise over mining legislation and internal party discipline",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-08-29",
-      "url": "https://rajeshphy.github.io/economic-news/2026/08/29/economy-brief.html",
-      "title": "Markets rally on easing geopolitical tensions and Nvidia-led tech optimism, while SEBI clears a record-breaking IPO for Jio Platforms",
+      "date": "2026-08-30",
+      "url": "https://rajeshphy.github.io/economic-news/2026/08/30/economy-brief.html",
+      "title": "The RBI maintains the repo rate and projects 6.9% GDP growth, while domestic markets face pressure from global interest rate concerns",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-08-29",
-        "url": "https://rajeshphy.github.io/economic-news/2026/08/29/economy-brief.html",
-        "title": "Markets rally on easing geopolitical tensions and Nvidia-led tech optimism, while SEBI clears a record-breaking IPO for Jio Platforms",
+        "date": "2026-08-30",
+        "url": "https://rajeshphy.github.io/economic-news/2026/08/30/economy-brief.html",
+        "title": "The RBI maintains the repo rate and projects 6.9% GDP growth, while domestic markets face pressure from global interest rate concerns",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-08-28",
-        "url": "https://rajeshphy.github.io/economic-news/2026/08/28/economy-brief.html",
-        "title": "SEBI clears Jio Platforms for a mega IPO as IT stocks drive domestic indices higher amid global focus on US Fed policy and rising bond yields",
+        "date": "2026-08-29",
+        "url": "https://rajeshphy.github.io/economic-news/2026/08/29/economy-brief.html",
+        "title": "SEBI clears Jio Platforms' massive IPO as India’s forex reserves hit record highs, while global interest rate concerns weigh on domestic market sentiment",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-08-29",
-      "url": "https://rajeshphy.github.io/physics-news/2026/08/29/physics-brief.html",
-      "title": "Space science, quantum research, and particle physics for physics students",
+      "date": "2026-08-30",
+      "url": "https://rajeshphy.github.io/physics-news/2026/08/30/physics-brief.html",
+      "title": "Space science and quantum research for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-08-29",
-        "url": "https://rajeshphy.github.io/physics-news/2026/08/29/physics-brief.html",
-        "title": "Space science, quantum research, and particle physics for physics students",
+        "date": "2026-08-30",
+        "url": "https://rajeshphy.github.io/physics-news/2026/08/30/physics-brief.html",
+        "title": "Space science and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-08-28",
-        "url": "https://rajeshphy.github.io/physics-news/2026/08/28/physics-brief.html",
-        "title": "Space science, quantum research, and materials physics for physics students",
+        "date": "2026-08-29",
+        "url": "https://rajeshphy.github.io/physics-news/2026/08/29/physics-brief.html",
+        "title": "Space science, particle physics, and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
