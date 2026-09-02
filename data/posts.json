@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-09-02T04:25:13.430873+05:30",
+  "generated_at": "2026-09-03T04:25:30.666555+05:30",
   "sources": {
     "pib": {
-      "date": "2026-09-02",
-      "url": "https://rajeshphy.github.io/pib/2026/09/02/pib-digest.html",
-      "title": "Government Policy, Appointments, and Corporate Developments Digest",
+      "date": "2026-09-03",
+      "url": "https://rajeshphy.github.io/pib/2026/09/03/pib-digest.html",
+      "title": "Overview of Recent Indian Policy, Economic, and Diplomatic Developments",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-03",
+        "url": "https://rajeshphy.github.io/pib/2026/09/03/pib-digest.html",
+        "title": "Overview of Recent Indian Policy, Economic, and Diplomatic Developments",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-02",
         "url": "https://rajeshphy.github.io/pib/2026/09/02/pib-digest.html",
         "title": "Government Policy, Appointments, and Corporate Developments Digest",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-01",
-        "url": "https://rajeshphy.github.io/pib/2026/09/01/pib-digest.html",
-        "title": "PIB Regional Updates",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-09-02",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/02/dumka-brief.html",
-      "title": "Local administration, governance, and weather alerts from Dumka and Jharkhand",
+      "date": "2026-09-03",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/03/dumka-brief.html",
+      "title": "Education from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-03",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/03/dumka-brief.html",
+        "title": "Education from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-02",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/02/dumka-brief.html",
         "title": "Local administration, governance, and weather alerts from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-01",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/01/dumka-brief.html",
-        "title": "Weather alerts and governance from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-09-02",
-      "url": "https://rajeshphy.github.io/political-news/2026/09/02/political-brief.html",
-      "title": "Government plans special Parliament session, advances security legislation, and faces opposition criticism over electoral integrity and policy",
+      "date": "2026-09-03",
+      "url": "https://rajeshphy.github.io/political-news/2026/09/03/political-brief.html",
+      "title": "Shiv Sena legal battles continue in the Supreme Court, while political parties launch outreach campaigns and debate potential alliances",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-02",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/02/political-brief.html",
-        "title": "Government plans special Parliament session, advances security legislation, and faces opposition criticism over electoral integrity and policy",
+        "date": "2026-09-03",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/03/political-brief.html",
+        "title": "Shiv Sena legal battles continue in the Supreme Court, while political parties launch outreach campaigns and debate potential alliances",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-01",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/01/political-brief.html",
-        "title": "The Supreme Court has quashed nationwide FIRs against NEET protesters, while Parliament debates key constitutional amendments and delimitation bills",
+        "date": "2026-09-02",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/02/political-brief.html",
+        "title": "The Supreme Court restricts BCI leadership powers while Parliament passes key legislation and debates the Union Budget amidst ongoing political developments",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-09-02",
-      "url": "https://rajeshphy.github.io/economic-news/2026/09/02/economy-brief.html",
-      "title": "RBI rate hike expectations and rising global crude prices weigh on sentiment as bond yields climb and international equity markets face pressure",
+      "date": "2026-09-03",
+      "url": "https://rajeshphy.github.io/economic-news/2026/09/03/economy-brief.html",
+      "title": "JCR upgrades India's sovereign rating to A-, even as manufacturing growth hits a five-year low and the current account deficit widens",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-02",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/02/economy-brief.html",
-        "title": "RBI rate hike expectations and rising global crude prices weigh on sentiment as bond yields climb and international equity markets face pressure",
+        "date": "2026-09-03",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/03/economy-brief.html",
+        "title": "JCR upgrades India's sovereign rating to A-, even as manufacturing growth hits a five-year low and the current account deficit widens",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-01",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/01/economy-brief.html",
-        "title": "Strong Q1 GDP growth fuels rate hike speculation while rising crude oil prices and global inflation concerns weigh on domestic market sentiment",
+        "date": "2026-09-02",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/02/economy-brief.html",
+        "title": "Indian markets fell for the third consecutive day as rising crude oil prices and US-Iran tensions triggered a risk-off sentiment across domestic indices",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-09-02",
-      "url": "https://rajeshphy.github.io/physics-news/2026/09/02/physics-brief.html",
-      "title": "Quantum research, materials physics, space science, and nuclear and plasma physics for physics students",
+      "date": "2026-09-03",
+      "url": "https://rajeshphy.github.io/physics-news/2026/09/03/physics-brief.html",
+      "title": "Nuclear and plasma physics, quantum research, particle physics, and space science for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-02",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/02/physics-brief.html",
-        "title": "Quantum research, materials physics, space science, and nuclear and plasma physics for physics students",
+        "date": "2026-09-03",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/03/physics-brief.html",
+        "title": "Nuclear and plasma physics, quantum research, particle physics, and space science for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-01",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/01/physics-brief.html",
-        "title": "Particle physics, space science, and quantum research for physics students",
+        "date": "2026-09-02",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/02/physics-brief.html",
+        "title": "Quantum research, materials physics, space science, and nuclear and plasma physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
