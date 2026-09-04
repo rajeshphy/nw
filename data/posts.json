@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-09-04T04:24:30.987533+05:30",
+  "generated_at": "2026-09-05T04:10:55.284463+05:30",
   "sources": {
     "pib": {
-      "date": "2026-09-04",
-      "url": "https://rajeshphy.github.io/pib/2026/09/04/pib-digest.html",
-      "title": "National Policy Updates: Defence, Infrastructure, Governance, and Social Welfare",
+      "date": "2026-09-05",
+      "url": "https://rajeshphy.github.io/pib/2026/09/05/pib-digest.html",
+      "title": "PIB Regional Updates",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-05",
+        "url": "https://rajeshphy.github.io/pib/2026/09/05/pib-digest.html",
+        "title": "PIB Regional Updates",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-04",
         "url": "https://rajeshphy.github.io/pib/2026/09/04/pib-digest.html",
         "title": "National Policy Updates: Defence, Infrastructure, Governance, and Social Welfare",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-03",
-        "url": "https://rajeshphy.github.io/pib/2026/09/03/pib-digest.html",
-        "title": "Overview of Recent Indian Policy, Economic, and Diplomatic Developments",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-09-04",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/04/dumka-brief.html",
-      "title": "Local administration and infrastructure from Dumka and Jharkhand",
+      "date": "2026-09-05",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/05/dumka-brief.html",
+      "title": "Infrastructure, local administration, governance, and recruitment from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-05",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/05/dumka-brief.html",
+        "title": "Infrastructure, local administration, governance, and recruitment from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-04",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/04/dumka-brief.html",
         "title": "Local administration and infrastructure from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-03",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/03/dumka-brief.html",
-        "title": "Education from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-09-04",
-      "url": "https://rajeshphy.github.io/political-news/2026/09/04/political-brief.html",
-      "title": "The Lok Sabha faces legislative setbacks and internal friction, while the government advances key economic and water resource policy initiatives",
+      "date": "2026-09-05",
+      "url": "https://rajeshphy.github.io/political-news/2026/09/05/political-brief.html",
+      "title": "ECI concludes national conference, women's reservation bill faces Lok Sabha setback, and US imposes temporary tariffs amid judicial and health policy updates",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-04",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/04/political-brief.html",
-        "title": "The Lok Sabha faces legislative setbacks and internal friction, while the government advances key economic and water resource policy initiatives",
+        "date": "2026-09-05",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/05/political-brief.html",
+        "title": "ECI concludes national conference, women's reservation bill faces Lok Sabha setback, and US imposes temporary tariffs amid judicial and health policy updates",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-03",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/03/political-brief.html",
-        "title": "Parliament forms a panel for the FCRA Bill, Telangana cabinet sees a high-profile exit, and political tensions rise over electoral rolls and party alliances",
+        "date": "2026-09-04",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/04/political-brief.html",
+        "title": "Parliament passes the Transgender Persons Amendment Bill, while political tensions rise over electoral integrity and legislative deadlocks",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-09-04",
-      "url": "https://rajeshphy.github.io/economic-news/2026/09/04/economy-brief.html",
-      "title": "RBI maintains repo rate with a 6.9% GDP growth forecast, while global markets grapple with shifting Fed rate expectations and rising oil prices",
+      "date": "2026-09-05",
+      "url": "https://rajeshphy.github.io/economic-news/2026/09/05/economy-brief.html",
+      "title": "SEBI clears the NSE's landmark ₹30,000-crore IPO as the RBI manages record banking liquidity amid concerns over rising US debt levels",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-04",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/04/economy-brief.html",
-        "title": "RBI maintains repo rate with a 6.9% GDP growth forecast, while global markets grapple with shifting Fed rate expectations and rising oil prices",
+        "date": "2026-09-05",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/05/economy-brief.html",
+        "title": "SEBI clears the NSE's landmark ₹30,000-crore IPO as the RBI manages record banking liquidity amid concerns over rising US debt levels",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-03",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/03/economy-brief.html",
-        "title": "SEBI proposes net settlement for mutual funds to boost liquidity, while the rupee hits a 10-week high amid strong FCNR inflows and rising crude oil concerns",
+        "date": "2026-09-04",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/04/economy-brief.html",
+        "title": "NSE secures SEBI approval for a ₹30,000 crore IPO, while domestic markets rebound as cooling US rate hike fears drive a recovery in sentiment",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-09-04",
-      "url": "https://rajeshphy.github.io/physics-news/2026/09/04/physics-brief.html",
-      "title": "Space science, astronomy, particle physics, and quantum research for physics students",
+      "date": "2026-09-05",
+      "url": "https://rajeshphy.github.io/physics-news/2026/09/05/physics-brief.html",
+      "title": "Nuclear and plasma physics, quantum research, and space science for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-04",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/04/physics-brief.html",
-        "title": "Space science, astronomy, particle physics, and quantum research for physics students",
+        "date": "2026-09-05",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/05/physics-brief.html",
+        "title": "Nuclear and plasma physics, quantum research, and space science for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-03",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/03/physics-brief.html",
-        "title": "Nuclear and plasma physics, quantum research, particle physics, and space science for physics students",
+        "date": "2026-09-04",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/04/physics-brief.html",
+        "title": "Space science, astronomy, particle physics, and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
