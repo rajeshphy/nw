@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-09-07T04:06:12.529204+05:30",
+  "generated_at": "2026-09-08T04:42:31.344342+05:30",
   "sources": {
     "pib": {
-      "date": "2026-09-07",
-      "url": "https://rajeshphy.github.io/pib/2026/09/07/pib-digest.html",
-      "title": "National Governance, Infrastructure, and Diplomatic Updates",
+      "date": "2026-09-08",
+      "url": "https://rajeshphy.github.io/pib/2026/09/08/pib-digest.html",
+      "title": "National Policy Updates: Infrastructure, Governance, and International Cooperation",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-08",
+        "url": "https://rajeshphy.github.io/pib/2026/09/08/pib-digest.html",
+        "title": "National Policy Updates: Infrastructure, Governance, and International Cooperation",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-07",
         "url": "https://rajeshphy.github.io/pib/2026/09/07/pib-digest.html",
         "title": "National Governance, Infrastructure, and Diplomatic Updates",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-06",
-        "url": "https://rajeshphy.github.io/pib/2026/09/06/pib-digest.html",
-        "title": "National Developments in Infrastructure, Education, and Public Welfare",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-09-07",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/07/dumka-brief.html",
-      "title": "Education and weather alerts from Dumka and Jharkhand",
+      "date": "2026-09-08",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/08/dumka-brief.html",
+      "title": "Road accidents, local administration, health services, and governance from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-08",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/08/dumka-brief.html",
+        "title": "Road accidents, local administration, health services, and governance from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-07",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/07/dumka-brief.html",
         "title": "Education and weather alerts from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-06",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/06/dumka-brief.html",
-        "title": "Road accidents and education from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-09-07",
-      "url": "https://rajeshphy.github.io/political-news/2026/09/07/political-brief.html",
-      "title": "Supreme Court faces HPV vaccine plea, US tariffs impact trade, and political maneuvering intensifies ahead of 2029 polls and state assembly sessions",
+      "date": "2026-09-08",
+      "url": "https://rajeshphy.github.io/political-news/2026/09/08/political-brief.html",
+      "title": "Parliament passes transgender rights legislation amid opposition scrutiny over prorogation delays and ongoing debates regarding electoral and social policies",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-07",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/07/political-brief.html",
-        "title": "Supreme Court faces HPV vaccine plea, US tariffs impact trade, and political maneuvering intensifies ahead of 2029 polls and state assembly sessions",
+        "date": "2026-09-08",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/08/political-brief.html",
+        "title": "Parliament passes transgender rights legislation amid opposition scrutiny over prorogation delays and ongoing debates regarding electoral and social policies",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-06",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/06/political-brief.html",
-        "title": "Rahul Gandhi confirmed as 2029 INDIA bloc lead, while Parliament passes transgender rights legislation and debates women's reservation",
+        "date": "2026-09-07",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/07/political-brief.html",
+        "title": "ECI schedules October bypolls while parliamentary sessions face opposition scrutiny over delimitation bills and legislative delays",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-09-07",
-      "url": "https://rajeshphy.github.io/economic-news/2026/09/07/economy-brief.html",
-      "title": "India’s Q1 GDP growth beats RBI estimates amid debates on data quality, while the government leverages diaspora inflows to bolster rupee stability",
+      "date": "2026-09-08",
+      "url": "https://rajeshphy.github.io/economic-news/2026/09/08/economy-brief.html",
+      "title": "RBI maintains repo rate with a 6.9% GDP growth forecast as Indian markets face pressure from surging crude oil prices and escalating Iran-US tensions",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-07",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/07/economy-brief.html",
-        "title": "India’s Q1 GDP growth beats RBI estimates amid debates on data quality, while the government leverages diaspora inflows to bolster rupee stability",
+        "date": "2026-09-08",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/08/economy-brief.html",
+        "title": "RBI maintains repo rate with a 6.9% GDP growth forecast as Indian markets face pressure from surging crude oil prices and escalating Iran-US tensions",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-06",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/06/economy-brief.html",
-        "title": "RBI holds repo rates steady amid 6.9% GDP growth projections, while markets brace for volatility driven by West Asia tensions and US economic data",
+        "date": "2026-09-07",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/07/economy-brief.html",
+        "title": "RBI mops up ₹6 trillion in liquidity as markets face headwinds from rising Brent crude prices and geopolitical tensions",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-09-07",
-      "url": "https://rajeshphy.github.io/physics-news/2026/09/07/physics-brief.html",
-      "title": "Space science, particle physics, and materials physics for physics students",
+      "date": "2026-09-08",
+      "url": "https://rajeshphy.github.io/physics-news/2026/09/08/physics-brief.html",
+      "title": "Space science and quantum research for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-07",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/07/physics-brief.html",
-        "title": "Space science, particle physics, and materials physics for physics students",
+        "date": "2026-09-08",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/08/physics-brief.html",
+        "title": "Space science and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-06",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/06/physics-brief.html",
-        "title": "Space science, materials physics, particle physics, and quantum research for physics students",
+        "date": "2026-09-07",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/07/physics-brief.html",
+        "title": "Space science, particle physics, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
