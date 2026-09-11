@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-09-11T04:22:12.710767+05:30",
+  "generated_at": "2026-09-12T04:24:58.657929+05:30",
   "sources": {
     "pib": {
-      "date": "2026-09-11",
-      "url": "https://rajeshphy.github.io/pib/2026/09/11/pib-digest.html",
-      "title": "Overview of Recent Government Policy Initiatives and Ministerial Engagements",
+      "date": "2026-09-12",
+      "url": "https://rajeshphy.github.io/pib/2026/09/12/pib-digest.html",
+      "title": "India’s Diplomatic Engagements and National Development Initiatives",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-12",
+        "url": "https://rajeshphy.github.io/pib/2026/09/12/pib-digest.html",
+        "title": "India’s Diplomatic Engagements and National Development Initiatives",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-11",
         "url": "https://rajeshphy.github.io/pib/2026/09/11/pib-digest.html",
         "title": "Overview of Recent Government Policy Initiatives and Ministerial Engagements",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-10",
-        "url": "https://rajeshphy.github.io/pib/2026/09/10/pib-digest.html",
-        "title": "National Infrastructure, Policy Initiatives, and International Cooperation Updates",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-09-11",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/11/dumka-brief.html",
-      "title": "Road accidents, court updates, and infrastructure from Dumka and Jharkhand",
+      "date": "2026-09-12",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/12/dumka-brief.html",
+      "title": "Governance and local administration from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-12",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/12/dumka-brief.html",
+        "title": "Governance and local administration from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-11",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/11/dumka-brief.html",
         "title": "Road accidents, court updates, and infrastructure from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-10",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/10/dumka-brief.html",
-        "title": "Infrastructure, education, and weather alerts from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-09-11",
-      "url": "https://rajeshphy.github.io/political-news/2026/09/11/political-brief.html",
-      "title": "CEC assures electoral roll integrity ahead of polls as national policy debates emerge on tax legislation and digital infrastructure",
+      "date": "2026-09-12",
+      "url": "https://rajeshphy.github.io/political-news/2026/09/12/political-brief.html",
+      "title": "NDA retains power in Puducherry, Congress prepares for West Bengal bypolls, and national discourse shifts toward early election speculation",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-11",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/11/political-brief.html",
-        "title": "CEC assures electoral roll integrity ahead of polls as national policy debates emerge on tax legislation and digital infrastructure",
+        "date": "2026-09-12",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/12/political-brief.html",
+        "title": "NDA retains power in Puducherry, Congress prepares for West Bengal bypolls, and national discourse shifts toward early election speculation",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-10",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/10/political-brief.html",
-        "title": "Parliament passes the Transgender Persons Amendment Bill, while the Supreme Court addresses key education, labor, and criminal justice petitions",
+        "date": "2026-09-11",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/11/political-brief.html",
+        "title": "The BJP names a candidate for the Nagaon bypoll amid parliamentary uncertainty, while the Supreme Court pushes for clarity on food safety labeling regulations",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-09-11",
-      "url": "https://rajeshphy.github.io/economic-news/2026/09/11/economy-brief.html",
-      "title": "NSE reduces IPO size amid valuation concerns, while rising crude oil prices and US fiscal policy shifts weigh on investor sentiment",
+      "date": "2026-09-12",
+      "url": "https://rajeshphy.github.io/economic-news/2026/09/12/economy-brief.html",
+      "title": "RBI liquidity tightening and inflation risks weigh on markets as investors brace for the upcoming NSE IPO and global interest rate uncertainty",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-11",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/11/economy-brief.html",
-        "title": "NSE reduces IPO size amid valuation concerns, while rising crude oil prices and US fiscal policy shifts weigh on investor sentiment",
+        "date": "2026-09-12",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/12/economy-brief.html",
+        "title": "RBI liquidity tightening and inflation risks weigh on markets as investors brace for the upcoming NSE IPO and global interest rate uncertainty",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-10",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/10/economy-brief.html",
-        "title": "Markets rebound despite Brent crude exceeding $100/bbl, while the RBI manages liquidity amid growth projections and currency pressure",
+        "date": "2026-09-11",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/11/economy-brief.html",
+        "title": "Indian markets faced a sharp sell-off as Brent crude topped $108, while the RBI announced a ₹1 lakh crore liquidity drain via OMO bond sales",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,8 +133,8 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-09-11",
-      "url": "https://rajeshphy.github.io/physics-news/2026/09/11/physics-brief.html",
+      "date": "2026-09-12",
+      "url": "https://rajeshphy.github.io/physics-news/2026/09/12/physics-brief.html",
       "title": "Space science, particle physics, and quantum research for physics students",
       "method": "published_archive",
       "source_file": null,
@@ -142,8 +142,8 @@
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-11",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/11/physics-brief.html",
+        "date": "2026-09-12",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/12/physics-brief.html",
         "title": "Space science, particle physics, and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-10",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/10/physics-brief.html",
-        "title": "Quantum research, space science, materials physics, and particle physics for physics students",
+        "date": "2026-09-11",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/11/physics-brief.html",
+        "title": "Space science, particle physics, and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
