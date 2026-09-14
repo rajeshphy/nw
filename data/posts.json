@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-09-14T04:14:25.155301+05:30",
+  "generated_at": "2026-09-15T05:08:30.902784+05:30",
   "sources": {
     "pib": {
-      "date": "2026-09-14",
-      "url": "https://rajeshphy.github.io/pib/2026/09/14/pib-digest.html",
-      "title": "Summary of Recent Government Initiatives, Diplomatic Engagements, and Sporting Achievements",
+      "date": "2026-09-15",
+      "url": "https://rajeshphy.github.io/pib/2026/09/15/pib-digest.html",
+      "title": "National Policy, Economic Updates, and Institutional Developments",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-15",
+        "url": "https://rajeshphy.github.io/pib/2026/09/15/pib-digest.html",
+        "title": "National Policy, Economic Updates, and Institutional Developments",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-14",
         "url": "https://rajeshphy.github.io/pib/2026/09/14/pib-digest.html",
         "title": "Summary of Recent Government Initiatives, Diplomatic Engagements, and Sporting Achievements",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-13",
-        "url": "https://rajeshphy.github.io/pib/2026/09/13/pib-digest.html",
-        "title": "International Diplomacy, Technological Innovation, and Policy Developments",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-09-14",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/14/dumka-brief.html",
-      "title": "Road accidents, infrastructure, and education from Dumka and Jharkhand",
+      "date": "2026-09-15",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/15/dumka-brief.html",
+      "title": "Daily Dumka and Jharkhand news updates",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-15",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/15/dumka-brief.html",
+        "title": "Daily Dumka and Jharkhand news updates",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-14",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/14/dumka-brief.html",
         "title": "Road accidents, infrastructure, and education from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-13",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/13/dumka-brief.html",
-        "title": "Daily Dumka and Jharkhand news updates",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-09-14",
-      "url": "https://rajeshphy.github.io/political-news/2026/09/14/political-brief.html",
-      "title": "National leaders mark cultural milestones, promote linguistic diversity, and address electoral eligibility criteria for local government polls",
+      "date": "2026-09-15",
+      "url": "https://rajeshphy.github.io/political-news/2026/09/15/political-brief.html",
+      "title": "Elections and party politics in Indian national politics",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-14",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/14/political-brief.html",
-        "title": "National leaders mark cultural milestones, promote linguistic diversity, and address electoral eligibility criteria for local government polls",
+        "date": "2026-09-15",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/15/political-brief.html",
+        "title": "Elections and party politics in Indian national politics",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-13",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/13/political-brief.html",
-        "title": "Amit Shah announces UCC rollout in NDA states by 2029, while political tensions rise over bypoll strategies and opposition allegations against the Centre",
+        "date": "2026-09-14",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/14/political-brief.html",
+        "title": "Rajasthan civic poll results show mixed outcomes, while Parliament passes transgender rights legislation and debates on women's reservation continue",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-09-14",
-      "url": "https://rajeshphy.github.io/economic-news/2026/09/14/economy-brief.html",
-      "title": "Sensex edges higher despite elevated crude prices, while a massive primary market week sees 11 companies targeting over Rs 24,000 crore in capital",
+      "date": "2026-09-15",
+      "url": "https://rajeshphy.github.io/economic-news/2026/09/15/economy-brief.html",
+      "title": "Indian markets are closed today for Ganesh Chaturthi following a five-week losing streak driven by persistent FII selling and broader equity volatility",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-14",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/14/economy-brief.html",
-        "title": "Sensex edges higher despite elevated crude prices, while a massive primary market week sees 11 companies targeting over Rs 24,000 crore in capital",
+        "date": "2026-09-15",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/15/economy-brief.html",
+        "title": "Indian markets are closed today for Ganesh Chaturthi following a five-week losing streak driven by persistent FII selling and broader equity volatility",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-13",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/13/economy-brief.html",
-        "title": "Indian markets face pressure from FII outflows and rising crude prices, while investors await the US Fed decision and domestic inflation data",
+        "date": "2026-09-14",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/14/economy-brief.html",
+        "title": "Inflation spikes and rising crude oil prices weigh on Indian markets as investors brace for the upcoming US Federal Reserve policy decision",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-09-14",
-      "url": "https://rajeshphy.github.io/physics-news/2026/09/14/physics-brief.html",
-      "title": "Quantum research and space science for physics students",
+      "date": "2026-09-15",
+      "url": "https://rajeshphy.github.io/physics-news/2026/09/15/physics-brief.html",
+      "title": "Space science and quantum research for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-14",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/14/physics-brief.html",
-        "title": "Quantum research and space science for physics students",
+        "date": "2026-09-15",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/15/physics-brief.html",
+        "title": "Space science and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-13",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/13/physics-brief.html",
-        "title": "Space science and particle physics for physics students",
+        "date": "2026-09-14",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/14/physics-brief.html",
+        "title": "Quantum research and space science for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
