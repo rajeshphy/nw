@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-09-20T04:05:54.465142+05:30",
+  "generated_at": "2026-09-21T04:20:02.937360+05:30",
   "sources": {
     "pib": {
-      "date": "2026-09-20",
-      "url": "https://rajeshphy.github.io/pib/2026/09/20/pib-digest.html",
-      "title": "National Policy Updates: Infrastructure, Technology, and Social Welfare Initiatives",
+      "date": "2026-09-21",
+      "url": "https://rajeshphy.github.io/pib/2026/09/21/pib-digest.html",
+      "title": "Government Initiatives, Legal Developments, and National Achievements Digest",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-21",
+        "url": "https://rajeshphy.github.io/pib/2026/09/21/pib-digest.html",
+        "title": "Government Initiatives, Legal Developments, and National Achievements Digest",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-20",
         "url": "https://rajeshphy.github.io/pib/2026/09/20/pib-digest.html",
         "title": "National Policy Updates: Infrastructure, Technology, and Social Welfare Initiatives",
@@ -19,21 +29,11 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-19",
-        "url": "https://rajeshphy.github.io/pib/2026/09/19/pib-digest.html",
-        "title": "Government Initiatives in Employment, Technology, Governance, and Cultural Promotion",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-09-20",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/20/dumka-brief.html",
+      "date": "2026-09-21",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/21/dumka-brief.html",
       "title": "Infrastructure from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
@@ -41,8 +41,8 @@
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-20",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/20/dumka-brief.html",
+        "date": "2026-09-21",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/21/dumka-brief.html",
         "title": "Infrastructure from Dumka and Jharkhand",
         "method": "published_archive",
         "source_file": null,
@@ -51,9 +51,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-19",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/19/dumka-brief.html",
-        "title": "Governance and education from Dumka and Jharkhand",
+        "date": "2026-09-20",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/20/dumka-brief.html",
+        "title": "Infrastructure from Dumka and Jharkhand",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
@@ -62,18 +62,18 @@
       }
     },
     "pol": {
-      "date": "2026-09-20",
-      "url": "https://rajeshphy.github.io/political-news/2026/09/20/political-brief.html",
-      "title": "Opposition leaders target RSS on education policy as the BJP ramps up organizational election preparedness across key regions",
+      "date": "2026-09-21",
+      "url": "https://rajeshphy.github.io/political-news/2026/09/21/political-brief.html",
+      "title": "Tamil Nadu sees a new government formation bid, while BJP leaders convene in Delhi and Congress raises concerns over voter list integrity",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-20",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/20/political-brief.html",
-        "title": "Opposition leaders target RSS on education policy as the BJP ramps up organizational election preparedness across key regions",
+        "date": "2026-09-21",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/21/political-brief.html",
+        "title": "Tamil Nadu sees a new government formation bid, while BJP leaders convene in Delhi and Congress raises concerns over voter list integrity",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-19",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/19/political-brief.html",
-        "title": "Mamata Banerjee challenges the ECI in the Supreme Court, while the Union Cabinet expands the judiciary and Parliament debates the Union Budget",
+        "date": "2026-09-20",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/20/political-brief.html",
+        "title": "Parliament, elections, party politics, and union government in Indian national politics",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-09-20",
-      "url": "https://rajeshphy.github.io/economic-news/2026/09/20/economy-brief.html",
-      "title": "RBI holds rates steady amid mixed GDP forecasts, while rising oil prices and potential US tariff threats weigh on investor sentiment",
+      "date": "2026-09-21",
+      "url": "https://rajeshphy.github.io/economic-news/2026/09/21/economy-brief.html",
+      "title": "Markets face pressure from rising oil prices and anticipated RBI rate hikes as economists forecast tightening in the October policy cycle",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-20",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/20/economy-brief.html",
-        "title": "RBI holds rates steady amid mixed GDP forecasts, while rising oil prices and potential US tariff threats weigh on investor sentiment",
+        "date": "2026-09-21",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/21/economy-brief.html",
+        "title": "Markets face pressure from rising oil prices and anticipated RBI rate hikes as economists forecast tightening in the October policy cycle",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-19",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/19/economy-brief.html",
-        "title": "Inflation and macro data, rbi and rates, equity markets, and global cues for India market awareness",
+        "date": "2026-09-20",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/20/economy-brief.html",
+        "title": "Inflation and macro data, equity markets, rbi and rates, and commodities and currency for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-09-20",
-      "url": "https://rajeshphy.github.io/physics-news/2026/09/20/physics-brief.html",
-      "title": "Quantum research for physics students and research awareness",
+      "date": "2026-09-21",
+      "url": "https://rajeshphy.github.io/physics-news/2026/09/21/physics-brief.html",
+      "title": "Space science, quantum research, and particle physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-20",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/20/physics-brief.html",
-        "title": "Quantum research for physics students and research awareness",
+        "date": "2026-09-21",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/21/physics-brief.html",
+        "title": "Space science, quantum research, and particle physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-19",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/19/physics-brief.html",
-        "title": "Space science, quantum research, particle physics, and materials physics for physics students",
+        "date": "2026-09-20",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/20/physics-brief.html",
+        "title": "Quantum research for physics students and research awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
