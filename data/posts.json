@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-09-22T05:14:44.474534+05:30",
+  "generated_at": "2026-09-23T04:53:42.270151+05:30",
   "sources": {
     "pib": {
-      "date": "2026-09-22",
-      "url": "https://rajeshphy.github.io/pib/2026/09/22/pib-digest.html",
-      "title": "Government Initiatives on Economic Development, Public Services, and Social Welfare",
+      "date": "2026-09-23",
+      "url": "https://rajeshphy.github.io/pib/2026/09/23/pib-digest.html",
+      "title": "National Policy, Economic Development, and Cultural Recognition Updates",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-23",
+        "url": "https://rajeshphy.github.io/pib/2026/09/23/pib-digest.html",
+        "title": "National Policy, Economic Development, and Cultural Recognition Updates",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-22",
         "url": "https://rajeshphy.github.io/pib/2026/09/22/pib-digest.html",
         "title": "Government Initiatives on Economic Development, Public Services, and Social Welfare",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-21",
-        "url": "https://rajeshphy.github.io/pib/2026/09/21/pib-digest.html",
-        "title": "Government Initiatives, Legal Developments, and National Achievements Digest",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-09-22",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/22/dumka-brief.html",
-      "title": "Road accidents and weather alerts from Dumka and Jharkhand",
+      "date": "2026-09-23",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/23/dumka-brief.html",
+      "title": "Infrastructure and governance from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-23",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/23/dumka-brief.html",
+        "title": "Infrastructure and governance from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-22",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/22/dumka-brief.html",
         "title": "Road accidents and weather alerts from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-21",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/21/dumka-brief.html",
-        "title": "Infrastructure from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-09-22",
-      "url": "https://rajeshphy.github.io/political-news/2026/09/22/political-brief.html",
-      "title": "The Lok Sabha rejects a key women's reservation bill while regional election dynamics and administrative challenges shape the national political landscape",
+      "date": "2026-09-23",
+      "url": "https://rajeshphy.github.io/political-news/2026/09/23/political-brief.html",
+      "title": "Election Commission schedules Rajya Sabha polls for 12 seats while the Supreme Court clarifies legal stances on insurance claims and national symbols",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-22",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/22/political-brief.html",
-        "title": "The Lok Sabha rejects a key women's reservation bill while regional election dynamics and administrative challenges shape the national political landscape",
+        "date": "2026-09-23",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/23/political-brief.html",
+        "title": "Election Commission schedules Rajya Sabha polls for 12 seats while the Supreme Court clarifies legal stances on insurance claims and national symbols",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-21",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/21/political-brief.html",
-        "title": "The Supreme Court will hear Mamata Banerjee’s plea against the ECI’s TMC freeze, while Parliament passes the Transgender Persons Amendment Bill, 2026",
+        "date": "2026-09-22",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/22/political-brief.html",
+        "title": "Parliament, elections, and union government in Indian national politics",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-09-22",
-      "url": "https://rajeshphy.github.io/economic-news/2026/09/22/economy-brief.html",
-      "title": "NSE launches its landmark ₹22,569 crore IPO amid concerns that rising oil prices and global rate hikes could pressure domestic inflation and RBI policy",
+      "date": "2026-09-23",
+      "url": "https://rajeshphy.github.io/economic-news/2026/09/23/economy-brief.html",
+      "title": "Indian benchmarks decline as rising crude oil prices dampen sentiment, while the RBI cautions banks against aggressive loan pricing strategies",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-22",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/22/economy-brief.html",
-        "title": "NSE launches its landmark ₹22,569 crore IPO amid concerns that rising oil prices and global rate hikes could pressure domestic inflation and RBI policy",
+        "date": "2026-09-23",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/23/economy-brief.html",
+        "title": "Indian benchmarks decline as rising crude oil prices dampen sentiment, while the RBI cautions banks against aggressive loan pricing strategies",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-21",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/21/economy-brief.html",
-        "title": "Equity markets, rbi and rates, and global cues for India market awareness",
+        "date": "2026-09-22",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/22/economy-brief.html",
+        "title": "RBI holds rates amid growth projections, while the NSE IPO concludes with strong institutional demand despite mixed market sentiment and cooling oil prices",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-09-22",
-      "url": "https://rajeshphy.github.io/physics-news/2026/09/22/physics-brief.html",
-      "title": "Space science, quantum research, and materials physics for physics students",
+      "date": "2026-09-23",
+      "url": "https://rajeshphy.github.io/physics-news/2026/09/23/physics-brief.html",
+      "title": "Space science, quantum research, and particle physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-22",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/22/physics-brief.html",
-        "title": "Space science, quantum research, and materials physics for physics students",
+        "date": "2026-09-23",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/23/physics-brief.html",
+        "title": "Space science, quantum research, and particle physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-21",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/21/physics-brief.html",
-        "title": "Space science, quantum research, and particle physics for physics students",
+        "date": "2026-09-22",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/22/physics-brief.html",
+        "title": "Space science, quantum research, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
