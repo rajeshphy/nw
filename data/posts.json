@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-09-25T05:12:00.998619+05:30",
+  "generated_at": "2026-09-26T05:13:49.683813+05:30",
   "sources": {
     "pib": {
-      "date": "2026-09-25",
-      "url": "https://rajeshphy.github.io/pib/2026/09/25/pib-digest.html",
-      "title": "PIB Regional Updates",
+      "date": "2026-09-26",
+      "url": "https://rajeshphy.github.io/pib/2026/09/26/pib-digest.html",
+      "title": "Infrastructure, Sports Achievements, and National Initiatives Digest",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-26",
+        "url": "https://rajeshphy.github.io/pib/2026/09/26/pib-digest.html",
+        "title": "Infrastructure, Sports Achievements, and National Initiatives Digest",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-25",
         "url": "https://rajeshphy.github.io/pib/2026/09/25/pib-digest.html",
         "title": "PIB Regional Updates",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": null,
-        "url": null,
-        "title": null,
-        "method": null,
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": "git: RuntimeError: Post directory does not exist: _posts",
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-09-25",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/25/dumka-brief.html",
-      "title": "Road accidents, infrastructure, and local administration from Dumka and Jharkhand",
+      "date": "2026-09-26",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/26/dumka-brief.html",
+      "title": "Local administration, governance, and education from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-09-26",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/26/dumka-brief.html",
+        "title": "Local administration, governance, and education from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-25",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/25/dumka-brief.html",
         "title": "Road accidents, infrastructure, and local administration from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-24",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/24/dumka-brief.html",
-        "title": "Infrastructure and road accidents from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-09-25",
-      "url": "https://rajeshphy.github.io/political-news/2026/09/25/political-brief.html",
-      "title": "Parliament, elections, party politics, and governance policy in Indian national politics",
+      "date": "2026-09-26",
+      "url": "https://rajeshphy.github.io/political-news/2026/09/26/political-brief.html",
+      "title": "Parliament clears the Transgender Persons Amendment Bill while political pressure mounts on the Election Commission over transparency and leadership concerns",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-25",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/25/political-brief.html",
-        "title": "Parliament, elections, party politics, and governance policy in Indian national politics",
+        "date": "2026-09-26",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/26/political-brief.html",
+        "title": "Parliament clears the Transgender Persons Amendment Bill while political pressure mounts on the Election Commission over transparency and leadership concerns",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-24",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/24/political-brief.html",
-        "title": "The Election Commission faces mounting pressure as the Supreme Court reviews appointment laws and the Opposition moves to impeach the Chief Election Commissi...",
+        "date": "2026-09-25",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/25/political-brief.html",
+        "title": "Nationwide protests and legal challenges mount against CEC Gyanesh Kumar as the opposition demands his resignation over alleged electoral irregularities",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-09-25",
-      "url": "https://rajeshphy.github.io/economic-news/2026/09/25/economy-brief.html",
-      "title": "SEBI expands PMS investment avenues as Indian markets face a sharp sell-off driven by rising crude oil prices and global yield concerns",
+      "date": "2026-09-26",
+      "url": "https://rajeshphy.github.io/economic-news/2026/09/26/economy-brief.html",
+      "title": "Fiscal discipline remains a priority as government borrowing stays on track, while regulatory updates impact investor compliance and gold prices ease",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-25",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/25/economy-brief.html",
-        "title": "SEBI expands PMS investment avenues as Indian markets face a sharp sell-off driven by rising crude oil prices and global yield concerns",
+        "date": "2026-09-26",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/26/economy-brief.html",
+        "title": "Fiscal discipline remains a priority as government borrowing stays on track, while regulatory updates impact investor compliance and gold prices ease",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-24",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/24/economy-brief.html",
-        "title": "Equity markets and RBI and rates for India market awareness",
+        "date": "2026-09-25",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/25/economy-brief.html",
+        "title": "Sensex and Nifty recovered on value buying as crude oil prices eased and the rupee stabilized following suspected RBI intervention",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-09-25",
-      "url": "https://rajeshphy.github.io/physics-news/2026/09/25/physics-brief.html",
-      "title": "Space science, quantum research, and materials physics for physics students",
+      "date": "2026-09-26",
+      "url": "https://rajeshphy.github.io/physics-news/2026/09/26/physics-brief.html",
+      "title": "Space science, astronomy, and quantum research for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-25",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/25/physics-brief.html",
-        "title": "Space science, quantum research, and materials physics for physics students",
+        "date": "2026-09-26",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/26/physics-brief.html",
+        "title": "Space science, astronomy, and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-24",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/24/physics-brief.html",
-        "title": "Physics education, space science, and nuclear and plasma physics for physics students",
+        "date": "2026-09-25",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/25/physics-brief.html",
+        "title": "Space science, quantum research, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
