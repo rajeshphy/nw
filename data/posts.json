@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-09-30T05:31:00.722044+05:30",
+  "generated_at": "2026-10-01T05:47:06.545076+05:30",
   "sources": {
     "pib": {
-      "date": "2026-09-30",
-      "url": "https://rajeshphy.github.io/pib/2026/09/30/pib-digest.html",
-      "title": "Government Initiatives in Infrastructure, Environment, and Public Recognition",
+      "date": "2026-10-01",
+      "url": "https://rajeshphy.github.io/pib/2026/10/01/pib-digest.html",
+      "title": "National Policy Updates: Infrastructure, Healthcare, and Governance Initiatives",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-01",
+        "url": "https://rajeshphy.github.io/pib/2026/10/01/pib-digest.html",
+        "title": "National Policy Updates: Infrastructure, Healthcare, and Governance Initiatives",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-09-30",
         "url": "https://rajeshphy.github.io/pib/2026/09/30/pib-digest.html",
         "title": "Government Initiatives in Infrastructure, Environment, and Public Recognition",
@@ -19,31 +29,21 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-09-29",
-        "url": "https://rajeshphy.github.io/pib/2026/09/29/pib-digest.html",
-        "title": "National Developments in Law Enforcement, Sports, and International Cooperation",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-09-30",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/30/dumka-brief.html",
-      "title": "Infrastructure from Dumka and Jharkhand",
+      "date": "2026-10-01",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/01/dumka-brief.html",
+      "title": "Local administration, court updates, health services, and education from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-30",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/30/dumka-brief.html",
-        "title": "Infrastructure from Dumka and Jharkhand",
+        "date": "2026-10-01",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/01/dumka-brief.html",
+        "title": "Local administration, court updates, health services, and education from Dumka and Jharkhand",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
@@ -51,8 +51,8 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-29",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/29/dumka-brief.html",
+        "date": "2026-09-30",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/09/30/dumka-brief.html",
         "title": "Infrastructure from Dumka and Jharkhand",
         "method": "published_archive",
         "source_file": null,
@@ -62,18 +62,18 @@
       }
     },
     "pol": {
-      "date": "2026-09-30",
-      "url": "https://rajeshphy.github.io/political-news/2026/09/30/political-brief.html",
-      "title": "The INDIA bloc intensifies pressure on the CEC, while the Union Cabinet approves major railway projects to boost connectivity across five states",
+      "date": "2026-10-01",
+      "url": "https://rajeshphy.github.io/political-news/2026/10/01/political-brief.html",
+      "title": "Opposition parties unite against the Election Commission while political realignments and candidate selections shape the national landscape",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-30",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/30/political-brief.html",
-        "title": "The INDIA bloc intensifies pressure on the CEC, while the Union Cabinet approves major railway projects to boost connectivity across five states",
+        "date": "2026-10-01",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/01/political-brief.html",
+        "title": "Opposition parties unite against the Election Commission while political realignments and candidate selections shape the national landscape",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-29",
-        "url": "https://rajeshphy.github.io/political-news/2026/09/29/political-brief.html",
-        "title": "The Supreme Court will hear pleas challenging CEC Gyanesh Kumar’s decisions, while the INDIA bloc and BJP clash over electoral integrity and institutional trust",
+        "date": "2026-09-30",
+        "url": "https://rajeshphy.github.io/political-news/2026/09/30/political-brief.html",
+        "title": "Opposition parties plan nationwide protests and an October 6 march to the ECI over alleged irregularities, while internal tensions surface within the alliance",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-09-30",
-      "url": "https://rajeshphy.github.io/economic-news/2026/09/30/economy-brief.html",
-      "title": "Indian indices decline on FII selling and global tensions, while reports suggest a potential 25 bps RBI rate hike in October amid tightening policy room",
+      "date": "2026-10-01",
+      "url": "https://rajeshphy.github.io/economic-news/2026/10/01/economy-brief.html",
+      "title": "Equity markets, corporate earnings, commodities and currency, and inflation and macro data for India market awareness",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-30",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/30/economy-brief.html",
-        "title": "Indian indices decline on FII selling and global tensions, while reports suggest a potential 25 bps RBI rate hike in October amid tightening policy room",
+        "date": "2026-10-01",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/01/economy-brief.html",
+        "title": "Equity markets, corporate earnings, commodities and currency, and inflation and macro data for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-29",
-        "url": "https://rajeshphy.github.io/economic-news/2026/09/29/economy-brief.html",
-        "title": "Equity markets and commodities and currency for India market awareness",
+        "date": "2026-09-30",
+        "url": "https://rajeshphy.github.io/economic-news/2026/09/30/economy-brief.html",
+        "title": "Indian indices face a three-day losing streak amid persistent FII selling and concerns over potential RBI repo rate hikes through mid-2027",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-09-30",
-      "url": "https://rajeshphy.github.io/physics-news/2026/09/30/physics-brief.html",
-      "title": "Quantum research, nuclear and plasma physics, and materials physics for physics students",
+      "date": "2026-10-01",
+      "url": "https://rajeshphy.github.io/physics-news/2026/10/01/physics-brief.html",
+      "title": "Quantum research and space science for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-09-30",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/30/physics-brief.html",
-        "title": "Quantum research, nuclear and plasma physics, and materials physics for physics students",
+        "date": "2026-10-01",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/01/physics-brief.html",
+        "title": "Quantum research and space science for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-09-29",
-        "url": "https://rajeshphy.github.io/physics-news/2026/09/29/physics-brief.html",
-        "title": "Nuclear and plasma physics, quantum research, and particle physics for physics students",
+        "date": "2026-09-30",
+        "url": "https://rajeshphy.github.io/physics-news/2026/09/30/physics-brief.html",
+        "title": "Quantum research, nuclear and plasma physics, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
