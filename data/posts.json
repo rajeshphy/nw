@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-10-05T05:15:08.981938+05:30",
+  "generated_at": "2026-10-06T07:06:40.570736+05:30",
   "sources": {
     "pib": {
-      "date": "2026-10-05",
-      "url": "https://rajeshphy.github.io/pib/2026/10/05/pib-digest.html",
-      "title": "National Developments in Infrastructure, Conservation, and Social Welfare",
+      "date": "2026-10-06",
+      "url": "https://rajeshphy.github.io/pib/2026/10/06/pib-digest.html",
+      "title": "National Developments in Governance, Infrastructure, and Diplomacy",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-06",
+        "url": "https://rajeshphy.github.io/pib/2026/10/06/pib-digest.html",
+        "title": "National Developments in Governance, Infrastructure, and Diplomacy",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-05",
         "url": "https://rajeshphy.github.io/pib/2026/10/05/pib-digest.html",
         "title": "National Developments in Infrastructure, Conservation, and Social Welfare",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-04",
-        "url": "https://rajeshphy.github.io/pib/2026/10/04/pib-digest.html",
-        "title": "Advancements in Technology, Governance, and National Sporting Achievements",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-10-05",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/05/dumka-brief.html",
-      "title": "Road accidents from Dumka and Jharkhand",
+      "date": "2026-10-06",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/06/dumka-brief.html",
+      "title": "Weather alerts, education, and recruitment from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-06",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/06/dumka-brief.html",
+        "title": "Weather alerts, education, and recruitment from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-05",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/05/dumka-brief.html",
         "title": "Road accidents from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-04",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/04/dumka-brief.html",
-        "title": "Health services, infrastructure, governance, and weather alerts from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-10-05",
-      "url": "https://rajeshphy.github.io/political-news/2026/10/05/political-brief.html",
-      "title": "Protests against the Election Commission intensify ahead of a Supreme Court hearing, while the BJP announces candidates for upcoming Rajya Sabha bypolls",
+      "date": "2026-10-06",
+      "url": "https://rajeshphy.github.io/political-news/2026/10/06/political-brief.html",
+      "title": "BJP unveils new Rajya Sabha candidates for UP while the Supreme Court challenges the Election Commission over voter roll modifications and Form 6 legality",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-05",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/05/political-brief.html",
-        "title": "Protests against the Election Commission intensify ahead of a Supreme Court hearing, while the BJP announces candidates for upcoming Rajya Sabha bypolls",
+        "date": "2026-10-06",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/06/political-brief.html",
+        "title": "BJP unveils new Rajya Sabha candidates for UP while the Supreme Court challenges the Election Commission over voter roll modifications and Form 6 legality",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-04",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/04/political-brief.html",
-        "title": "Supreme Court to review CEC Gyanesh Kumar's status amid protests, while the BJP announces key Rajya Sabha candidates for upcoming by-elections",
+        "date": "2026-10-05",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/05/political-brief.html",
+        "title": "Union government, elections, parliament, and constitutional issues in Indian national politics",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-10-05",
-      "url": "https://rajeshphy.github.io/economic-news/2026/10/05/economy-brief.html",
-      "title": "Indian markets face an eight-week losing streak as investors brace for the upcoming RBI policy decision and global yield fluctuations",
+      "date": "2026-10-06",
+      "url": "https://rajeshphy.github.io/economic-news/2026/10/06/economy-brief.html",
+      "title": "Markets rebound as Fed rate fears ease, while investors await the RBI’s policy decision amid expectations of a potential 25-bps repo rate hike",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-05",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/05/economy-brief.html",
-        "title": "Indian markets face an eight-week losing streak as investors brace for the upcoming RBI policy decision and global yield fluctuations",
+        "date": "2026-10-06",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/06/economy-brief.html",
+        "title": "Markets rebound as Fed rate fears ease, while investors await the RBI’s policy decision amid expectations of a potential 25-bps repo rate hike",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-04",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/04/economy-brief.html",
-        "title": "Markets brace for the upcoming RBI policy meeting, Q2 earnings, and global volatility as investors navigate a challenging eight-week losing streak for the Nifty",
+        "date": "2026-10-05",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/05/economy-brief.html",
+        "title": "Rbi and rates and equity markets for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-10-05",
-      "url": "https://rajeshphy.github.io/physics-news/2026/10/05/physics-brief.html",
-      "title": "Space science, quantum research, and particle physics for physics students",
+      "date": "2026-10-06",
+      "url": "https://rajeshphy.github.io/physics-news/2026/10/06/physics-brief.html",
+      "title": "Space science, nuclear and plasma physics, quantum research, and particle physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-05",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/05/physics-brief.html",
-        "title": "Space science, quantum research, and particle physics for physics students",
+        "date": "2026-10-06",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/06/physics-brief.html",
+        "title": "Space science, nuclear and plasma physics, quantum research, and particle physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-04",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/04/physics-brief.html",
-        "title": "Space science, particle physics, and astronomy for physics students",
+        "date": "2026-10-05",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/05/physics-brief.html",
+        "title": "Space science, quantum research, and particle physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
