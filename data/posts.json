@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-10-11T05:31:59.063247+05:30",
+  "generated_at": "2026-10-12T05:37:38.227843+05:30",
   "sources": {
     "pib": {
-      "date": "2026-10-11",
-      "url": "https://rajeshphy.github.io/pib/2026/10/11/pib-digest.html",
-      "title": "National Developments in Technology, Youth Engagement, and Policy Initiatives",
+      "date": "2026-10-12",
+      "url": "https://rajeshphy.github.io/pib/2026/10/12/pib-digest.html",
+      "title": "National Development, Infrastructure, and Security Updates",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-12",
+        "url": "https://rajeshphy.github.io/pib/2026/10/12/pib-digest.html",
+        "title": "National Development, Infrastructure, and Security Updates",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-11",
         "url": "https://rajeshphy.github.io/pib/2026/10/11/pib-digest.html",
         "title": "National Developments in Technology, Youth Engagement, and Policy Initiatives",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-10",
-        "url": "https://rajeshphy.github.io/pib/2026/10/10/pib-digest.html",
-        "title": "Government Initiatives in Technology, Defense, and Public Welfare",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-10-11",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/11/dumka-brief.html",
-      "title": "Local administration, governance, court updates, and weather alerts from Dumka and Jharkhand",
+      "date": "2026-10-12",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/12/dumka-brief.html",
+      "title": "Education, recruitment, and local administration from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-12",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/12/dumka-brief.html",
+        "title": "Education, recruitment, and local administration from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-11",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/11/dumka-brief.html",
         "title": "Local administration, governance, court updates, and weather alerts from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-10",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/10/dumka-brief.html",
-        "title": "Road accidents and local administration from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-10-11",
-      "url": "https://rajeshphy.github.io/political-news/2026/10/11/political-brief.html",
-      "title": "INDIA bloc leaders plan protests against the CEC amid national unrest, while the BJP defends parliamentary supremacy and addresses internal party dissent",
+      "date": "2026-10-12",
+      "url": "https://rajeshphy.github.io/political-news/2026/10/12/political-brief.html",
+      "title": "The INDIA bloc plans a Supreme Court march following a CJI meeting rejection, while political parties gear up for upcoming assembly election strategies",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-11",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/11/political-brief.html",
-        "title": "INDIA bloc leaders plan protests against the CEC amid national unrest, while the BJP defends parliamentary supremacy and addresses internal party dissent",
+        "date": "2026-10-12",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/12/political-brief.html",
+        "title": "The INDIA bloc plans a Supreme Court march following a CJI meeting rejection, while political parties gear up for upcoming assembly election strategies",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-10",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/10/political-brief.html",
-        "title": "The INDIA bloc challenges the Election Commission amid nationwide youth protests, while the BJP asserts that governance must remain within Parliament",
+        "date": "2026-10-11",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/11/political-brief.html",
+        "title": "Protests against the Election Commission intensify as the INDIA bloc plans a national showdown, while the government unveils a long-term steel policy",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-10-11",
-      "url": "https://rajeshphy.github.io/economic-news/2026/10/11/economy-brief.html",
-      "title": "Indian markets trade cautiously as the RBI begins its policy meeting amid rupee pressure and upcoming global inflation data",
+      "date": "2026-10-12",
+      "url": "https://rajeshphy.github.io/economic-news/2026/10/12/economy-brief.html",
+      "title": "Indian markets recover as oil prices soften, while RBI measures to support the rupee and manage liquidity impact banking and infrastructure sectors",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-11",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/11/economy-brief.html",
-        "title": "Indian markets trade cautiously as the RBI begins its policy meeting amid rupee pressure and upcoming global inflation data",
+        "date": "2026-10-12",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/12/economy-brief.html",
+        "title": "Indian markets recover as oil prices soften, while RBI measures to support the rupee and manage liquidity impact banking and infrastructure sectors",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-10",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/10/economy-brief.html",
-        "title": "The RBI hiked the repo rate by 25 bps to 5.50% and launched a special dollar window for oil companies to stabilize the rupee amid ongoing market volatility",
+        "date": "2026-10-11",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/11/economy-brief.html",
+        "title": "RBI initiates a rate hike cycle to combat inflation, while investors monitor Q2 earnings, crude oil volatility, and persistent FPI outflows",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-10-11",
-      "url": "https://rajeshphy.github.io/physics-news/2026/10/11/physics-brief.html",
-      "title": "Quantum research, particle physics, and space science for physics students",
+      "date": "2026-10-12",
+      "url": "https://rajeshphy.github.io/physics-news/2026/10/12/physics-brief.html",
+      "title": "Materials physics, particle physics, and quantum research for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-11",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/11/physics-brief.html",
-        "title": "Quantum research, particle physics, and space science for physics students",
+        "date": "2026-10-12",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/12/physics-brief.html",
+        "title": "Materials physics, particle physics, and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-10",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/10/physics-brief.html",
-        "title": "Quantum research and space science for physics students",
+        "date": "2026-10-11",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/11/physics-brief.html",
+        "title": "Quantum research, particle physics, and space science for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
