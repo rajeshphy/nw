@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-10-15T05:04:13.123899+05:30",
+  "generated_at": "2026-10-16T04:58:27.040065+05:30",
   "sources": {
     "pib": {
-      "date": "2026-10-15",
-      "url": "https://rajeshphy.github.io/pib/2026/10/15/pib-digest.html",
-      "title": "Updates on National Policy, Research Initiatives, and International Cooperation",
+      "date": "2026-10-16",
+      "url": "https://rajeshphy.github.io/pib/2026/10/16/pib-digest.html",
+      "title": "National Developments in Defense, Infrastructure, and Environmental Policy",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-16",
+        "url": "https://rajeshphy.github.io/pib/2026/10/16/pib-digest.html",
+        "title": "National Developments in Defense, Infrastructure, and Environmental Policy",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-15",
         "url": "https://rajeshphy.github.io/pib/2026/10/15/pib-digest.html",
         "title": "Updates on National Policy, Research Initiatives, and International Cooperation",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-14",
-        "url": "https://rajeshphy.github.io/pib/2026/10/14/pib-digest.html",
-        "title": "Diplomatic Engagements, Economic Initiatives, and Governance Updates",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-10-15",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/15/dumka-brief.html",
-      "title": "Court updates from Dumka and Jharkhand",
+      "date": "2026-10-16",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/16/dumka-brief.html",
+      "title": "Education from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-16",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/16/dumka-brief.html",
+        "title": "Education from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-15",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/15/dumka-brief.html",
         "title": "Court updates from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-14",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/14/dumka-brief.html",
-        "title": "Governance and weather alerts from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-10-15",
-      "url": "https://rajeshphy.github.io/political-news/2026/10/15/political-brief.html",
-      "title": "The Supreme Court prepares to hear an INDIA bloc challenge against SIR, while Union Minister L Murugan resigns amid ongoing national political tensions",
+      "date": "2026-10-16",
+      "url": "https://rajeshphy.github.io/political-news/2026/10/16/political-brief.html",
+      "title": "The Supreme Court reviews ECI petitions amid rising electoral protests, while the Union Cabinet approves major railway infrastructure projects across four st...",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-15",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/15/political-brief.html",
-        "title": "The Supreme Court prepares to hear an INDIA bloc challenge against SIR, while Union Minister L Murugan resigns amid ongoing national political tensions",
+        "date": "2026-10-16",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/16/political-brief.html",
+        "title": "The Supreme Court reviews ECI petitions amid rising electoral protests, while the Union Cabinet approves major railway infrastructure projects across four st...",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-14",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/14/political-brief.html",
-        "title": "The Supreme Court reviews Election Commission practices and immunity, while the Union Cabinet clears a record-breaking IDBI Bank stake sale to Fairfax",
+        "date": "2026-10-15",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/15/political-brief.html",
+        "title": "Elections, parliament, constitutional issues, and party politics in Indian national politics",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-10-15",
-      "url": "https://rajeshphy.github.io/economic-news/2026/10/15/economy-brief.html",
-      "title": "The RBI has raised the repo rate to 5.5%, signaling no near-term cuts, while bond yields climb to three-year highs amid geopolitical tensions",
+      "date": "2026-10-16",
+      "url": "https://rajeshphy.github.io/economic-news/2026/10/16/economy-brief.html",
+      "title": "Sensex surges on strong Wipro guidance while SEBI updates derivative and account statement norms to enhance market stability and transparency",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-15",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/15/economy-brief.html",
-        "title": "The RBI has raised the repo rate to 5.5%, signaling no near-term cuts, while bond yields climb to three-year highs amid geopolitical tensions",
+        "date": "2026-10-16",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/16/economy-brief.html",
+        "title": "Sensex surges on strong Wipro guidance while SEBI updates derivative and account statement norms to enhance market stability and transparency",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-14",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/14/economy-brief.html",
-        "title": "Equity markets, corporate earnings, inflation and macro data, and RBI and rates for India market awareness",
+        "date": "2026-10-15",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/15/economy-brief.html",
+        "title": "Indian indices surged over 1,500 points as the rupee strengthened and oil prices eased, even as concerns persist regarding potential fuel-led inflation",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-10-15",
-      "url": "https://rajeshphy.github.io/physics-news/2026/10/15/physics-brief.html",
-      "title": "Particle physics, space science, and materials physics for physics students",
+      "date": "2026-10-16",
+      "url": "https://rajeshphy.github.io/physics-news/2026/10/16/physics-brief.html",
+      "title": "Materials physics and quantum research for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-15",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/15/physics-brief.html",
-        "title": "Particle physics, space science, and materials physics for physics students",
+        "date": "2026-10-16",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/16/physics-brief.html",
+        "title": "Materials physics and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-14",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/14/physics-brief.html",
-        "title": "Quantum research and nuclear and plasma physics for physics students",
+        "date": "2026-10-15",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/15/physics-brief.html",
+        "title": "Particle physics, space science, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
