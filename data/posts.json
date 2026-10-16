@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-10-16T04:58:27.040065+05:30",
+  "generated_at": "2026-10-17T04:41:02.762497+05:30",
   "sources": {
     "pib": {
-      "date": "2026-10-16",
-      "url": "https://rajeshphy.github.io/pib/2026/10/16/pib-digest.html",
-      "title": "National Developments in Defense, Infrastructure, and Environmental Policy",
+      "date": "2026-10-17",
+      "url": "https://rajeshphy.github.io/pib/2026/10/17/pib-digest.html",
+      "title": "National Infrastructure, Healthcare, and Environmental Governance Updates",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-17",
+        "url": "https://rajeshphy.github.io/pib/2026/10/17/pib-digest.html",
+        "title": "National Infrastructure, Healthcare, and Environmental Governance Updates",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-16",
         "url": "https://rajeshphy.github.io/pib/2026/10/16/pib-digest.html",
         "title": "National Developments in Defense, Infrastructure, and Environmental Policy",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-15",
-        "url": "https://rajeshphy.github.io/pib/2026/10/15/pib-digest.html",
-        "title": "Updates on National Policy, Research Initiatives, and International Cooperation",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-10-16",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/16/dumka-brief.html",
-      "title": "Education from Dumka and Jharkhand",
+      "date": "2026-10-17",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/17/dumka-brief.html",
+      "title": "Health services and infrastructure from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-17",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/17/dumka-brief.html",
+        "title": "Health services and infrastructure from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-16",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/16/dumka-brief.html",
         "title": "Education from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-15",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/15/dumka-brief.html",
-        "title": "Court updates from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-10-16",
-      "url": "https://rajeshphy.github.io/political-news/2026/10/16/political-brief.html",
-      "title": "The Supreme Court reviews ECI petitions amid rising electoral protests, while the Union Cabinet approves major railway infrastructure projects across four st...",
+      "date": "2026-10-17",
+      "url": "https://rajeshphy.github.io/political-news/2026/10/17/political-brief.html",
+      "title": "Protests target the Election Commission while the government weighs a special session for major legislative reforms amid ongoing opposition demands",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-16",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/16/political-brief.html",
-        "title": "The Supreme Court reviews ECI petitions amid rising electoral protests, while the Union Cabinet approves major railway infrastructure projects across four st...",
+        "date": "2026-10-17",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/17/political-brief.html",
+        "title": "Protests target the Election Commission while the government weighs a special session for major legislative reforms amid ongoing opposition demands",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-15",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/15/political-brief.html",
-        "title": "Elections, parliament, constitutional issues, and party politics in Indian national politics",
+        "date": "2026-10-16",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/16/political-brief.html",
+        "title": "Elections, parliament, party politics, and constitutional issues in Indian national politics",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-10-16",
-      "url": "https://rajeshphy.github.io/economic-news/2026/10/16/economy-brief.html",
-      "title": "Sensex surges on strong Wipro guidance while SEBI updates derivative and account statement norms to enhance market stability and transparency",
+      "date": "2026-10-17",
+      "url": "https://rajeshphy.github.io/economic-news/2026/10/17/economy-brief.html",
+      "title": "Indian markets extend gains on IT sector optimism, even as retail inflation breaches the RBI target and global oil prices weigh on sentiment",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-16",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/16/economy-brief.html",
-        "title": "Sensex surges on strong Wipro guidance while SEBI updates derivative and account statement norms to enhance market stability and transparency",
+        "date": "2026-10-17",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/17/economy-brief.html",
+        "title": "Indian markets extend gains on IT sector optimism, even as retail inflation breaches the RBI target and global oil prices weigh on sentiment",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-15",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/15/economy-brief.html",
-        "title": "Indian indices surged over 1,500 points as the rupee strengthened and oil prices eased, even as concerns persist regarding potential fuel-led inflation",
+        "date": "2026-10-16",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/16/economy-brief.html",
+        "title": "Rbi and rates, equity markets, and inflation and macro data for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-10-16",
-      "url": "https://rajeshphy.github.io/physics-news/2026/10/16/physics-brief.html",
-      "title": "Materials physics and quantum research for physics students",
+      "date": "2026-10-17",
+      "url": "https://rajeshphy.github.io/physics-news/2026/10/17/physics-brief.html",
+      "title": "Space science and quantum research for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-16",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/16/physics-brief.html",
-        "title": "Materials physics and quantum research for physics students",
+        "date": "2026-10-17",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/17/physics-brief.html",
+        "title": "Space science and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-15",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/15/physics-brief.html",
-        "title": "Particle physics, space science, and materials physics for physics students",
+        "date": "2026-10-16",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/16/physics-brief.html",
+        "title": "Materials physics and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
