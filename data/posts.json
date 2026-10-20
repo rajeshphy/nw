@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-10-19T04:11:35.286023+05:30",
+  "generated_at": "2026-10-20T05:32:55.382594+05:30",
   "sources": {
     "pib": {
-      "date": "2026-10-19",
-      "url": "https://rajeshphy.github.io/pib/2026/10/19/pib-digest.html",
-      "title": "National Security, Administrative Efficiency, and Developmental Initiatives",
+      "date": "2026-10-20",
+      "url": "https://rajeshphy.github.io/pib/2026/10/20/pib-digest.html",
+      "title": "Sports Achievements, Enforcement Actions, and Policy Developments",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-20",
+        "url": "https://rajeshphy.github.io/pib/2026/10/20/pib-digest.html",
+        "title": "Sports Achievements, Enforcement Actions, and Policy Developments",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-19",
         "url": "https://rajeshphy.github.io/pib/2026/10/19/pib-digest.html",
         "title": "National Security, Administrative Efficiency, and Developmental Initiatives",
@@ -19,28 +29,28 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-18",
-        "url": "https://rajeshphy.github.io/pib/2026/10/18/pib-digest.html",
-        "title": "National Policy Updates, Institutional Milestones, and Public Welfare Initiatives",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": null,
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-10-19",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/19/dumka-brief.html",
-      "title": "Road accidents from Dumka and Jharkhand",
+      "date": "2026-10-20",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/20/dumka-brief.html",
+      "title": "Weather alerts and infrastructure from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-20",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/20/dumka-brief.html",
+        "title": "Weather alerts and infrastructure from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-19",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/19/dumka-brief.html",
         "title": "Road accidents from Dumka and Jharkhand",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-18",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/18/dumka-brief.html",
-        "title": "Infrastructure from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-10-19",
-      "url": "https://rajeshphy.github.io/political-news/2026/10/19/political-brief.html",
-      "title": "Experts urge the Election Commission to bolster public trust, while India strengthens diplomatic ties amid shifting global geopolitical alliances",
+      "date": "2026-10-20",
+      "url": "https://rajeshphy.github.io/political-news/2026/10/20/political-brief.html",
+      "title": "Government signals Parliament session amid delimitation row, while aviation regulators and airlines prepare for a key legislative panel hearing",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-19",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/19/political-brief.html",
-        "title": "Experts urge the Election Commission to bolster public trust, while India strengthens diplomatic ties amid shifting global geopolitical alliances",
+        "date": "2026-10-20",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/20/political-brief.html",
+        "title": "Government signals Parliament session amid delimitation row, while aviation regulators and airlines prepare for a key legislative panel hearing",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-18",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/18/political-brief.html",
-        "title": "National politics centers on Congress demands for CEC resignation, judicial oversight of Ladakh cases, and debates over Election Commissioner appointment laws",
+        "date": "2026-10-19",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/19/political-brief.html",
+        "title": "Elections, parliament, union government, and party politics in Indian national politics",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-10-19",
-      "url": "https://rajeshphy.github.io/economic-news/2026/10/19/economy-brief.html",
-      "title": "RBI raises repo rate to 5.50% to combat inflation as Indian markets show strong momentum with a 1,500-point Sensex rally",
+      "date": "2026-10-20",
+      "url": "https://rajeshphy.github.io/economic-news/2026/10/20/economy-brief.html",
+      "title": "RBI boosts liquidity ahead of the festive season while falling US Treasury yields provide support for Indian bond markets",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-19",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/19/economy-brief.html",
-        "title": "RBI raises repo rate to 5.50% to combat inflation as Indian markets show strong momentum with a 1,500-point Sensex rally",
+        "date": "2026-10-20",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/20/economy-brief.html",
+        "title": "RBI boosts liquidity ahead of the festive season while falling US Treasury yields provide support for Indian bond markets",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-18",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/18/economy-brief.html",
-        "title": "Markets face volatility from geopolitical tensions, RBI's hawkish stance on inflation, and upcoming major corporate earnings and IPO activity",
+        "date": "2026-10-19",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/19/economy-brief.html",
+        "title": "Indian indices tumbled on banking sell-offs and high oil prices, while bond yields hit three-year highs amid concerns over inflation and RBI policy",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-10-19",
-      "url": "https://rajeshphy.github.io/physics-news/2026/10/19/physics-brief.html",
-      "title": "Quantum research for physics students and research awareness",
+      "date": "2026-10-20",
+      "url": "https://rajeshphy.github.io/physics-news/2026/10/20/physics-brief.html",
+      "title": "Space science, materials physics, and particle physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-19",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/19/physics-brief.html",
-        "title": "Quantum research for physics students and research awareness",
+        "date": "2026-10-20",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/20/physics-brief.html",
+        "title": "Space science, materials physics, and particle physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-18",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/18/physics-brief.html",
-        "title": "Space science and quantum research for physics students",
+        "date": "2026-10-19",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/19/physics-brief.html",
+        "title": "Quantum research for physics students and research awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
