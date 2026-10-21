@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T05:03:27.812694+05:30",
+  "generated_at": "2026-10-22T05:20:39.801240+05:30",
   "sources": {
     "pib": {
-      "date": "2026-10-21",
-      "url": "https://rajeshphy.github.io/pib/2026/10/21/pib-digest.html",
+      "date": "2026-10-22",
+      "url": "https://rajeshphy.github.io/pib/2026/10/22/pib-digest.html",
       "title": "PIB Regional Updates",
       "method": "published_archive",
       "source_file": null,
@@ -11,8 +11,8 @@
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-21",
-        "url": "https://rajeshphy.github.io/pib/2026/10/21/pib-digest.html",
+        "date": "2026-10-22",
+        "url": "https://rajeshphy.github.io/pib/2026/10/22/pib-digest.html",
         "title": "PIB Regional Updates",
         "method": "published_archive",
         "source_file": null,
@@ -21,9 +21,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-20",
-        "url": "https://rajeshphy.github.io/pib/2026/10/20/pib-digest.html",
-        "title": "Sports Achievements, Enforcement Actions, and Policy Developments",
+        "date": "2026-10-21",
+        "url": "https://rajeshphy.github.io/pib/2026/10/21/pib-digest.html",
+        "title": "PIB Regional Updates",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/pib/",
@@ -32,15 +32,25 @@
       }
     },
     "dmk": {
-      "date": "2026-10-21",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/21/dumka-brief.html",
-      "title": "Daily Dumka and Jharkhand news updates",
+      "date": "2026-10-22",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/22/dumka-brief.html",
+      "title": "Road accidents and education from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-22",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/22/dumka-brief.html",
+        "title": "Road accidents and education from Dumka and Jharkhand",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-21",
         "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/21/dumka-brief.html",
         "title": "Daily Dumka and Jharkhand news updates",
@@ -49,31 +59,21 @@
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": "2026-10-20",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/20/dumka-brief.html",
-        "title": "Weather alerts and infrastructure from Dumka and Jharkhand",
-        "method": "published_archive",
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
-        "error": null,
-        "stale": false
       }
     },
     "pol": {
-      "date": "2026-10-21",
-      "url": "https://rajeshphy.github.io/political-news/2026/10/21/political-brief.html",
-      "title": "Developments in regional alliance talks, international trade negotiations, and policy reviews shape the national political landscape today",
+      "date": "2026-10-22",
+      "url": "https://rajeshphy.github.io/political-news/2026/10/22/political-brief.html",
+      "title": "The Supreme Court halts Andhra Pradesh local elections amid political friction, while the INDIA bloc prepares for nationwide protests against alleged vote fraud",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-21",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/21/political-brief.html",
-        "title": "Developments in regional alliance talks, international trade negotiations, and policy reviews shape the national political landscape today",
+        "date": "2026-10-22",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/22/political-brief.html",
+        "title": "The Supreme Court halts Andhra Pradesh local elections amid political friction, while the INDIA bloc prepares for nationwide protests against alleged vote fraud",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-20",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/20/political-brief.html",
-        "title": "National discourse intensifies over proposed delimitation, parliamentary sessions, and political rhetoric surrounding judicial independence",
+        "date": "2026-10-21",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/21/political-brief.html",
+        "title": "Parliament, elections, governance policy, and party politics in Indian national politics",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-10-21",
-      "url": "https://rajeshphy.github.io/economic-news/2026/10/21/economy-brief.html",
-      "title": "RBI hikes rates for the first time in four years while tightening forex rules; global markets find relief as oil prices retreat and US equities rebound",
+      "date": "2026-10-22",
+      "url": "https://rajeshphy.github.io/economic-news/2026/10/22/economy-brief.html",
+      "title": "RBI maintains a cautious policy outlook as inflation concerns persist, while corporate tax developments impact specific sector sentiment",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-21",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/21/economy-brief.html",
-        "title": "RBI hikes rates for the first time in four years while tightening forex rules; global markets find relief as oil prices retreat and US equities rebound",
+        "date": "2026-10-22",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/22/economy-brief.html",
+        "title": "RBI maintains a cautious policy outlook as inflation concerns persist, while corporate tax developments impact specific sector sentiment",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-20",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/20/economy-brief.html",
-        "title": "Indian markets face pressure from massive FII outflows, rising crude oil prices, and potential RBI rate hikes amid persistent inflation concerns",
+        "date": "2026-10-21",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/21/economy-brief.html",
+        "title": "RBI signals a potential rate-hike cycle amid inflation risks, while surging crude oil prices weigh on domestic market sentiment",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-10-21",
-      "url": "https://rajeshphy.github.io/physics-news/2026/10/21/physics-brief.html",
-      "title": "Quantum research, space science, particle physics, and materials physics for physics students",
+      "date": "2026-10-22",
+      "url": "https://rajeshphy.github.io/physics-news/2026/10/22/physics-brief.html",
+      "title": "Space science, particle physics, quantum research, and materials physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-21",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/21/physics-brief.html",
-        "title": "Quantum research, space science, particle physics, and materials physics for physics students",
+        "date": "2026-10-22",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/22/physics-brief.html",
+        "title": "Space science, particle physics, quantum research, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-20",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/20/physics-brief.html",
-        "title": "Space science, materials physics, and particle physics for physics students",
+        "date": "2026-10-21",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/21/physics-brief.html",
+        "title": "Quantum research, space science, particle physics, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
