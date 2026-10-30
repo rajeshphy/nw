@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-10-29T06:02:11.724809+05:30",
+  "generated_at": "2026-10-30T06:01:11.612597+05:30",
   "sources": {
     "pib": {
-      "date": "2026-10-29",
-      "url": "https://rajeshphy.github.io/pib/2026/10/29/pib-digest.html",
-      "title": "Government Policy Updates: Financial Benefits, Administrative Reforms, and International Engagements",
+      "date": "2026-10-30",
+      "url": "https://rajeshphy.github.io/pib/2026/10/30/pib-digest.html",
+      "title": "National Development, Economic Policy, and Regional Initiatives Digest",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/pib/",
       "error": null,
       "stale": false,
       "today": {
+        "date": "2026-10-30",
+        "url": "https://rajeshphy.github.io/pib/2026/10/30/pib-digest.html",
+        "title": "National Development, Economic Policy, and Regional Initiatives Digest",
+        "method": "published_archive",
+        "source_file": null,
+        "archive": "https://rajeshphy.github.io/pib/",
+        "error": null,
+        "stale": false
+      },
+      "yesterday": {
         "date": "2026-10-29",
         "url": "https://rajeshphy.github.io/pib/2026/10/29/pib-digest.html",
         "title": "Government Policy Updates: Financial Benefits, Administrative Reforms, and International Engagements",
@@ -19,31 +29,21 @@
         "archive": "https://rajeshphy.github.io/pib/",
         "error": null,
         "stale": false
-      },
-      "yesterday": {
-        "date": null,
-        "url": null,
-        "title": null,
-        "method": null,
-        "source_file": null,
-        "archive": "https://rajeshphy.github.io/pib/",
-        "error": "git: RuntimeError: Post directory does not exist: _posts",
-        "stale": false
       }
     },
     "dmk": {
-      "date": "2026-10-29",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/29/dumka-brief.html",
-      "title": "Weather alerts, court updates, health services, and governance from Dumka and Jharkhand",
+      "date": "2026-10-30",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/30/dumka-brief.html",
+      "title": "Road accidents, infrastructure, education, and weather alerts from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-29",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/29/dumka-brief.html",
-        "title": "Weather alerts, court updates, health services, and governance from Dumka and Jharkhand",
+        "date": "2026-10-30",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/30/dumka-brief.html",
+        "title": "Road accidents, infrastructure, education, and weather alerts from Dumka and Jharkhand",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
@@ -51,8 +51,8 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-28",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/28/dumka-brief.html",
+        "date": "2026-10-29",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/10/29/dumka-brief.html",
         "title": "Daily Dumka and Jharkhand news updates",
         "method": "published_archive",
         "source_file": null,
@@ -62,18 +62,18 @@
       }
     },
     "pol": {
-      "date": "2026-10-29",
-      "url": "https://rajeshphy.github.io/political-news/2026/10/29/political-brief.html",
-      "title": "The BJP fields Hardeep Puri for a Rajya Sabha by-poll amid opposition criticism, while the Union Cabinet clears new MSME and industrial manufacturing policies",
+      "date": "2026-10-30",
+      "url": "https://rajeshphy.github.io/political-news/2026/10/30/political-brief.html",
+      "title": "Opposition parties challenge the BJP on electoral processes and policy, while the government defends its mandate and institutional frameworks",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-29",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/29/political-brief.html",
-        "title": "The BJP fields Hardeep Puri for a Rajya Sabha by-poll amid opposition criticism, while the Union Cabinet clears new MSME and industrial manufacturing policies",
+        "date": "2026-10-30",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/30/political-brief.html",
+        "title": "Opposition parties challenge the BJP on electoral processes and policy, while the government defends its mandate and institutional frameworks",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-28",
-        "url": "https://rajeshphy.github.io/political-news/2026/10/28/political-brief.html",
-        "title": "Elections, parliament, union government, and party politics in Indian national politics",
+        "date": "2026-10-29",
+        "url": "https://rajeshphy.github.io/political-news/2026/10/29/political-brief.html",
+        "title": "INDIA bloc plans a mock impeachment of the CEC amid ongoing election result debates, while the BJP consolidates its strategy following recent MLC poll wins",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-10-29",
-      "url": "https://rajeshphy.github.io/economic-news/2026/10/29/economy-brief.html",
-      "title": "Corporate earnings and equity markets for India market awareness",
+      "date": "2026-10-30",
+      "url": "https://rajeshphy.github.io/economic-news/2026/10/30/economy-brief.html",
+      "title": "Rbi and rates, inflation and macro data, and banking and credit for India market awareness",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-29",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/29/economy-brief.html",
-        "title": "Corporate earnings and equity markets for India market awareness",
+        "date": "2026-10-30",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/30/economy-brief.html",
+        "title": "Rbi and rates, inflation and macro data, and banking and credit for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-28",
-        "url": "https://rajeshphy.github.io/economic-news/2026/10/28/economy-brief.html",
-        "title": "Equity markets, rbi and rates, inflation and macro data, and commodities and currency for India market awareness",
+        "date": "2026-10-29",
+        "url": "https://rajeshphy.github.io/economic-news/2026/10/29/economy-brief.html",
+        "title": "Inflation and macro data, rbi and rates, and equity markets for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-10-29",
-      "url": "https://rajeshphy.github.io/physics-news/2026/10/29/physics-brief.html",
-      "title": "Space science, materials physics, astronomy, and particle physics for physics students",
+      "date": "2026-10-30",
+      "url": "https://rajeshphy.github.io/physics-news/2026/10/30/physics-brief.html",
+      "title": "Quantum research for physics students and research awareness",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-10-29",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/29/physics-brief.html",
-        "title": "Space science, materials physics, astronomy, and particle physics for physics students",
+        "date": "2026-10-30",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/30/physics-brief.html",
+        "title": "Quantum research for physics students and research awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-10-28",
-        "url": "https://rajeshphy.github.io/physics-news/2026/10/28/physics-brief.html",
-        "title": "Materials physics and particle physics for physics students",
+        "date": "2026-10-29",
+        "url": "https://rajeshphy.github.io/physics-news/2026/10/29/physics-brief.html",
+        "title": "Space science and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
