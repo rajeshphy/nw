@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-04T06:28:41.592667+05:30",
+  "generated_at": "2026-11-05T06:42:53.385464+05:30",
   "sources": {
     "pib": {
-      "date": "2026-11-04",
-      "url": "https://rajeshphy.github.io/pib/2026/11/04/pib-digest.html",
+      "date": "2026-11-05",
+      "url": "https://rajeshphy.github.io/pib/2026/11/05/pib-digest.html",
       "title": "PIB Regional Updates",
       "method": "published_archive",
       "source_file": null,
@@ -11,8 +11,8 @@
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-04",
-        "url": "https://rajeshphy.github.io/pib/2026/11/04/pib-digest.html",
+        "date": "2026-11-05",
+        "url": "https://rajeshphy.github.io/pib/2026/11/05/pib-digest.html",
         "title": "PIB Regional Updates",
         "method": "published_archive",
         "source_file": null,
@@ -21,8 +21,8 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-03",
-        "url": "https://rajeshphy.github.io/pib/2026/11/03/pib-digest.html",
+        "date": "2026-11-04",
+        "url": "https://rajeshphy.github.io/pib/2026/11/04/pib-digest.html",
         "title": "PIB Regional Updates",
         "method": "published_archive",
         "source_file": null,
@@ -32,18 +32,18 @@
       }
     },
     "dmk": {
-      "date": "2026-11-04",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/04/dumka-brief.html",
-      "title": "Local administration, court updates, weather alerts, and health services from Dumka and Jharkhand",
+      "date": "2026-11-05",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/05/dumka-brief.html",
+      "title": "Court updates and weather alerts from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-04",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/04/dumka-brief.html",
-        "title": "Local administration, court updates, weather alerts, and health services from Dumka and Jharkhand",
+        "date": "2026-11-05",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/05/dumka-brief.html",
+        "title": "Court updates and weather alerts from Dumka and Jharkhand",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
@@ -51,9 +51,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-03",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/03/dumka-brief.html",
-        "title": "Education and governance from Dumka and Jharkhand",
+        "date": "2026-11-04",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/04/dumka-brief.html",
+        "title": "Court updates and health services from Dumka and Jharkhand",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
@@ -62,18 +62,18 @@
       }
     },
     "pol": {
-      "date": "2026-11-04",
-      "url": "https://rajeshphy.github.io/political-news/2026/11/04/political-brief.html",
-      "title": "Amit Shah criticizes the INDIA bloc, FM Sitharaman challenges Rahul Gandhi to a debate, and the government unveils a new critical minerals scheme",
+      "date": "2026-11-05",
+      "url": "https://rajeshphy.github.io/political-news/2026/11/05/political-brief.html",
+      "title": "The Supreme Court rejects pleas to rotate reserved constituencies, while the Union Cabinet advances key reforms in justice, energy, and critical minerals",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-04",
-        "url": "https://rajeshphy.github.io/political-news/2026/11/04/political-brief.html",
-        "title": "Amit Shah criticizes the INDIA bloc, FM Sitharaman challenges Rahul Gandhi to a debate, and the government unveils a new critical minerals scheme",
+        "date": "2026-11-05",
+        "url": "https://rajeshphy.github.io/political-news/2026/11/05/political-brief.html",
+        "title": "The Supreme Court rejects pleas to rotate reserved constituencies, while the Union Cabinet advances key reforms in justice, energy, and critical minerals",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-03",
-        "url": "https://rajeshphy.github.io/political-news/2026/11/03/political-brief.html",
-        "title": "Amit Shah challenges Congress to a Parliament debate on electoral rolls, while the Supreme Court sets limits on protest sites amid ongoing political friction",
+        "date": "2026-11-04",
+        "url": "https://rajeshphy.github.io/political-news/2026/11/04/political-brief.html",
+        "title": "The Supreme Court is reviewing legal immunity for election officials, while the Union Cabinet has cleared multi-billion rupee schemes for data and energy",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-11-04",
-      "url": "https://rajeshphy.github.io/economic-news/2026/11/04/economy-brief.html",
-      "title": "Commodities and currency, equity markets, and global cues for India market awareness",
+      "date": "2026-11-05",
+      "url": "https://rajeshphy.github.io/economic-news/2026/11/05/economy-brief.html",
+      "title": "Corporate earnings, rbi and rates, equity markets, and commodities and currency for India market awareness",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-04",
-        "url": "https://rajeshphy.github.io/economic-news/2026/11/04/economy-brief.html",
-        "title": "Commodities and currency, equity markets, and global cues for India market awareness",
+        "date": "2026-11-05",
+        "url": "https://rajeshphy.github.io/economic-news/2026/11/05/economy-brief.html",
+        "title": "Corporate earnings, rbi and rates, equity markets, and commodities and currency for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-03",
-        "url": "https://rajeshphy.github.io/economic-news/2026/11/03/economy-brief.html",
-        "title": "Equity markets and commodities and currency for India market awareness",
+        "date": "2026-11-04",
+        "url": "https://rajeshphy.github.io/economic-news/2026/11/04/economy-brief.html",
+        "title": "Equity markets, rbi and rates, and commodities and currency for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-11-04",
-      "url": "https://rajeshphy.github.io/physics-news/2026/11/04/physics-brief.html",
-      "title": "Materials physics and quantum research for physics students",
+      "date": "2026-11-05",
+      "url": "https://rajeshphy.github.io/physics-news/2026/11/05/physics-brief.html",
+      "title": "Space science, particle physics, quantum research, and materials physics for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-04",
-        "url": "https://rajeshphy.github.io/physics-news/2026/11/04/physics-brief.html",
-        "title": "Materials physics and quantum research for physics students",
+        "date": "2026-11-05",
+        "url": "https://rajeshphy.github.io/physics-news/2026/11/05/physics-brief.html",
+        "title": "Space science, particle physics, quantum research, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-03",
-        "url": "https://rajeshphy.github.io/physics-news/2026/11/03/physics-brief.html",
-        "title": "Space science, quantum research, and materials physics for physics students",
+        "date": "2026-11-04",
+        "url": "https://rajeshphy.github.io/physics-news/2026/11/04/physics-brief.html",
+        "title": "Daily physics news for classroom and research awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
