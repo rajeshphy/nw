@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-06T06:48:10.619532+05:30",
+  "generated_at": "2026-11-07T06:01:39.825262+05:30",
   "sources": {
     "pib": {
-      "date": "2026-11-06",
-      "url": "https://rajeshphy.github.io/pib/2026/11/06/pib-digest.html",
+      "date": "2026-11-07",
+      "url": "https://rajeshphy.github.io/pib/2026/11/07/pib-digest.html",
       "title": "PIB Regional Updates",
       "method": "published_archive",
       "source_file": null,
@@ -11,8 +11,8 @@
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-06",
-        "url": "https://rajeshphy.github.io/pib/2026/11/06/pib-digest.html",
+        "date": "2026-11-07",
+        "url": "https://rajeshphy.github.io/pib/2026/11/07/pib-digest.html",
         "title": "PIB Regional Updates",
         "method": "published_archive",
         "source_file": null,
@@ -21,8 +21,8 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-05",
-        "url": "https://rajeshphy.github.io/pib/2026/11/05/pib-digest.html",
+        "date": "2026-11-06",
+        "url": "https://rajeshphy.github.io/pib/2026/11/06/pib-digest.html",
         "title": "PIB Regional Updates",
         "method": "published_archive",
         "source_file": null,
@@ -32,18 +32,18 @@
       }
     },
     "dmk": {
-      "date": "2026-11-06",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/06/dumka-brief.html",
-      "title": "Road accidents and court updates from Dumka and Jharkhand",
+      "date": "2026-11-07",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/07/dumka-brief.html",
+      "title": "Governance and road accidents from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-06",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/06/dumka-brief.html",
-        "title": "Road accidents and court updates from Dumka and Jharkhand",
+        "date": "2026-11-07",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/07/dumka-brief.html",
+        "title": "Governance and road accidents from Dumka and Jharkhand",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
@@ -51,9 +51,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-05",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/05/dumka-brief.html",
-        "title": "Daily Dumka and Jharkhand news updates",
+        "date": "2026-11-06",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/06/dumka-brief.html",
+        "title": "Court updates, road accidents, and governance from Dumka and Jharkhand",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
@@ -62,18 +62,18 @@
       }
     },
     "pol": {
-      "date": "2026-11-06",
-      "url": "https://rajeshphy.github.io/political-news/2026/11/06/political-brief.html",
-      "title": "Union ministers challenge Congress over parliamentary conduct and policy debates as the Cabinet approves a major grid-scale energy storage scheme",
+      "date": "2026-11-07",
+      "url": "https://rajeshphy.github.io/political-news/2026/11/07/political-brief.html",
+      "title": "Lok Sabha Speaker to lead legislative accountability meet, while political leaders spar over electoral integrity and judicial influence in state politics",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-06",
-        "url": "https://rajeshphy.github.io/political-news/2026/11/06/political-brief.html",
-        "title": "Union ministers challenge Congress over parliamentary conduct and policy debates as the Cabinet approves a major grid-scale energy storage scheme",
+        "date": "2026-11-07",
+        "url": "https://rajeshphy.github.io/political-news/2026/11/07/political-brief.html",
+        "title": "Lok Sabha Speaker to lead legislative accountability meet, while political leaders spar over electoral integrity and judicial influence in state politics",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-05",
-        "url": "https://rajeshphy.github.io/political-news/2026/11/05/political-brief.html",
-        "title": "Government and Opposition clash over parliamentary debate protocols while the Supreme Court issues key rulings on reserved seats and election official immunity",
+        "date": "2026-11-06",
+        "url": "https://rajeshphy.github.io/political-news/2026/11/06/political-brief.html",
+        "title": "The ECI opens voter list updates amid political friction, while the Supreme Court issues key rulings on state status and UGC equity regulations",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-11-06",
-      "url": "https://rajeshphy.github.io/economic-news/2026/11/06/economy-brief.html",
-      "title": "Equity markets and commodities and currency for India market awareness",
+      "date": "2026-11-07",
+      "url": "https://rajeshphy.github.io/economic-news/2026/11/07/economy-brief.html",
+      "title": "Equity markets, corporate earnings, and inflation and macro data for India market awareness",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-06",
-        "url": "https://rajeshphy.github.io/economic-news/2026/11/06/economy-brief.html",
-        "title": "Equity markets and commodities and currency for India market awareness",
+        "date": "2026-11-07",
+        "url": "https://rajeshphy.github.io/economic-news/2026/11/07/economy-brief.html",
+        "title": "Equity markets, corporate earnings, and inflation and macro data for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-05",
-        "url": "https://rajeshphy.github.io/economic-news/2026/11/05/economy-brief.html",
-        "title": "Equity markets and corporate earnings for India market awareness",
+        "date": "2026-11-06",
+        "url": "https://rajeshphy.github.io/economic-news/2026/11/06/economy-brief.html",
+        "title": "Equity markets for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,8 +133,8 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-11-06",
-      "url": "https://rajeshphy.github.io/physics-news/2026/11/06/physics-brief.html",
+      "date": "2026-11-07",
+      "url": "https://rajeshphy.github.io/physics-news/2026/11/07/physics-brief.html",
       "title": "Space science, quantum research, and materials physics for physics students",
       "method": "published_archive",
       "source_file": null,
@@ -142,8 +142,8 @@
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-06",
-        "url": "https://rajeshphy.github.io/physics-news/2026/11/06/physics-brief.html",
+        "date": "2026-11-07",
+        "url": "https://rajeshphy.github.io/physics-news/2026/11/07/physics-brief.html",
         "title": "Space science, quantum research, and materials physics for physics students",
         "method": "published_archive",
         "source_file": null,
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-05",
-        "url": "https://rajeshphy.github.io/physics-news/2026/11/05/physics-brief.html",
-        "title": "Space science and quantum research for physics students",
+        "date": "2026-11-06",
+        "url": "https://rajeshphy.github.io/physics-news/2026/11/06/physics-brief.html",
+        "title": "Materials physics and space science for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
