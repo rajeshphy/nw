@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-16T06:05:00.050123+05:30",
+  "generated_at": "2026-11-17T08:49:24.283148+05:30",
   "sources": {
     "pib": {
-      "date": "2026-11-16",
-      "url": "https://rajeshphy.github.io/pib/2026/11/16/pib-digest.html",
+      "date": "2026-11-17",
+      "url": "https://rajeshphy.github.io/pib/2026/11/17/pib-digest.html",
       "title": "PIB Regional Updates",
       "method": "published_archive",
       "source_file": null,
@@ -11,8 +11,8 @@
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-16",
-        "url": "https://rajeshphy.github.io/pib/2026/11/16/pib-digest.html",
+        "date": "2026-11-17",
+        "url": "https://rajeshphy.github.io/pib/2026/11/17/pib-digest.html",
         "title": "PIB Regional Updates",
         "method": "published_archive",
         "source_file": null,
@@ -21,8 +21,8 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-15",
-        "url": "https://rajeshphy.github.io/pib/2026/11/15/pib-digest.html",
+        "date": "2026-11-16",
+        "url": "https://rajeshphy.github.io/pib/2026/11/16/pib-digest.html",
         "title": "PIB Regional Updates",
         "method": "published_archive",
         "source_file": null,
@@ -32,18 +32,18 @@
       }
     },
     "dmk": {
-      "date": "2026-11-16",
-      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/16/dumka-brief.html",
-      "title": "Infrastructure and weather alerts from Dumka and Jharkhand",
+      "date": "2026-11-17",
+      "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/17/dumka-brief.html",
+      "title": "Governance and weather alerts from Dumka and Jharkhand",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-16",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/16/dumka-brief.html",
-        "title": "Infrastructure and weather alerts from Dumka and Jharkhand",
+        "date": "2026-11-17",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/17/dumka-brief.html",
+        "title": "Governance and weather alerts from Dumka and Jharkhand",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/dumka-jhar-news/",
@@ -51,8 +51,8 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-15",
-        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/15/dumka-brief.html",
+        "date": "2026-11-16",
+        "url": "https://rajeshphy.github.io/dumka-jhar-news/2026/11/16/dumka-brief.html",
         "title": "Daily Dumka and Jharkhand news updates",
         "method": "published_archive",
         "source_file": null,
@@ -62,18 +62,18 @@
       }
     },
     "pol": {
-      "date": "2026-11-16",
-      "url": "https://rajeshphy.github.io/political-news/2026/11/16/political-brief.html",
-      "title": "The government considers a special Parliament session amid winter session preparations, while the PM advances India's Act East policy in Manila",
+      "date": "2026-11-17",
+      "url": "https://rajeshphy.github.io/political-news/2026/11/17/political-brief.html",
+      "title": "Parliament sets its foreign policy agenda while opposition leaders challenge the EC in court and political parties negotiate seat-sharing for upcoming polls",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/political-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-16",
-        "url": "https://rajeshphy.github.io/political-news/2026/11/16/political-brief.html",
-        "title": "The government considers a special Parliament session amid winter session preparations, while the PM advances India's Act East policy in Manila",
+        "date": "2026-11-17",
+        "url": "https://rajeshphy.github.io/political-news/2026/11/17/political-brief.html",
+        "title": "Parliament sets its foreign policy agenda while opposition leaders challenge the EC in court and political parties negotiate seat-sharing for upcoming polls",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -81,9 +81,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-15",
-        "url": "https://rajeshphy.github.io/political-news/2026/11/15/political-brief.html",
-        "title": "Government prepares for the upcoming Winter Session as political clashes intensify over tribute events and opposition strategies for upcoming state elections",
+        "date": "2026-11-16",
+        "url": "https://rajeshphy.github.io/political-news/2026/11/16/political-brief.html",
+        "title": "Opposition leaders seek to interrogate the ECI over electoral rolls, while PM Modi advances India's Act East policy at the ASEAN-India Summit in Manila",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/political-news/",
@@ -92,18 +92,18 @@
       }
     },
     "eco": {
-      "date": "2026-11-16",
-      "url": "https://rajeshphy.github.io/economic-news/2026/11/16/economy-brief.html",
-      "title": "Inflation and macro data, rbi and rates, corporate earnings, and global cues for India market awareness",
+      "date": "2026-11-17",
+      "url": "https://rajeshphy.github.io/economic-news/2026/11/17/economy-brief.html",
+      "title": "Equity markets, rbi and rates, corporate earnings, and inflation and macro data for India market awareness",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/economic-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-16",
-        "url": "https://rajeshphy.github.io/economic-news/2026/11/16/economy-brief.html",
-        "title": "Inflation and macro data, rbi and rates, corporate earnings, and global cues for India market awareness",
+        "date": "2026-11-17",
+        "url": "https://rajeshphy.github.io/economic-news/2026/11/17/economy-brief.html",
+        "title": "Equity markets, rbi and rates, corporate earnings, and inflation and macro data for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -111,9 +111,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-15",
-        "url": "https://rajeshphy.github.io/economic-news/2026/11/15/economy-brief.html",
-        "title": "Equity markets, corporate earnings, and inflation and macro data for India market awareness",
+        "date": "2026-11-16",
+        "url": "https://rajeshphy.github.io/economic-news/2026/11/16/economy-brief.html",
+        "title": "Equity markets, rbi and rates, corporate earnings, and inflation and macro data for India market awareness",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/economic-news/",
@@ -133,18 +133,18 @@
       "static_link": true
     },
     "phy": {
-      "date": "2026-11-16",
-      "url": "https://rajeshphy.github.io/physics-news/2026/11/16/physics-brief.html",
-      "title": "Physics education, space science, materials physics, and quantum research for physics students",
+      "date": "2026-11-17",
+      "url": "https://rajeshphy.github.io/physics-news/2026/11/17/physics-brief.html",
+      "title": "Materials physics, quantum research, and space science for physics students",
       "method": "published_archive",
       "source_file": null,
       "archive": "https://rajeshphy.github.io/physics-news/",
       "error": null,
       "stale": false,
       "today": {
-        "date": "2026-11-16",
-        "url": "https://rajeshphy.github.io/physics-news/2026/11/16/physics-brief.html",
-        "title": "Physics education, space science, materials physics, and quantum research for physics students",
+        "date": "2026-11-17",
+        "url": "https://rajeshphy.github.io/physics-news/2026/11/17/physics-brief.html",
+        "title": "Materials physics, quantum research, and space science for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
@@ -152,9 +152,9 @@
         "stale": false
       },
       "yesterday": {
-        "date": "2026-11-15",
-        "url": "https://rajeshphy.github.io/physics-news/2026/11/15/physics-brief.html",
-        "title": "Daily physics news for classroom and research awareness",
+        "date": "2026-11-16",
+        "url": "https://rajeshphy.github.io/physics-news/2026/11/16/physics-brief.html",
+        "title": "Physics education, materials physics, particle physics, and quantum research for physics students",
         "method": "published_archive",
         "source_file": null,
         "archive": "https://rajeshphy.github.io/physics-news/",
